@@ -1,0 +1,443 @@
+local unsigned long position; // Pointer cache
+local unsigned long data; // Pre-read data
+local unsigned long count; // Counter
+enum MapID { // Maps
+    Fort, // Wu
+    Village, // Zhai
+    ForestHills, // SenQiu
+    Desert_Day, // ShaMo_Zhou
+    Swamp_Day, // ZhaoDi_Zhou
+    Volcano_Day, // HuoShan_Zhou
+    Jungle_Day, // MiLin_Zhou
+    Schrade, // XiuLeiTe
+    Battleground, // JueDouChang
+    GreatArena, // DaDouJiChang
+    Arena, // XiaoDouJiChang
+    SnowyMountain_Day, // XueShan_Zhou
+    Town, // Jie
+    Tower1, // Ta1
+    Tower2, // Ta2
+    Tower3, // Ta3
+    ForestHills_Night, // SenQiu_Ye
+    Desert_Night, // ShaMo_Ye
+    Swamp_Night, // ZhaoDi_Ye
+    Volcano_Night, // HuoShan_Ye
+    Jungle_Night, // MiLin_Ye
+    SnowyMountain_Night, // XueShan_Ye
+    Town_Night, // Jie_Ye
+    Fort_Night, // Zhai_Ye
+    GreatArena_Night, // DaDouJiChang_Ye
+    Arena_Night // XiaoDouJiChang_Ye
+};
+SetBackColor(0xFF000000); // Set background color
+struct { // 0 Quest File Header
+    unsigned long MHP2<format=hex, name="Header Identifier">; // 1
+    unsigned long questTypeFlagsPtr<format=hex, name="[Pointer] Quest Information">; // 1
+    unsigned long supplyBoxPtr<format=hex, name="[Pointer] Supply Items">; // 3
+    unsigned long rewardPtr<format=hex, name="[Pointer] Quest Rewards">; // 4
+    unsigned long fixedInformationPtr<format=hex, name="[Pointer] Fixed Information">; // 5
+    unsigned long questAreaPtr<format=hex, name="[Pointer] Small Monster Information">; // 6
+    unsigned long largeMonsterPtr<format=hex, name="[Pointer] Boss Information">; // 7
+    unsigned long gatherPointsPtr<format=hex, name="[Pointer] Gathering Information">; // 9
+    unsigned long unknownPtr<format=hex, name="[Pointer] Unknown">; // 8
+    unsigned long AcquisitionDataPtr<format=hex, name="[Pointer] Gathering Point Data">; // 10
+    unsigned short BossShape<format=hex, name="Boss Size">; // 14
+    unsigned char BigMonsterSizeMulti<format=hex, name="Large Monster Size %">; // 17
+    unsigned char BossStrength<format=hex, name="Fixed Value", comment="Range from 0 to F">; // 11
+    unsigned long GuildAwards<format=hex, name="Guild Points Reward">; // 12
+    FSkip(4); // unsigned long Unknown<format=hex, name="Unknown", comment="0 for Gathering Quests">; // 13
+    unsigned char Bifficulty<format=hex, name="Carving Difficulty", comment="0 Easy, 1 Low Rank, 2 High Rank, 3 Treasure Hunt, 4 Training">; // 15
+    unsigned char arrivePosition<format=hex, name="Arrival Position", comment="00 Camp, 01 Random, 02 Special (Watch Cutscene)">; // 16
+    struct {
+        unsigned char RationingMode<format=hex, name="Supply Mode", comment="0 Immediate, 1 Random, 2 Kill">;
+        unsigned char RationingConditions<format=hex, name="Supply Conditions", comment="When supply state is 2, fill with monster code">;
+        unsigned char ConditionsQuantity<format=hex, name="Condition Quantity", comment="When supply state is 2, fill with monster quantity">;
+    } SupportState<format=hex, name="Supply State", comment="Sets how supply items appear">; // 18
+    unsigned char Difficulty<format=hex, name="Difficulty", comment="0 Normal, 1 Weakened, 2 Strengthened">; // 11
+    FSkip(2);
+    for(count = 0; count < 2; count++) {
+        struct {
+            unsigned long ChangeConditions<format=hex, name="Change Condition", comment="0 None, 1 On Kill, 2 On Gather">;
+            unsigned short TargetID<format=hex, name="Target Code">;
+            unsigned char qty<format=hex, name="Quantity">;
+            unsigned char Number<format=hex, name="Sequence Number", comment="0 Initial Small Monsters, 1 Small Monster Change 1, 2 Small Monster Change 2">;
+        } questAreaChange<format=hex, name="Small Monster Change", comment="Small monster configuration changes when conditions are met">; // 18
+    }
+} QuestFileHeader<format=hex, name="Header Section", comment="Position is fixed and unchanging">;
+FSeek(QuestFileHeader.questTypeFlagsPtr);
+SetBackColor(0xFF000020);
+struct { // 1 Quest Information
+    unsigned char TaskType<format=hex, name="Quest Type", comment="1 Slay, 2 Gather, 4 Hunt, 8 Special, 10 Treasure Hunt, 81 Slay [Elder Dragon], 88 Special [Elder Dragon]">; // 1.1
+    unsigned char Additional<format=hex, name="Additional", comment="Additional attributes of the quest type">; // 1.2
+    FSkip(2); // unsigned short unknown<format=hex, name="Unknown">;
+    unsigned long ContractMoney<format=hex, name="Contract Fee">; // 1.3
+    unsigned long Remuneration<format=hex, name="Reward Money">; // 1.4
+    unsigned long CatCarLoss<format=hex, name="Felyne Cart Loss">; // 1.5
+    unsigned long MissionTime<format=hex, name="Quest Time", comment="Divide by 1800 to get minutes">; // 1.6
+    unsigned long TaskContentPtr<format=hex, name="[Pointer] Quest Content">; // 1.7
+    unsigned short TaskNumber<format=hex, name="Quest Number", comment="Cannot be duplicated">; // 1.8
+    unsigned char MissionStar<format=hex, name="Quest Star Level">; // 1.9
+    FSkip(1); // unsigned char unknown<format=hex, name="Unknown">;
+    unsigned char MissionMap<format=hex, name="Quest Map">; // 1.10
+    unsigned char SpecialConditions<format=hex, name="Special Conditions">; // 1.11
+    unsigned char TargetNumber<format=hex, name="Target Count", comment="Fill 1 for Target 0, 2 for Target 1, other values prevent quest completion">; // 1.12
+    FSkip(1); // unsigned short unknown<format=hex, name="Unknown">;
+    struct {
+        unsigned char TaskConditions<format=hex, name="Quest Condition", comment="1 Slay, 2 Deliver, 4 Slay [Elder Dragon]">;
+        unsigned short Additional<format=hex, name="Additional Condition", comment="When quest condition is 4, 0180 indicates inherited HP">;
+        FSkip(1);
+        unsigned short TargetID<format=hex, name="Target Code (Item/Monster Code)">;
+        unsigned short qty<format=hex, name="Quantity", comment="Quantity/HP Percentage">;
+    } TaskTarget<format=hex, name="Quest Target", comment="Quest ends upon completion">; // 1.13
+    struct {
+        unsigned char TaskConditions<format=hex, name="Quest Condition", comment="1 Slay, 2 Deliver, 4 Slay [Elder Dragon]">;
+        unsigned short Additional<format=hex, name="Additional Condition", comment="When quest condition is 4, 0180 indicates inherited HP">;
+        FSkip(1);
+        unsigned short TargetID<format=hex, name="Target Code (Item/Monster Code)">;
+        unsigned short qty<format=hex, name="Quantity", comment="Quantity/HP Percentage">;
+    } TaskTarget<format=hex, name="Quest Target", comment="Quest ends upon completion">; // 1.14
+    unsigned long TrainingDataPtr<format=hex, name="[Pointer] Training Data", comment="Equipment restrictions for training challenges">; // 1.13
+} TaskInformation<format=hex, name="Quest Information">;
+FSeek(TaskInformation.TaskContentPtr);
+SetBackColor(0xFF000060);
+struct { // 1.8 Quest Content
+    unsigned long EntrustContentPtr<format=hex, name="[Pointer] Commission Content">; // 1.8.1
+} TaskContent<size=28, format=hex, name="Quest Information > [Content] Quest Content">;
+FSeek(TaskContent.EntrustContentPtr);
+struct { // 1.8.1 Commission Content
+    SetForeColor(0x00002A00);
+    unsigned long TaskNamePtr<format=hex, name="[Pointer] Quest Name">; // 1.8.1.1
+    SetForeColor(0x00005400);
+    unsigned long SuccessDescriptionPtr<format=hex, name="[Pointer] Success Description">; // 1.8.1.2
+    SetForeColor(0x00007E00);
+    unsigned long FailureDescriptionPtr<format=hex, name="[Pointer] Failure Description">; // 1.8.1.3
+    SetForeColor(0x0000A800);
+    unsigned long MissionStatementPtr<format=hex, name="[Pointer] Quest Description">; // 1.8.1.4
+    SetForeColor(0x0000D200);
+    unsigned long MainMonsterPtr<format=hex, name="[Pointer] Main Monster">; // 1.8.1.5
+    SetForeColor(0x0000FC00);
+    unsigned long ClientPtr<format=hex, name="[Pointer] Client">; // 1.8.1.6
+} EntrustContentPointer<format=hex, name="Quest Content > [Pointer] Commission Content", comment="Pointer within a pointer ╮(╯▽╰)╭">;
+
+FSeek(EntrustContentPointer.TaskNamePtr);
+struct { // 1.8.1.x Commission Content
+    SetForeColor(0x00004000);
+    string TaskName<format=hex, name="[Text] Quest Name", comment="Ends with 00 and is 4-byte aligned">; // 1.8.1.1
+    FSeek(EntrustContentPointer.SuccessDescriptionPtr);
+    SetForeColor(0x00008000);
+    string SuccessDescriptionPtr<format=hex, name="[Text] Success Description", comment="Ends with 00 and is 4-byte aligned">; // 1.8.1.2
+    FSeek(EntrustContentPointer.FailureDescriptionPtr);
+    SetForeColor(0x0000C000);
+    string FailureDescriptionPtr<format=hex, name="[Text] Failure Description", comment="Ends with 00 and is 4-byte aligned">; // 1.8.1.3
+    FSeek(EntrustContentPointer.MissionStatementPtr);
+    SetForeColor(0x0000FF00);
+    string MissionStatementPtr<format=hex, name="[Text] Quest Description", comment="Ends with 00 and is 4-byte aligned">; // 1.8.1.4
+    FSeek(EntrustContentPointer.MainMonsterPtr);
+    SetForeColor(0x0000FF00);
+    string MainMonsterPtr<format=hex, name="[Text] Main Monster", comment="Ends with 00 and is 4-byte aligned">; // 1.8.1.5
+    FSeek(EntrustContentPointer.ClientPtr);
+    SetForeColor(0x0000FF00);
+    string ClientPtr<format=hex, name="[Text] Client", comment="Ends with 00 and is 4-byte aligned">; // 1.8.1.6
+    SetForeColor(0x00000000);
+} EntrustContentDetails<format=hex, name="Commission Content > [Text] Commission Content", comment="Quest confirmation panel > Commission letter content">;
+
+SetBackColor(0xFF000080);
+if(TaskInformation.TrainingDataPtr > 127) { // 1.13 Training Data
+    FSeek(TaskInformation.TrainingDataPtr);
+    struct {
+        local unsigned long count1; // Counter
+        unsigned char Number<format=hex, name="Player Count", comment="Maximum number of participants">;
+        for(count = 0; count < 5; count++) {
+            struct {
+                unsigned short Point<format=hex, name="Point Multiplier">;
+                struct {
+                    unsigned char Type<format=hex, name="Type">;
+                    unsigned short EquipId<format=hex, name="Code">;
+                    unsigned short Grade<format=hex, name="Grade/Additional", comment="Bitwise calculation, 0-3 Grade, 4 Silencer/Shield, 5 Long Barrel/Energy Barrel, 7 Variable Scope">;
+                    unsigned short Bead<format=hex, name="Bead">;
+                    unsigned short Bead<format=hex, name="Bead">;
+                    unsigned short Bead<format=hex, name="Bead">;
+                } Arms<format=hex, name="Weapon">;
+                for(count1 = 0; count1 < 5; count1++) {
+                    data = ReadInt(); // Pre-read equipment type
+                    FSkip(1);
+                    struct {
+                        unsigned char Type<format=hex, name="Type">;
+                        unsigned short EquipId<format=hex, name="Code">;
+                        unsigned short Grade<format=hex, name="Grade">;
+                        unsigned short Bead<format=hex, name="Bead">;
+                        unsigned short Bead<format=hex, name="Bead">;
+                        unsigned short Bead<format=hex, name="Bead">;
+                    } Equip<format=hex, name="Equipment">;
+                }
+                struct { // Supply Items
+                    for(count1 = 0; count1 < 20; count1++) {
+                        struct {
+                            unsigned short item<format=hex, name="Item Code">;
+                            unsigned short qty<format=hex, name="Quantity">;
+                        } supplyItem<format=hex, name="Item">; // Define item data format
+                    };
+                } SupplyItems<format=hex, name="Supply Items">;
+                FSkip(1);
+            } Suit<format=hex, name="Set">;
+        }
+    } TrainingData<format=hex, name="Training Data">;
+}
+FSeek(QuestFileHeader.supplyBoxPtr);
+SetBackColor(0xFF0000E0);
+struct { // 3 Supply Items
+    data = 0; // Clear data
+    count = 0; // Clear counter
+    while(data != 0xFFFF) {
+        SetForeColor(count * 0x00001F00); // Set foreground color
+        if(ReadUShort() == 0) break;
+        struct {
+            unsigned short item<format=hex, name="Item Code">;
+            unsigned short qty<format=hex, name="Quantity">;
+        } supplyItem<format=hex, name="Item">; // Define item data format
+        count++;
+    };
+    unsigned short EndMark<format=hex, name="End Marker", comment="Completion marker, occupies 2 bytes, filled with 00">;
+    SetForeColor(0x00000000);
+} SupplyItems<format=hex, name="Supply Items">;
+FSeek(QuestFileHeader.rewardPtr);
+SetBackColor(0xFF0000FF);
+struct { // 4 Quest Rewards
+    data = 0; // Clear data
+    count = 0; // Clear counter
+    while(data != 0xFFFF) {
+        SetForeColor(count * 0x00001F00); // Set foreground color
+        struct {
+            unsigned long AcquisitionConditions<format=hex, name="Reward Acquisition Condition Code">;
+            unsigned long remunerationPtr<format=hex, name="[Pointer] Reward Block Address">;
+            position = FTell(); // Store current position
+            FSeek(remunerationType[count].remunerationPtr);
+            while(data != 0xFFFF) {
+                struct {
+                    unsigned short probability<format=hex, name="Probability">;
+                    unsigned short remunerationID<format=hex, name="Reward Code">;
+                    unsigned short number<format=hex, name="Quantity">;
+                } remunerationContent<format=hex, name="Reward Entry">; // Define reward data format
+                data = ReadUShort();
+                if(data == 0) break;
+            };
+            unsigned short EndMark<format=hex, name="End Marker", comment="Reward entry completion, occupies 2 bytes, filled with FF and 4-byte aligned">;
+            FSeek(position);
+        } remunerationType<format=hex, name="Reward Type">; // Define reward data format
+        count++;
+        data = ReadUShort();
+        if(data == 0) break;
+    };
+    unsigned short EndMark<format=hex, name="End Marker", comment="Reward information completion, occupies 2 bytes, filled with FF and 4-byte aligned">;
+} rewardPtr<format=hex, name="Quest Rewards">;
+FSeek(QuestFileHeader.fixedInformationPtr);
+SetBackColor(0xFF0000C0);
+struct { // 5 Fixed Information
+    unsigned long TaskStatus<format=hex, name="Initial Information State?", comment="All quests seem to use 1B">;
+    FSkip(4); // unsigned long Unknown<format=hex, name="Unknown">;
+    for(count = 0; count < 25; count++) {
+        data = ReadUShort(); // Pre-read data
+        if(data != 0xFFFF) {
+            switch(data) {
+                default:
+                    unsigned short unknown<format=hex, name="Unknown">;
+                    FSkip(6);
+                break;
+            }
+        }
+    }
+    unsigned short EndMark<format=hex, name="End Marker", comment="Fixed information 1 completion, occupies 8 bytes, filled with FFFF000000000000">;
+} fixedInformation<format=hex, name="Fixed Information", comment="Affects quest state, 8*n bytes per group">;
+typedef struct { // Small Monster Settings Common Structure
+    // No small monster information
+    count = 0; // Clear counter
+    data = 0; // Clear data
+    while(data != 0xFFFF) {
+        SetForeColor(count * 0x001F0000); // Set foreground color
+        struct {
+            unsigned long areaID<format=hex, name="Area Code", comment="The currently set area">;
+            FSkip(4);
+            unsigned long MixedFishPtr<format=hex, name="[Pointer] Small Monster Spawn", comment="Occupies 16 bytes, 4 bytes each, filled with FF if none">;
+            unsigned long AppearanceDetailsPtr<format=hex, name="[Pointer] Spawn Details", comment="Detailed position and orientation of spawned small monsters">;
+            position = FTell(); // Store current position
+            FSeek(RegionalInformation[count].MixedFishPtr);
+            unsigned long MixedFishID<format=hex, name="Small Monster Spawn">;
+            unsigned long MixedFishID<format=hex, name="Small Monster Spawn">;
+            unsigned long MixedFishID<format=hex, name="Small Monster Spawn">;
+            unsigned long MixedFishID<format=hex, name="Small Monster Spawn">;
+            FSeek(RegionalInformation[count].AppearanceDetailsPtr);
+            data = ReadUShort();
+            while(data != 0xFFFF) {
+                struct {
+                    unsigned short ID<format=hex, name="Code", comment="Must match one of the small monster spawn codes, otherwise invalid">;
+                    unsigned short state<format=hex, name="State?", comment="Affects at least Herbivores and Stones">;
+                    unsigned short number<format=hex, name="Quantity", comment="Number spawned at this position, can be set to 65535 lol ○|￣|_">;
+                    unsigned short ActivationMode<format=hex, name="Unknown", comment="Automatically changes during the quest">;
+                    FSkip(20);
+                    unsigned long orientation<format=hex, name="Orientation">;
+                    float xPos<format=hex, name="X Coordinate">;
+                    float zPos<format=hex, name="Z Coordinate">;
+                    float yPos<format=hex, name="Y Coordinate">;
+                    unsigned short Number<format=hex, name="[In-Quest] Sequence Number">;
+                    FSkip(2);
+                    unsigned short Size<format=hex, name="[In-Quest] Size">;
+                    unsigned short HP<format=hex, name="[In-Quest] HP">;
+                } EntryDetails<size=60, format=hex, name="[Content] Spawn Details", comment="One small monster occupies 60 bytes">; // Small monster spawn detailed data format
+                data = ReadUShort();
+            };
+            unsigned short EndMark<format=hex, name="End Marker", comment="Indicates completion of small monster settings for this area, occupies 2 bytes, filled with FF">;
+            FSeek(position); // Read current position
+        } RegionalInformation<format=hex, name="Area Information">; // Area information format
+        count++;
+        data = ReadUShort();
+        if(data == 0) break;
+    };
+} MonsterSettings;
+FSeek(QuestFileHeader.questAreaPtr);
+SetBackColor(0xFF000080);
+struct { // 6 Small Monster Information
+    unsigned long MonsterSettingsPtr<format=hex, name="[Pointer] Initial Small Monsters", comment="Default small monster configuration at quest start">; // 1
+    unsigned long MiscellaneousChange1Ptr<format=hex, name="[Pointer] Small Monster Change 1", comment="Small monster configuration changes to this upon gathering or killing based on fixed information">; // 2
+    unsigned long MiscellaneousChange2Ptr<format=hex, name="[Pointer] Small Monster Change 2", comment="Small monster configuration changes to this upon gathering or killing based on fixed information">; // 2
+} MonsterInformation<format=hex, name="Small Monster Information">;
+FSeek(MonsterInformation.MonsterSettingsPtr);
+SetBackColor(0xFF0000A0);
+if(ReadUShort() != 0) { // 6.1 Initial Small Monsters
+    MonsterSettings A0<format=hex, name="Small Monster Information > Initial Small Monsters">;
+}
+SetBackColor(0xFF00FF00);
+if(MonsterInformation.MonsterSettingsPtr != MonsterInformation.MiscellaneousChange1Ptr && MonsterInformation.MiscellaneousChange1Ptr > 0) { // 6.2 Small Monster Change 1
+    FSeek(MonsterInformation.MiscellaneousChange1Ptr);
+    MonsterSettings A1<format=hex, name="Small Monster Information > Small Monster Change 1">;
+}
+if(MonsterInformation.MonsterSettingsPtr != MonsterInformation.MiscellaneousChange2Ptr && MonsterInformation.MiscellaneousChange2Ptr > 0) { // 6.2 Small Monster Change 2
+    FSeek(MonsterInformation.MiscellaneousChange2Ptr);
+    MonsterSettings A2<format=hex, name="Small Monster Information > Small Monster Change 2">;
+}
+FSeek(QuestFileHeader.largeMonsterPtr);
+SetBackColor(0xFF00E000);
+struct { // 7 Boss Information
+    count = 0; // Clear counter
+    data = 0; // Clear data
+    FSkip(8);
+    unsigned long MixedBossPtr<format=hex, name="[Pointer] Boss Spawn", comment="Occupies 16 bytes, 4 bytes each, filled with FF if none">;
+    unsigned long AppearanceDetailsPtr<format=hex, name="[Pointer] Spawn Details", comment="Detailed position and orientation of spawned bosses">;
+    position = FTell(); // Store current position
+    FSeek(BOSSdetails[count].MixedBossPtr);
+    unsigned long BossID<format=hex, name="Boss Spawn">;
+    unsigned long BossID<format=hex, name="Boss Spawn">;
+    unsigned long BossID<format=hex, name="Boss Spawn">;
+    unsigned long BossID<format=hex, name="Boss Spawn">;
+    FSeek(BOSSdetails[count].AppearanceDetailsPtr);
+    while(data != 0xFFFF) {
+        count++;
+        SetForeColor(count * 0x0000003F); // Set foreground color
+        if(ReadUShort() == 0xFFFF) break; // No boss information
+        struct {
+            unsigned short ID<format=hex, name="Code", comment="Must match one of the boss spawn codes, otherwise invalid">;
+            unsigned short state<format=hex, name="State?", comment="No noticeable effect">;
+            unsigned char number<format=hex, name="Quantity", comment="Number spawned at this position, can be set to 127">;
+            FSkip(2);
+            unsigned char ExitArea<format=hex, name="Spawn Area", comment="Area where the boss spawns at the start">;
+            FSkip(20);
+            unsigned long orientation<format=hex, name="Orientation">;
+            unsigned long xPos<format=hex, name="X Coordinate">;
+            unsigned long zPos<format=hex, name="Z Coordinate">;
+            unsigned long yPos<format=hex, name="Y Coordinate">;
+            unsigned short Number<format=hex, name="[In-Quest] Sequence Number">;
+            FSkip(2);
+            unsigned short Size<format=hex, name="[In-Quest] Size">;
+            unsigned short HP<format=hex, name="[In-Quest] HP">;
+        } remunerationContent<size=60, format=hex, name="[Content] Spawn Details", comment="One boss occupies 60 bytes">; // Boss spawn detailed data
+        data = ReadUShort();
+    };
+    unsigned short EndMark<format=hex, name="End Marker", comment="Indicates completion of boss settings, occupies 2 bytes, filled with FF">;
+    FSeek(position); // Read current position
+    data = ReadUShort();
+    if(data == 0) break;
+} BOSSdetails<format=hex, name="Boss Information">;
+FSeek(QuestFileHeader.gatherPointsPtr);
+SetBackColor(0xFF00C000);
+struct { // 9 Gathering Point Information
+    count = 0; // Clear counter
+    data = 0; //
+    for(count = 0; count < 90; count++) {
+        data = ReadInt(); // Pre-read pointer
+        if(data > FileSize()) break; // Exit if pointer exceeds file size
+        SetForeColor(count * 0x0000001F); // Set foreground color
+        struct {
+            unsigned long CollectionSettingsPtr<format=hex, name="[Pointer] Area Settings", comment="Position of the gathering pointer for each area is relatively fixed">;
+            if(RegionalInformation[count].CollectionSettingsPtr == 0) break; // No data for this pointer
+            position = FTell(); // Store current position
+            FSeek(RegionalInformation[count].CollectionSettingsPtr);
+            for(data = 0; data < 7; data++) {
+                if(ReadUInt() == 0xBF800000) break; // Gathering point settings for this area complete
+                struct {
+                    float xPos<format=hex, name="X Coordinate">;
+                    float zPos<format=hex, name="Z Coordinate">;
+                    float yPos<format=hex, name="Y Coordinate">;
+                    float Range<format=hex, name="Effective Range", comment="Default is usually fine; if set too high, it may overlap and prevent other points from being gathered">;
+                    unsigned short CollectionID<format=hex, name="Gathering Code", comment="Index for <Gathering Point Data>">;
+                    unsigned short CollectionFrequencyUpperLimit<format=hex, name="Gathering Frequency Upper Limit">;
+                    unsigned short Type<format=hex, name="Gathering Type">;
+                    unsigned short CollectionFrequencyLowerLimit<format=hex, name="Gathering Frequency Lower Limit">;
+                } AcquisitionPoint<format=hex, name="Gathering Point">;
+            }
+            FSeek(position); // Read current position
+        } RegionalInformation<format=hex, name="Area Information">;
+    }
+} CollectingInformation<format=hex, name="Gathering Information">;
+FSeek(QuestFileHeader.unknownPtr);
+SetBackColor(0xFF00A000);
+struct { // 9 Unknown Information
+    local int count1; // Counter
+    data = ReadInt(); // Pre-read data
+    while(data != 0xFFFF) {
+        SetForeColor(count1 * 0x00000050 + 0x00000050); // Set foreground color
+        struct {
+            unsigned short unknown<format=hex, name="Unknown">;
+            unsigned short qty<format=hex, name="Quantity">;
+            unsigned long unknownPtr<format=hex, name="[Pointer] Unknown">; // 8
+            position = FTell(); // Store current position
+            FSeek(UnknownStructure[count1].unknownPtr);
+            for(count = 0; count < qty; count++) {
+                struct {
+                    unsigned long unknown<format=hex, name="Unknown">;
+                    unsigned long unknown<format=hex, name="Unknown">;
+                    unsigned long unknown<format=hex, name="Unknown">;
+                    unsigned long unknown<format=hex, name="Unknown">;
+                } UnknownStructure<format=hex, name="Unknown Structure">;
+            }
+            FSeek(position); // Read position
+        } UnknownStructure<format=hex, name="Unknown Structure">;
+        count1++;
+        data = ReadInt();
+    }
+    SetForeColor(0x00000000);
+    unsigned short EndMark<format=hex, name="End Marker", comment="Occupies 2 bytes, filled with FF">;
+} UnknownInformation<format=hex, name="Unknown Information">;
+FSeek(QuestFileHeader.AcquisitionDataPtr);
+SetBackColor(0xFF008000);
+struct { // 9 Gathering Point Data
+    count = 0; // Clear counter
+    for(count = 0; count < 90; count++) {
+        data = ReadInt(); // Pre-read pointer
+        if(data > FileSize()) break; // Exit if pointer exceeds file size
+        SetForeColor(count * 0x0000001F); // Set foreground color
+        struct {
+            data = 0; //
+            unsigned long AcquisitionMaterialPtr<format=hex, name="[Pointer] Gathering Material">;
+            position = FTell(); // Store current position
+            FSeek(AcquisitionCode[count].AcquisitionMaterialPtr);
+            while(data != 0xFFFF) {
+                struct {
+                    unsigned short probability<format=hex, name="Probability">;
+                    unsigned short item<format=hex, name="Item Code">;
+                } AcquisitionMaterial<format=hex, name="Gathering Material">;
+                data = ReadInt();
+            }
+            unsigned short EndMark<format=hex, name="End Marker", comment="Occupies 2 bytes, filled with FF">;
+            FSeek(position); // Read current position
+        } AcquisitionCode<format=hex, name="Gathering Code">;
+    }
+} AcquisitionData<format=hex, name="Gathering Point Data">;

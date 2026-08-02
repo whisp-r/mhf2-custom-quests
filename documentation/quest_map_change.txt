@@ -1,0 +1,24 @@
+15 - Snowy Mountain (Night)
+16 - Town (Night) [crashes]
+17 - Fortress (Night) [crashes]
+18 - Great Arena (Night) [crashes]
+19 - Arena (Night) [crashes]
+1A - No [crashes] # these are now the special conditions strings, pretty much, with garbage value icons
+2F - Para Duration x2 [crashes]
+3F - Health +30 [crashes]
+4F - Sharpnening Skl Half [spawn volcano, cursed map]
+5F - NormalS/RapidBow Up [infinite preparing quest]
+6F - Clust S All LV Add [crashes]
+7F - Defense -20 [crashes]
+8F - The Roaring King [freezes]
+9F - The Devil's Sycthe [fnh area 2, my ppsspp speedup is very slow, traversing areas works normally, supply box normal]
+AF - Emperor of Flame [crashes]
+BF - The Tower [freezes]
+CF - <entire plesioth monster info> [freezes]
+DF - <entire gravios monster info> [crashes]
+EF - <entire silver world info> [crashes]
+FE - violence and gore. [crashes]
+FF - <blank> [crashes]
+
+
+note: im not changing the gathering info for these quest maps

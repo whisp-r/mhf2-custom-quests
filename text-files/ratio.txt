@@ -1,0 +1,30 @@
+-250 for Z
+-170 for Y
+X is gotten from whatever
+
+ok so the ratio between X:Y is 0.6
+
+`0A` newline
+
+name
+A: Starfall
+
+succ desc
+Slay the Teostra and Lunastra
+
+fail desc
+Reward Zero\nTime Over
+
+quest desc
+* Astral means the monsters\n
+are as strong as possible.\n
+Thanks Blakfox for the\n
+inspiration!
+Sorry for the thunderbugs lol...\n
+
+main monster
+[Astral]\n
+Teostra, Lunastra
+
+client
+whiisper

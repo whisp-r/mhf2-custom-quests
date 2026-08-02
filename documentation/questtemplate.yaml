@@ -1,0 +1,302 @@
+# the h after the number does not mean that the number is hexadecimal, it is decimal
+
+
+headerSection:
+  identifier: # 4h
+  # ptr questInformation
+  # ptr supplyItems
+  # ptr questRewards
+  # ptr fixedInformation
+  # ptr smallMonInfo
+  # ptr bossInformation
+  # ptr gatherInfo
+  # ptr unknownInformation
+  # ptr gatherPointData
+  bossSize: # 2h
+  largeMonsterSize%: # 1h
+  fixedValue: # 1h
+  guildPointsReward: # 4h signed? unsigned?
+  unknown0: # 4h (always 0x0F000000)
+  carvingDifficulty: # 1h
+  arrivalPosition: # 1h
+  supplyState:
+    supplyMode: # 1h
+    supplyConditions: # 1h
+    conditionQuantity: # 1h
+  difficulty: # 1h
+  unknown1: # 2h (all 0)
+  smallMonsterChange0:
+    changeCondition: # 4h
+    targetCode: # 2h
+    quantity: # 1h
+    sequenceNumber: # 1h
+  smallMonsterChange1:
+    changeCondition: # 4h
+    targetCode: # 2h
+    quantity: # 1h
+    sequenceNumber: # 1h
+
+questInformation:
+  questType: # 1h
+  additional: # 1h
+  unknown0: # 2h (not fixed values)
+  contractFee: # 4h
+  rewardMoney: # 4h
+  felyneCartLoss: # 4h
+  questTime: # 4h
+  # ptr questContent
+  questNumber: # 2h
+  questStarLevel: #1h
+  unknown1: # 1h (not fixed values)
+  questMap: # 1h
+  specialConditions: # 1h
+  targetCount: # 1h
+  unknown2: # 1h (not fixed values)
+  questTarget0:
+    questCondition: # 1h
+    additionalCondition: # 2h
+    unknown0: # 1h (always 0)
+    targetCode: # 2h
+    quantity: # 2h
+  questTarget1:
+    questCondition: # 1h
+    additionalCondition: # 2h
+    unknown0: # 1h (always 0)
+    targetCode: # 2h
+    quantity: # 2h
+  # ptr training data
+
+
+# ------ quest content
+
+textCommissionContent: 
+  questName: # ends with 00 and is 4-byte aligned
+  successDesc: # ends with 00 and is 4-byte aligned
+  failureDesc: # ends with 00 and is 4-byte aligned
+  questDesc: # ends with 00 and is 4-byte aligned
+  mainMonster: # ends with 00 and is 4-byte aligned
+  client: # ends with 00 and is 4-byte aligned
+
+commissionContent:
+  # ptr questName
+  # ptr successDesc
+  # ptr failureDesc
+  # ptr questDesc
+  # ptr mainMonster
+  # ptr client
+
+questContent:
+  # ptr commissionContent
+  # ptr commissionContent
+  # ptr commissionContent
+  # ptr commissionContent
+  # ptr commissionContent
+  # ptr commissionContent
+  # ptr commissionContent
+  # yes, it is the same address 7 times inrow
+
+# ------ fixed info
+
+fixedInformation:
+  initialInfoState: # 4h
+  unknown0: # 4h (all 0)
+  unknownValue: # 2h
+  unknown1: # 6h (all 0)
+  endMarker: # FFFF0000'00000000 ; 8 bytes
+  unknown2: # 88h (semi fixed values)
+
+supplyItems:
+  item0: # 4h
+    itemCode: # 2h
+    quantity: # 2h
+  item1: # 4h
+    itemCode: # 2h
+    quantity: # 2h
+  # ... (variable lenght data)
+  endMarker: # 2h (completion marker, occupies 2 bytes, filled with 00)
+
+postSupplyQuestNumber: # 2h (indentical to questInformation.questNumber) note: can be ommited
+
+# ------ gather POINT data
+
+gatherMaterial:
+  gatherMaterial0: # 4h
+    probability: # 2h
+    itemCode: # 2h
+  gatherMaterial1: # 4h
+    probability: # 2h
+    itemCode: # 2h
+  # ...
+  endMarker: # 2h (occupies 2 bytes filled with FF)
+
+# note on the gatherPointData:
+# gatherMaterial is before gatherCode in the binary
+# the ptr seem to need 4-byte aligned data
+# they seemingly stop randomly
+gatherPointData:
+  gatherCode0:
+    # ptr gatherMaterial
+  gatherCode1:
+    # ptr gatherMaterial
+  # ...
+  endMarker: # custom end marker, 0xFFFFFFFF, the template dosent have one
+
+# ------ area info
+
+# yes, it will always have 4 of them
+areaSettings:
+  gatherPoint0: # 18h
+    X: # 4h
+    Z: # 4h
+    Y: # 4h
+    effectiveRange: # 4h
+    gatherCode: # 2h (Index for <Gathering Point Data>) (note: index of gatherCode)
+    gatherFreqUpperLimit: # 2h
+    gatherType: # 2h
+    gatherFreqLowerLimit: # 2h
+  gatherPoint1: # 18h
+    X: # 4h
+    Z: # 4h
+    Y: # 4h
+    effectiveRange: # 4h
+    gatherCode: # 2h (Index for <Gathering Point Data>) (note: index of gatherCode)
+    gatherFreqUpperLimit: # 2h
+    gatherType: # 2h
+    gatherFreqLowerLimit: # 2h
+  gatherPoint2: # 18h
+    X: # 4h
+    Z: # 4h
+    Y: # 4h
+    effectiveRange: # 4h
+    gatherCode: # 2h (Index for <Gathering Point Data>) (note: index of gatherCode)
+    gatherFreqUpperLimit: # 2h
+    gatherType: # 2h
+    gatherFreqLowerLimit: # 2h
+  gatherPoint3: # 18h
+    X: # 4h
+    Z: # 4h
+    Y: # 4h
+    effectiveRange: # 4h
+    gatherCode: # 2h (Index for <Gathering Point Data>) (note: index of gatherCode)
+    gatherFreqUpperLimit: # 2h
+    gatherType: # 2h
+    gatherFreqLowerLimit: # 2h
+  unknownBlock: # 24h (fixed: 0x000080BF... and rest 0's)
+
+gatherInfo:
+  areaInfo0:
+    # ptr areaSettings
+  areaInfo1:
+    # ptr areaSettings
+  # ...
+  endMarker: # custom end marker, 0xFFFFFFFF, the template dosent have one
+ 
+# ------ rewards
+
+rewardBlock:
+  rewardEntry0: # 6h
+    probability: # 2h
+    rewardCode: # 2h
+    quantity: # 2h
+  # ...
+  endMarker: # 2h (Reward entry completion, occupies 2 bytes, filled with FF and 4-byte aligned)
+
+questRewards:
+  rewardType0:
+    rewardAcquisitionConditionCode: # 4h
+    # ptr rewardBlock
+  # ...
+  endMarker: # 2h (Reward information completion, occupies 2 bytes, filled with FF and 4-byte aligned)
+
+# ------ unknown info block
+
+unknownInformation:
+  endMarker: # 2h, 0xFF
+  unknownBlock: # yeah this one is borderline unknown (not fixed byte size or values) [as default make 4 bytes 0?]
+  # so it should be 0xFF000000 default combined
+
+# ------ small mon start
+  
+spawnDetailsSmall: # 60 bytes
+  spawnDetailsContent0: # 60h
+    code: # 2h (Must match one of the small monster spawn codes, otherwise invalid)
+    state: # 2h (Affects at least Herbivores and Stones)
+    quantity: # 2h
+    unknownValue: # 2h (auto changes during quest, shouldnt be touched)
+    unknown0: # 20h (sometimes has 0x01 and rest 0's, or just full 0s)
+    orientation: # 4h
+    X: # 4h
+    Z: # 4h
+    Y: # 4h
+    inQuestSequenceNumber: # 2h (leave 0)
+    unknown2: # 2h (all 0)
+    inQuestSize: # 2h (leave 0)
+    inQuestHP: # 2h (leave 0)
+    unknown3: # 8h (all 0)
+  # ...
+  endMarker: # 2h (this is for spawnDetailsSmall) (Indicates completion of small monster settings for this area, occupies 2 bytes, filled with FF)
+  
+initSmallMon:
+  areaInfo0:
+    areaCode: # 4h
+    unknown0: # 4h (all 0)
+    # ptr smallMonSpawn (Occupies 16 bytes, 4 bytes each, filled with FF if none)
+    # ptr spawnDetailsSmall
+    smallMonSpawn0: # 4h
+    smallMonSpawn1: # 4h
+    smallMonSpawn2: # 4h
+    smallMonSpawn3: # 4h
+    
+    unknown1: # 58h (all 0's, always)
+  # ...
+  endMarker: # custom end marker, 0x00000000, the template dosent have one
+  unknown0: # 12h (not fixed values) 
+
+
+smallMonInfo:
+  # ptr initSmallMon
+  # ptr initSmallMonChange1
+  # ptr initSmallMonChange2
+  unknown0: # 4h (always 0)
+
+# ------ boss mon start
+
+spawnDetailsBoss: # 60h
+  spawnDetailsContent0:
+    code: # 2h (Must match one of the small monster spawn codes, otherwise invalid)
+    state: # 2h (Affects at least Herbivores and Stones)
+    quantity: # 1h
+    unknown0: # 2h (all 0)
+    spawnArea: # 1h
+    unknown1: # 20h (all 0)
+    orientation: # 4h
+    X: # 4h
+    Z: # 4h
+    Y: # 4h
+    inQuestSequenceNumber: # 2h (leave 0)
+    unknown2: # 2h (all 0)
+    inQuestSize: # 2h (leave 0)
+    inQuestHP: # 2h (leave 0)
+    unknown3: # 8h (all 0)
+  # ...
+  endMarker: # 2h (Indicates completion of boss settings, occupies 2 bytes, filled with FF)
+  unknown0: # 58 bytes (all 0)
+
+bossSpawn: # 16 h
+  bossSpawn0: # 4h
+  bossSpawn1: # 4h
+  bossSpawn2: # 4h
+  bossSpawn3: # 4h
+
+bossInformation:
+  unknown0: # 8h (fixed value: 0x01000000'00000000)
+  # ptr bossSpawn (Occupies 16 bytes, 4 bytes each, filled with FF if none)
+  # ptr spawnDetailsBoss
+  unknown1: # 4h (always 0)
+
+  
+
+
+
+
+

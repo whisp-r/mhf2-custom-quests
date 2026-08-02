@@ -1,0 +1,27 @@
+`0A` newline
+
+name
+A: Starfall
+
+succ desc
+Slay the Teostra and Lunastra
+
+fail desc
+Reward Zero\nTime Over
+
+quest desc
+* Astral means the monsters\n
+are as strong as possible.\n
+Thanks Blakfox for the quest
+inspiration!\n
+Stars, thunderbugs, get it?\n
+\n
+ok.................................end
+
+
+main monster
+[Astral]\n
+Teostra, Lunastra
+
+client
+whiisper

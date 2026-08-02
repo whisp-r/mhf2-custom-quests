@@ -1,0 +1,37 @@
+== DONE QUESTS:
+DONE - jump 14 (max) tigrex, great arena (Imminent Danger to Life)[60050]
+DONE - tigrex, night desert (astral, size 161) (A: Sinking Terror) [60051]
+
+== DOING:
+- kushala, snowymtn, with ice boulders (ICE BOULDERS TODO) (astral, size ???) (A: Corrupted Paperwork) [60052]
+
+== NOTE:
+- Astral: monsters of illegal size (max possible stats)
+- Astral: rewards are demon flute 1%, normal flute 49%, frozen berry 50%
+- Astral: No supply
+- Astral: Should have "[Astral]\n<...>" in monster list
+- Quests should be marked with "<fail cond>\nQuest by whiisper"
+- Quests that require killing a monster(s) should be slay/hunt
+- Special elder quest type should be reserved for truly special/unique quests
+- Rewards mean amount of carts (could change it)
+- Quest ID determines order (i think?), special quest at the end
+- Could have some kind of gathering quest explaining all this... as 60001? we will see
+
+== QUEST IDEAS:
+[non-astral]
+- tigrex + jang, snowymtn night (diamond dust)
+[astral]
+- cephadrome + daimyo, night desert
+
+== NAME IDEAS:
+A: Corrupt Paperwork
+A: Gasp in the Shell
+A: Interpolation <something>
+A: Sinking Terror
+A: Venom Vows
+A: Ancient Sliver
+A: Bulwark of the Shore
+A: Advanced Sharp Sword
+A: Overjolting with Jolts
+
+

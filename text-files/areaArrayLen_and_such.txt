@@ -1,0 +1,1 @@
+There is like no sentinel for area arrays, the template uses garbage value to stop, the game crashes if there is some sort of sentinel afaik

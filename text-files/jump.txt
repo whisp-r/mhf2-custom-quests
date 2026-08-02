@@ -1,0 +1,102 @@
+EA - low hp
+E5 - low hp
+E4 - insanely low hp
+E2 - even lower
+E1 - even loweer
+E0 - is lowest yeah
+note: the atk and def scale with it also, seems like this is maybe the strenght?
+Fx -> Ex - "base" max hp changed
+
+mapped:
+0x, 4x, 5x, 6x, 7x, 8x, 9x, ax, bx, cx, dx, ex, fx
+
+2D, ~13k hp
+AD, -1 hp lol
+DD, 14400hp, max
+59, defense=MAX_U32%
+5A, attack=MAX_U32%, -1hp
+5B, both overflow, 0hp
+60, both overflow, 0hp
+61, def overflow, -1hp
+62, atk overflow, -1hp
+67, both overflow, -1hp
+68, both overflow
+69, -1hp
+6D, defense overflow
+6E, atk overflow, -1hp
+6F, both overflow, -1hp
+70, both overflow
+71, -1hp
+79, defense overflow
+7a, atk overflow, -1hp
+7b, both overflow, -1hp
+88, def overflow
+89, def overflow
+8a, atk overflow
+8b, atk overflow
+8c, -1 hp
+8d -1 hp
+a8, def overflow, -1hp
+a9, def overflow
+aa, atk overflow
+ab, atk overflow
+ac, -1hp
+ad, -1hp
+ae, defense 60% 
+af, normal stats (low)
+
+b0, goes from normal stats to higher (kinda low)
+bf, resets it to af stats
+ce, 10560, 70, 30
+cf, 10560, 70, 30
+d0, 4896, 100, 40
+d1, 4992, 100, 45
+d9, 14400, 60, 120
+db, 14400, 60, 120
+dd, 14400, 100, 170
+de, 10560, 75, 0
+df, 0, 0, 0
+e0, 1680, 102, 100
+climbing with higher atk
+ea, 5520, 160, 95
+eb, 6240, 250, 75
+ef, 7200, 300, 70
+f0, 2400, 105, 100
+f1, 2400, 110, 100
+fd, 4080, 280, 75
+ff, 4800, 410, 75
+
+05, 4320, 140, 95
+06, 2160, 130, 95
+08, 1680, 100, 100
+09, 2160, 102, 100
+0a, 4800, 400, 60
+0b, 4800, 400, 60
+0c, 9600, 400, 60
+0d, 9600, 400, 60
+0e, 9600, 100, 85
+0f, 3743, 130, 95
+10, 0, 0, 0
+11, 0, 100, 100
+12, 4800, 100, 120
+15, 3600, 75, 200
+19, 3600, 100, 220
+1b, 3600, 65, 270
+21, 4080, 0, 0
+22, 0, 0, 30
+23, 4080, 100, 40
+2b, 10560, 85, 100
+2c, 13440, 100, 100
+2f, 13440, 70, 100
+32, 12480, 75, 0
+33, 0, 0, 0
+34, 12000, 100, 80
+35, 4800, 150, 90
+3a, 7200, 180, 90
+3b, 7680, 250, 85
+3c, 8160, 255, 85
+3f, 9600, 270, 85
+40, 10080, 275, 80
+41, 10560, 280, 80
+43, 11520, 300, 80
+44, 0, 0, 0
