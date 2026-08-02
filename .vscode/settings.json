@@ -1,6 +1,0 @@
-{
-    "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix",
-    "nixEnvSelector.useFlakes": false,
-    "python.analysis.autoImportCompletions": false,
-    "python.analysis.languageServerMode": "full"
-}

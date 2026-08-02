@@ -1,0 +1,337 @@
+{
+  "headerSection": {
+    "identifier": "4D485032",
+    "bossSize": "6400",
+    "largeMonsterSize%": "00",
+    "fixedValue": "0C",
+    "guildPointsReward": "34080000",
+    "unknown0": "0F000000",
+    "carvingDifficulty": "01",
+    "arrivalPosition": "00",
+    "supplyState": {
+      "supplyMode": "00",
+      "supplyConditions": "00",
+      "conditionQuantity": "00"
+    },
+    "difficulty": "01",
+    "smallMonsterChange0": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "01"
+    },
+    "smallMonsterChange1": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "02"
+    }
+  },
+  "questInformation": {
+    "questType": "04",
+    "additional": "40",
+    "unknown0": "0002",
+    "contractFee": "AC0D0000",
+    "rewardMoney": "08520000",
+    "felyneCartLoss": "581B0000",
+    "questTime": "905F0100",
+    "questNumber": "0E29",
+    "questStarLevel": "06",
+    "unknown1": "03",
+    "questMap": "09",
+    "specialConditions": "00",
+    "targetCount": "01",
+    "unknown2": "00",
+    "questTarget0": {
+      "questCondition": "01",
+      "additionalCondition": "0000",
+      "targetCode": "3500",
+      "quantity": "0200"
+    },
+    "questTarget1": {
+      "questCondition": "00",
+      "additionalCondition": "0000",
+      "targetCode": "0000",
+      "quantity": "0000"
+    }
+  },
+  "textCommissionContent": {
+    "questName": "The Final Invitation",
+    "successDesc": "Hunt 2 Rajang",
+    "failureDesc": "Reward Zero\nTime Over",
+    "questDesc": "There are two Rajang, each\nwith golden fur. Hunters, I\nhave prepared a special\nstage for your grandest\nperformance. Demonstrate\nyour true power... He he\nhe...",
+    "mainMonster": "2 Rajang",
+    "client": "Scarlet Mystery Man"
+  },
+  "supplyItems": [
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8502",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "3E00",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "5E00",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "6400",
+      "quantity": "0A00"
+    },
+    {
+      "itemCode": "8100",
+      "quantity": "0F00"
+    },
+    {
+      "itemCode": "8702",
+      "quantity": "0200"
+    }
+  ],
+  "questRewards": [
+    {
+      "rewardAcquisitionConditionCode": "00800000",
+      "rewards": [
+        {
+          "probability": "0300",
+          "rewardCode": "8601",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0300",
+          "rewardCode": "8601",
+          "quantity": "0200"
+        },
+        {
+          "probability": "1900",
+          "rewardCode": "8301",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "8301",
+          "quantity": "0200"
+        },
+        {
+          "probability": "1C00",
+          "rewardCode": "8401",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "8501",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "A502",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "D400",
+          "quantity": "1400"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "D500",
+          "quantity": "0A00"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D600",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D700",
+          "quantity": "0100"
+        }
+      ]
+    }
+  ],
+  "fixedInformation": {
+    "initialInfoState": "1B000000",
+    "unknown0": "00000000",
+    "unknownValue": "0300",
+    "unknown1": "000000000000",
+    "endMarker": "FFFF000000000000",
+    "unknown2": "2D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+  },
+  "initSmallMon": [],
+  "unknownPostinitSmallMon": "999900000000000000000000",
+  "changeSmallMon1": [],
+  "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
+  "changeSmallMon2": [],
+  "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
+  "bossInfo": {
+    "bossSpawn0": "35000000",
+    "bossSpawn1": "35000000",
+    "bossSpawn2": "FFFFFFFF",
+    "bossSpawn3": "FFFFFFFF",
+    "spawnDetails": [
+      {
+        "code": "3500",
+        "state": "0000",
+        "quantity": "01",
+        "spawnArea": "5A",
+        "unknown0": "0000000000000000000000000000000000000000",
+        "orientation": "A4240000",
+        "X": "00543746",
+        "Z": "00000000",
+        "Y": "00C81A46",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      },
+      {
+        "code": "3500",
+        "state": "0100",
+        "quantity": "01",
+        "spawnArea": "5A",
+        "unknown0": "0000000000000000000000000000000000000000",
+        "orientation": "A4420000",
+        "X": "0080B445",
+        "Z": "00209244",
+        "Y": "0050E045",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      }
+    ]
+  },
+  "gatherInfo": [
+    [],
+    [
+      {
+        "X": "00E02B46",
+        "Z": "00000000",
+        "Y": "00C04146",
+        "effectiveRange": "00004843",
+        "gatherCode": "0000",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00D80B46",
+        "Z": "00000000",
+        "Y": "0060D145",
+        "effectiveRange": "00004843",
+        "gatherCode": "0100",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      },
+      {
+        "X": "00685846",
+        "Z": "00000000",
+        "Y": "00083646",
+        "effectiveRange": "00004843",
+        "gatherCode": "0200",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00805446",
+        "Z": "00000000",
+        "Y": "0040CE45",
+        "effectiveRange": "00009643",
+        "gatherCode": "0300",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      }
+    ]
+  ],
+  "unknownPostUnknownInformationBlock": "00000000",
+  "gatherPointData": [
+    [
+      {
+        "probability": "0C00",
+        "itemCode": "8802"
+      },
+      {
+        "probability": "1A00",
+        "itemCode": "0800"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "2000"
+      },
+      {
+        "probability": "2A00",
+        "itemCode": "8202"
+      }
+    ],
+    [
+      {
+        "probability": "1E00",
+        "itemCode": "6700"
+      },
+      {
+        "probability": "2800",
+        "itemCode": "6A00"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "6900"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "6C00"
+      }
+    ],
+    [
+      {
+        "probability": "1E00",
+        "itemCode": "5200"
+      },
+      {
+        "probability": "2300",
+        "itemCode": "5600"
+      },
+      {
+        "probability": "2300",
+        "itemCode": "8A02"
+      }
+    ],
+    [
+      {
+        "probability": "2D00",
+        "itemCode": "8702"
+      },
+      {
+        "probability": "0700",
+        "itemCode": "8502"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "8902"
+      },
+      {
+        "probability": "1200",
+        "itemCode": "8602"
+      }
+    ]
+  ]
+}

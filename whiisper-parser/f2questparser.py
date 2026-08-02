@@ -854,27 +854,26 @@ f2questparser -e quest.json out.bin  # encodes to out.bin
 )
 
 group = parser.add_mutually_exclusive_group(required=True)
-group.add_argument("-e", "--encode", action="store_true", help="Convert JSON to BIN")
-group.add_argument("-d", "--decode", action="store_true", help="Convert BIN to JSON")
+group.add_argument("-e", "--encode", action="store_true", help="Convert JSON to .mib")
+group.add_argument("-d", "--decode", action="store_true", help="Convert .mib to JSON")
 
-parser.add_argument("input_file", type=Path, help="Input file path (binary or JSON)")
+parser.add_argument("input_file", type=Path, help="Input file path (.mib or JSON)")
 parser.add_argument(
     "output_file",
     nargs="?",
     type=Path,
     default=None,
-    help="Output file path (default: input name with .bin/.json suffix",
+    help="Output file path (default: input name with .mib/.json suffix",
 )
 
 args = parser.parse_args()
 
-if args.encode:
-    default_output_path: Path = args.input_file.with_suffix(".bin")
-else:
-    default_output_path: Path = args.input_file.with_suffix(".json")
-
 input_path: Path = args.input_file
-output_path: Path = args.output_file or default_output_path
+suffix = ".mib" if args.encode else ".json"
+output_path: Path = args.output_file or input_path.with_suffix(suffix)
+
+if output_path.is_dir():
+    output_path = output_path / input_path.with_suffix(suffix).name
 
 output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -882,8 +881,6 @@ if not input_path.exists():
     raise FileNotFoundError(f"Input does not exist: {input_path}")
 if not input_path.is_file():
     raise ValueError(f"Input is not a file: {input_path}")
-if output_path.exists() and output_path.is_dir():
-    raise ValueError(f"Output path is a directory: {output_path}")
 
 print("Input:", input_path)
 print("Output:", output_path)
