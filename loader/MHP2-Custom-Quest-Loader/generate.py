@@ -3,7 +3,7 @@ import shutil
 import subprocess
 from tools.cwcheatio import CwCheatIO
 
-QUESTS_LANG = "Full" # JPN, USA, EUR, Full
+QUESTS_LANG = "Custom" # JPN, USA, EUR, Full
 asm_src_dir = "source"
 build_dir = "build"
 quests_dir = "quests"
