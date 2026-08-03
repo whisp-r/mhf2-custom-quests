@@ -1,9 +1,14 @@
 == DONE QUESTS:
 DONE - jump 14 (max) tigrex, great arena (Imminent Danger to Life)[60050]
 DONE - tigrex, night desert (astral, size 161) (A: Sinking Terror) [60051]
+starfall [60054]
 
 == DOING:
-- kushala, snowymtn, with ice boulders (ICE BOULDERS TODO) (astral, size ???) (A: )[60052]
+- kushala, snowymtn, with ice boulders (todo: comments, ice boulders) (astral, size ???) (A: Zephyr)[60052]
+- cephadrome + daimyo (todo: comments, test completion, quest rewards) (size: 125(max daimyo)) (Gasp in the Shell) [60053]
+- kirin, astral, tower top (todo: comments) (size: 202) (A: Umbra) [60055]
+- teostra, night volcano (todo: comments, boulders) (size: ???) (A: Ignis) [60056]
+- tigrex + jang, snowymtn night (todo: comments, quest rewards) (size: 130 (max tiggy)) (Diamond Dust) [60057]
 
 == NOTE:
 - Astral: monsters of illegal size (max possible stats)
@@ -21,17 +26,34 @@ DONE - tigrex, night desert (astral, size 161) (A: Sinking Terror) [60051]
 [non-astral]
 - tigrex + jang, snowymtn night (diamond dust)
 [astral]
-- cephadrome + daimyo, night desert
 
 == NAME IDEAS:
-A: Corrupt Paperwork
-A: Gasp in the Shell
-A: Interpolation <something>
-A: Sinking Terror
-A: Venom Vows
-A: Ancient Sliver
-A: Bulwark of the Shore
-A: Advanced Sharp Sword
-A: Overjolting with Jolts
+Corrupt Paperwork (maybe some special?)
+
+(astral elders might be fun (no luna))
+Zephyr
+Ignis
+Umbra
+Silence
+
+Remind Me Later
+Gasp in the Shell
+Interpolation <something>
+Sinking Terror
+Venom Vows
+Ancient Sliver
+Bulwark of the Shore
+Advanced Sharp Sword
+Overjolting with Jolts
+
+
+
+
+
+
+
+
+
+
 
 

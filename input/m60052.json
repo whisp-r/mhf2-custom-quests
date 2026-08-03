@@ -28,7 +28,7 @@
     }
   },
   "questInformation": {
-    "questType": "88",
+    "questType": "81",
     "additional": "00",
     "unknown0": "0000",
     "contractFee": "60EA0000",
@@ -56,7 +56,7 @@
     }
   },
   "textCommissionContent": {
-    "questName": "A: Corrupted Paperwork",
+    "questName": "A: Zephyr",
     "successDesc": "Slay the Kushala Daora",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
     "questDesc": "todo",

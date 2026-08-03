@@ -3,13 +3,22 @@ import shutil
 from pathlib import Path
 
 CONFIG = {
-  "loader-path": "loader",
-  "f2questparser-path": "whiisper-parser",
-  "ppsspp-path": "C:\\Users\\whiisper\\Desktop\\custom_psp\\",
-  "ppsspp-savedata-name": "ULUS10266",
-  "clean-to-append-cheat-ini-file": "base_cheats.ini",
-  "input-json-path": "input",
-  "input-json-quests": ["m60050.json", "m60051.json", "m60052.json", "m60074.json"],
+    "loader-path": "loader",
+    "f2questparser-path": "whiisper-parser",
+    "ppsspp-path": "C:\\Users\\whiisper\\Desktop\\custom_psp\\",
+    "ppsspp-savedata-name": "ULUS10266",
+    "clean-to-append-cheat-ini-file": "base_cheats.ini",
+    "input-json-path": "input",
+    "input-json-quests": [
+        "m60050.json",
+        "m60051.json",
+        "m60052.json",
+        "m60053.json",
+        "m60054.json",
+        "m60055.json",
+        "m60056.json",
+        "m60057.json",
+    ],
 }
 
 out_quest_path = Path(CONFIG["loader-path"]) / "quests" / "Full"

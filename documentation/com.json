@@ -1,0 +1,159 @@
+{
+  "headerSection": {
+    "identifier": "Header Identifier",
+    "bossSize": "Boss Size",
+    "largeMonsterSize%": "Large Monster Size %",
+    "fixedValue": "Fixed Value (Range from 0 to F)",
+    "guildPointsReward": "Guild Points Reward",
+    "unknown0": "Unknown (0 for Gathering Quests, otherwise 0x0F000000)",
+    "carvingDifficulty": "Carving Difficulty (0 Easy, 1 Low Rank, 2 High Rank, 3 Treasure Hunt, 4 Training)",
+    "arrivalPosition": "Arrival Position (00 Camp, 01 Random, 02 Special (Watch Cutscene))",
+    "supplyState": {
+      "supplyMode": "Rationing Mode (0 Immediate, 1 Random, 2 Kill)",
+      "supplyConditions": "Rationing Conditions (When supply state is 2, fill with monster code)",
+      "conditionQuantity": "Condition Quantity (When supply state is 2, fill with monster quantity)"
+    },
+    "difficulty": "Difficulty (0 Normal, 1 Weakened, 2 Strengthened)",
+    "smallMonsterChange0": {
+      "changeCondition": "Change Condition (0 None, 1 On Kill, 2 On Gather)",
+      "targetCode": "Target Code",
+      "quantity": "Quantity",
+      "sequenceNumber": "Sequence Number (0 Initial Small Monsters, 1 Small Monster Change 1, 2 Small Monster Change 2)"
+    },
+    "smallMonsterChange1": {
+      "changeCondition": "Change Condition (0 None, 1 On Kill, 2 On Gather)",
+      "targetCode": "Target Code",
+      "quantity": "Quantity",
+      "sequenceNumber": "Sequence Number (0 Initial Small Monsters, 1 Small Monster Change 1, 2 Small Monster Change 2)"
+    }
+  },
+  "questInformation": {
+    "questType": "Quest Type (1 Slay, 2 Gather, 4 Hunt, 8 Special, 10 Treasure Hunt, 81 Slay [Elder Dragon], 88 Special [Elder Dragon])",
+    "additional": "Additional attributes of the quest type",
+    "unknown0": "Unknown (2 bytes, often 0x0000 or 0x0800)",
+    "contractFee": "Contract Fee",
+    "rewardMoney": "Reward Money",
+    "felyneCartLoss": "Felyne Cart Loss",
+    "questTime": "Quest Time (Divide by 1800 to get minutes)",
+    "questNumber": "Quest Number (Cannot be duplicated)",
+    "questStarLevel": "Quest Star Level",
+    "unknown1": "Unknown (1 byte skip after star level)",
+    "questMap": "Quest Map",
+    "specialConditions": "Special Conditions",
+    "targetCount": "Target Count (Fill 1 for Target 0, 2 for Target 1, other values prevent quest completion)",
+    "unknown2": "Unknown (1 byte skip after target count)",
+    "questTarget0": {
+      "questCondition": "Quest Condition (1 Slay, 2 Deliver, 4 Slay [Elder Dragon])",
+      "additionalCondition": "Additional Condition (When quest condition is 4, 0x0180 indicates inherited HP)",
+      "targetCode": "Target Code (Item/Monster Code)",
+      "quantity": "Quantity (Quantity/HP Percentage)"
+    },
+    "questTarget1": {
+      "questCondition": "Quest Condition (1 Slay, 2 Deliver, 4 Slay [Elder Dragon])",
+      "additionalCondition": "Additional Condition (When quest condition is 4, 0x0180 indicates inherited HP)",
+      "targetCode": "Target Code (Item/Monster Code)",
+      "quantity": "Quantity (Quantity/HP Percentage)"
+    },
+    "trainingDataPtr": "[Pointer] Training Data (Equipment restrictions for training challenges)"
+  },
+  "textCommissionContent": {
+    "questName": "Quest Name (Ends with 00 and is 4-byte aligned)",
+    "successDesc": "Success Description (Ends with 00 and is 4-byte aligned)",
+    "failureDesc": "Failure Description (Ends with 00 and is 4-byte aligned)",
+    "questDesc": "Quest Description (Ends with 00 and is 4-byte aligned)",
+    "mainMonster": "Main Monster (Ends with 00 and is 4-byte aligned)",
+    "client": "Client (Ends with 00 and is 4-byte aligned)"
+  },
+  "fixedInformation": {
+    "initialInfoState": "Initial Information State? (All quests seem to use 1B)",
+    "unknown0": "Unknown (4 bytes, likely always 0)",
+    "unknownValue": "Unknown (2 bytes, often 0x0003)",
+    "unknown1": "Unknown (6 bytes, usually 0x000000000000)",
+    "endMarker": "End Marker (8 bytes, FFFF000000000000)",
+    "unknown2": "Unknown block (88 bytes padding, variable content)"
+  },
+  "supplyItems": {
+    "_item": { "itemCode": "Item Code", "quantity": "Quantity" }
+  },
+  "gatheringPointData": {
+    "_item": { "probability": "Probability", "itemCode": "Item Code" }
+  },
+  "gatherInfo": {
+    "_item": {
+      "X": "X Coordinate",
+      "Z": "Z Coordinate",
+      "Y": "Y Coordinate",
+      "effectiveRange": "Effective Range (default is usually fine)",
+      "gatherCode": "Gathering Code (Index for <Gathering Point Data>)",
+      "gatherFreqUpperLimit": "Gathering Frequency Upper Limit",
+      "gatherType": "Gathering Type",
+      "gatherFreqLowerLimit": "Gathering Frequency Lower Limit"
+    }
+  },
+  "questRewards": {
+    "_item": {
+      "rewardAcquisitionConditionCode": "Reward Acquisition Condition Code",
+      "rewards": {
+        "_item": {
+          "probability": "Probability",
+          "rewardCode": "Reward Code",
+          "quantity": "Quantity"
+        }
+      }
+    }
+  },
+  "OLDunknownPostUnknownInformationBlock": "Old raw hex block (deprecated)",
+  "unknownPostUnknownInformationBlock": "Unknown post-unknown block (variable length)",
+  "initSmallMon": {
+    "_item": {
+      "areaCode": "Area Code (The currently set area)",
+      "smallMonSpawn0": "Small Monster Spawn (slot 0, 0xFFFFFFFF if none)",
+      "smallMonSpawn1": "Small Monster Spawn (slot 1)",
+      "smallMonSpawn2": "Small Monster Spawn (slot 2)",
+      "smallMonSpawn3": "Small Monster Spawn (slot 3)",
+      "spawnDetails": {
+        "_item": {
+          "code": "Code (Must match one of the small monster spawn codes, otherwise invalid)",
+          "state": "State? (Affects at least Herbivores and Stones)",
+          "quantity": "Quantity (Number spawned at this position, can be up to 65535)",
+          "unknownValue": "ActivationMode (Automatically changes during the quest)",
+          "unknown0": "Unknown (20 bytes, sometimes has 0x01 and rest 0's, or just full 0s)",
+          "orientation": "Orientation",
+          "X": "X Coordinate",
+          "Z": "Z Coordinate",
+          "Y": "Y Coordinate",
+          "inQuestSequenceNumber": "[In-Quest] Sequence Number (leave 0)",
+          "inQuestSize": "[In-Quest] Size (leave 0)",
+          "inQuestHP": "[In-Quest] HP (leave 0)"
+        }
+      }
+    }
+  },
+  "unknownPostinitSmallMon": "Post initial small monster unknown block (12 bytes, not fixed values)",
+  "changeSmallMon1": { "_item": "same as initSmallMon" },
+  "unknownPostChangeSmallMon1": "Post change 1 unknown block",
+  "changeSmallMon2": { "_item": "same as initSmallMon" },
+  "unknownPostChangeSmallMon2": "Post change 2 unknown block",
+  "bossInfo": {
+    "bossSpawn0": "Boss Spawn (slot 0, 0xFFFFFFFF if none)",
+    "bossSpawn1": "Boss Spawn (slot 1)",
+    "bossSpawn2": "Boss Spawn (slot 2)",
+    "bossSpawn3": "Boss Spawn (slot 3)",
+    "spawnDetails": {
+      "_item": {
+        "code": "Code (Must match one of the boss spawn codes, otherwise invalid)",
+        "state": "State? (No noticeable effect)",
+        "quantity": "Quantity (Number spawned at this position, can be set to 127)",
+        "spawnArea": "Exit Area (Area where the boss spawns at the start)",
+        "unknown0": "Unknown (20 bytes, all 0)",
+        "orientation": "Orientation",
+        "X": "X Coordinate",
+        "Z": "Z Coordinate",
+        "Y": "Y Coordinate",
+        "inQuestSequenceNumber": "[In-Quest] Sequence Number (leave 0)",
+        "inQuestSize": "[In-Quest] Size (leave 0)",
+        "inQuestHP": "[In-Quest] HP (leave 0)"
+      }
+    }
+  }
+}
