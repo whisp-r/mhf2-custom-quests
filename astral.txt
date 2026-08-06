@@ -1,14 +1,32 @@
+unsure if i can place 3 different big monsters in one map...
+
 == DONE QUESTS:
 DONE - jump 14 (max) tigrex, great arena (Imminent Danger to Life)[60050]
 DONE - tigrex, night desert (astral, size 161) (A: Sinking Terror) [60051]
 starfall [60054]
 
+-- single-mon: tigrex, akantor
+-- multi-mon: 
+tiggy+jang(mtn),
+daimyo+cepha(desrt), 
+ceana+basarios(vol), 
+plesioth+ian(jgl), 
+azulos+bykk(fnh),
+pgyp+conga(swmp)
+-- astral-single-mon: tiggy, kush, kirin, teo, chame 
+-- astral-multi-mon: bblos x2 (x10) 
+-- special-unique: 
+starfall (why? 2 elders quest) 
+
 == DOING:
-- kushala, snowymtn, with ice boulders (todo: comments, ice boulders) (astral, size ???) (A: Zephyr)[60052]
+- kushala, snowymtn, with ice boulders (todo: comments[done], ice boulders) (astral, size ???) (A: Zephyr)[60052]
 - cephadrome + daimyo (todo: comments, test completion, quest rewards) (size: 125(max daimyo)) (Gasp in the Shell) [60053]
-- kirin, astral, tower top (todo: comments) (size: 202) (A: Umbra) [60055]
-- teostra, night volcano (todo: comments, boulders) (size: ???) (A: Ignis) [60056]
-- tigrex + jang, snowymtn night (todo: comments, quest rewards) (size: 130 (max tiggy)) (Diamond Dust) [60057]
+- kirin, astral, tower top (todo: comments[done]) (size: 202) (A: Spectre) [60055]
+- teostra, night volcano (todo: comments[done], boulders) (size: ???) (A: Tyrant)[60056]
+- tigrex + jang, snowymtn night (todo: comments, quest rewards) (half hp/jump, size: 130 (max tiggy)) (Diamond Dust) [60057]
+- chame, night jgl, astral (todo: comments[done]) (size: ???) (A: Clairvoyance) [60058]
+- akantor (harder) (todo: comments[done]) (Altitude Collapse) [60059]
+- bblos x2 (x10) (todo: test, size) [60060]
 
 == NOTE:
 - Astral: monsters of illegal size (max possible stats)
@@ -22,20 +40,27 @@ starfall [60054]
 - Quest ID determines order (i think?), special quest at the end
 - Could have some kind of gathering quest explaining all this... as 60001? we will see
 
+so one 2-monster quest for each map
+client is cold hearted merchant
+
+astral elders, client is shady prostitute
+astral/normal single monsters, clients are researchers
+astral multi mons, clients are cats 
+
 == QUEST IDEAS:
-[non-astral]
-- tigrex + jang, snowymtn night (diamond dust)
-[astral]
+akantor
+rajang in battlefield
+ceana + basarios
+one horned bblos x2 
+astral white mono
+astral yian garuga
 
 == NAME IDEAS:
-Corrupt Paperwork (maybe some special?)
-
-(astral elders might be fun (no luna))
-Zephyr
-Ignis
-Umbra
-Silence
-
+Corrupt Paperwork (maybe some special gathering?)
+Ye Who Enter Here
+Abandon All Hope 
+Judgement Day
+Absence Without Leave
 Remind Me Later
 Gasp in the Shell
 Interpolation <something>
@@ -45,9 +70,7 @@ Ancient Sliver
 Bulwark of the Shore
 Advanced Sharp Sword
 Overjolting with Jolts
-
-
-
+Altitude Collapse
 
 
 

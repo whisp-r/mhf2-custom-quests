@@ -59,9 +59,9 @@
     "questName": "A: Zephyr",
     "successDesc": "Slay the Kushala Daora",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "todo",
+    "questDesc": "Hey honey, could you please\nhelp me? My friend hasn't\nyet returned from her hunt.\nI asked the guild but they\nsaid its a \"top secret\" quest.\nUgh--useless pieces of shit!\nSo I did a little snooping...",
     "mainMonster": "[Astral]\nKushala Daora",
-    "client": "todo"
+    "client": "Shady Prostitute"
   },
   "supplyItems": [],
   "questRewards": [
@@ -110,6 +110,7 @@
         "code": "3600",
         "state": "0000",
         "quantity": "01",
+        "unknown1": "0000",
         "spawnArea": "6A",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "00080000",

@@ -56,12 +56,12 @@
     }
   },
   "textCommissionContent": {
-    "questName": "A: Umbra",
+    "questName": "A: Spectre",
     "successDesc": "Slay the Kirin",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "todo",
+    "questDesc": "Ok listen carefully. I slept\nwith some researcher the\nother night and overheard\nhim saying: \"No way, you\nsure? Kirin? At the tower?\"\nIn return... You could get\nme a new Kirin top. Deal?",
     "mainMonster": "[Astral]\nKirin",
-    "client": "todo"
+    "client": "Shady Prostitute"
   },
   "supplyItems": [],
   "questRewards": [
@@ -277,6 +277,7 @@
         "code": "2100",
         "state": "0000",
         "quantity": "01",
+        "unknown1": "0000",
         "spawnArea": "7C",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "002E0000",

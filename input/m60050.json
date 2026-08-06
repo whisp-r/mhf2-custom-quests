@@ -257,6 +257,7 @@
         "code": "4B00",
         "state": "0001",
         "quantity": "01",
+        "unknown1": "0000",
         "spawnArea": "5A",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "A4240000",

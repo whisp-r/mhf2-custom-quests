@@ -352,7 +352,7 @@ def decode_quest(data: bytearray) -> dict:
         code = temp
         state = read_u16()
         quantity = read_u8()
-        skip(2)
+        unknown1 = read_u16()
         spawnArea = read_u8()
         unknown0 = read_raw(20)
         orientation = read_u32()
@@ -369,6 +369,7 @@ def decode_quest(data: bytearray) -> dict:
                 "code": u16_to_hex(code),
                 "state": u16_to_hex(state),
                 "quantity": u8_to_hex(quantity),
+                "unknown1": u16_to_hex(unknown1),
                 "spawnArea": u8_to_hex(spawnArea),
                 "unknown0": raw_to_hex(unknown0),
                 "orientation": u32_to_hex(orientation),
@@ -800,7 +801,7 @@ def encode_quest(data: dict) -> bytearray:
         w_hex(detail["code"])
         w_hex(detail["state"])
         w_hex(detail["quantity"])
-        w_pad(2)
+        w_hex(detail["unknown1"])
         w_hex(detail["spawnArea"])
         w_hex(detail["unknown0"])
         w_hex(detail["orientation"])
@@ -887,7 +888,7 @@ print("Output:", output_path)
 
 
 if args.encode:
-    with input_path.open("rt") as f:
+    with input_path.open("rt", encoding="utf-8") as f:
         in_dict = json.load(f)
 
     out_data = encode_quest(in_dict)
@@ -901,5 +902,5 @@ else:  # args.decode
 
     out_dict = decode_quest(in_data)
 
-    with output_path.open("wt") as f:
+    with output_path.open("wt", encoding="utf-8") as f:
         json.dump(out_dict, f, indent=2, ensure_ascii=False)

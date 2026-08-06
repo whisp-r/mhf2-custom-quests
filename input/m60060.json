@@ -1,17 +1,17 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "7D00",
-    "largeMonsterSize%": "00",
+    "bossSize": "7100",
+    "largeMonsterSize%": "04",
     "fixedValue": "0D",
-    "guildPointsReward": "00000000",
+    "guildPointsReward": "90060000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
     "arrivalPosition": "01",
     "supplyState": {
-      "supplyMode": "00",
-      "supplyConditions": "00",
-      "conditionQuantity": "00"
+      "supplyMode": "02",
+      "supplyConditions": "2B",
+      "conditionQuantity": "02"
     },
     "difficulty": "02",
     "smallMonsterChange0": {
@@ -31,56 +31,111 @@
     "questType": "04",
     "additional": "40",
     "unknown0": "0000",
-    "contractFee": "60EA0000",
-    "rewardMoney": "03000000",
-    "felyneCartLoss": "01000000",
+    "contractFee": "E2040000",
+    "rewardMoney": "983A0000",
+    "felyneCartLoss": "88130000",
     "questTime": "905F0100",
-    "questNumber": "95EA",
+    "questNumber": "9CEA",
     "questStarLevel": "09",
     "unknown1": "06",
     "questMap": "11",
     "specialConditions": "05",
-    "targetCount": "02",
-    "unknown2": "00",
+    "targetCount": "01",
+    "unknown2": "01",
     "questTarget0": {
-      "questCondition": "01",
+      "questCondition": "02",
       "additionalCondition": "0000",
-      "targetCode": "0800",
+      "targetCode": "B902",
       "quantity": "0100"
     },
     "questTarget1": {
-      "questCondition": "01",
+      "questCondition": "00",
       "additionalCondition": "0000",
-      "targetCode": "3000",
-      "quantity": "0100"
+      "targetCode": "0000",
+      "quantity": "0000"
     }
   },
   "textCommissionContent": {
-    "questName": "Gasp in the Shell",
-    "successDesc": "Hunt the Cephadrome and\nDaimyo Hermitaur",
-    "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "As much as I love seafood...\nI hate these burrow fuckers.\nThey are destroying my\nbrand new carriages.\nGet rid of them. Sooner the\nbetter. You will be well\ncompensated by the guild.",
-    "mainMonster": "Cephadrome\nDaimyo Hermitaur",
-    "client": "Cold Heartd Merchant"
+    "questName": "A: Abandon All Hope",
+    "successDesc": "Survive until Time Over or\nDeliver the Paw Pass Ticket",
+    "failureDesc": "Hunt less than 2 B.Diablos\nbefore Time Up, Reward Zero\nQuest by whiisper",
+    "questDesc": "todo",
+    "mainMonster": "[Astral]\nMulitple Black Diablos",
+    "client": "todo"
   },
-  "supplyItems": [],
+  "supplyItems": [
+    {
+      "itemCode": "B902",
+      "quantity": "0100"
+    }
+  ],
   "questRewards": [
     {
       "rewardAcquisitionConditionCode": "00800000",
       "rewards": [
         {
-          "probability": "3200",
-          "rewardCode": "BC00",
+          "probability": "0500",
+          "rewardCode": "F201",
           "quantity": "0100"
         },
         {
-          "probability": "3100",
-          "rewardCode": "9800",
+          "probability": "0A00",
+          "rewardCode": "EB01",
+          "quantity": "0100"
+        },
+        {
+          "probability": "1600",
+          "rewardCode": "E901",
+          "quantity": "0100"
+        },
+        {
+          "probability": "1600",
+          "rewardCode": "F001",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "ED01",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "5C00",
+          "quantity": "1A00"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "5D00",
+          "quantity": "1200"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "0801",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0800",
+          "rewardCode": "0901",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "1401",
           "quantity": "0100"
         },
         {
           "probability": "0100",
-          "rewardCode": "9B00",
+          "rewardCode": "D600",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D700",
           "quantity": "0100"
         }
       ]
@@ -101,36 +156,36 @@
   "changeSmallMon2": [],
   "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
   "bossInfo": {
-    "bossSpawn0": "30000000",
-    "bossSpawn1": "08000000",
+    "bossSpawn0": "2B000000",
+    "bossSpawn1": "FFFFFFFF",
     "bossSpawn2": "FFFFFFFF",
     "bossSpawn3": "FFFFFFFF",
     "spawnDetails": [
       {
-        "code": "0800",
+        "code": "2B00",
         "state": "0000",
-        "quantity": "01",
-        "unknown1": "0000",
+        "quantity": "05",
+        "unknown1": "0001",
         "spawnArea": "30",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "AAF30000",
         "X": "CD981646",
-        "Z": "00007EC3",
+        "Z": "00002041",
         "Y": "66C2F545",
         "inQuestSequenceNumber": "0000",
         "inQuestSize": "0000",
         "inQuestHP": "0000"
       },
       {
-        "code": "3000",
+        "code": "2B00",
         "state": "0000",
-        "quantity": "01",
-        "unknown1": "0000",
+        "quantity": "05",
+        "unknown1": "0001",
         "spawnArea": "33",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "AAF30000",
         "X": "00AC0D46",
-        "Z": "0000C8C1",
+        "Z": "00007AC3",
         "Y": "00D43346",
         "inQuestSequenceNumber": "0000",
         "inQuestSize": "0000",

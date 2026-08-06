@@ -56,12 +56,12 @@
     }
   },
   "textCommissionContent": {
-    "questName": "A: Ignis",
+    "questName": "A: Tyrant",
     "successDesc": "Slay the Teostra",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "todo",
+    "questDesc": "Hey handsome. Lets you and\nI make an arrangement. I\ngive you details on a secret\nquest, and in return... We\nmake out while you are still\nhot, steamy, sweaty from the\nhunt! Mmm.m... can't wait!",
     "mainMonster": "[Astral]\nTeostra",
-    "client": "todo"
+    "client": "Shady Prostitute"
   },
   "supplyItems": [],
   "questRewards": [
@@ -110,6 +110,7 @@
         "code": "4100",
         "state": "0000",
         "quantity": "01",
+        "unknown1": "0000",
         "spawnArea": "A9",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "B6C90000",

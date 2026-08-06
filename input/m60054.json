@@ -1,9 +1,9 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "8200",
+    "bossSize": "7F00",
     "largeMonsterSize%": "00",
-    "fixedValue": "0C",
+    "fixedValue": "0B",
     "guildPointsReward": "00000000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
@@ -28,11 +28,11 @@
     }
   },
   "questInformation": {
-    "questType": "88",
-    "additional": "40",
+    "questType": "08",
+    "additional": "00",
     "unknown0": "0000",
     "contractFee": "60EA0000",
-    "rewardMoney": "05000000",
+    "rewardMoney": "03000000",
     "felyneCartLoss": "01000000",
     "questTime": "905F0100",
     "questNumber": "96EA",
@@ -44,13 +44,13 @@
     "unknown2": "01",
     "questTarget0": {
       "questCondition": "01",
-      "additionalCondition": "0200",
+      "additionalCondition": "0000",
       "targetCode": "4100",
       "quantity": "0100"
     },
     "questTarget1": {
       "questCondition": "01",
-      "additionalCondition": "0200",
+      "additionalCondition": "0000",
       "targetCode": "4000",
       "quantity": "0100"
     }
@@ -59,9 +59,9 @@
     "questName": "Starfall",
     "successDesc": "Slay the Teostra\nand Lunastra",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "todo",
+    "questDesc": "L-L-L-Listen, Y-You can't\ngo t-t-t-there, p-please \ndon't, you s-s-seem so\nyo-young.....\n... plea-ple-please. I\nbeg y-you.........\nHe fainted.",
     "mainMonster": "Teostra\nLunastra",
-    "client": "todo"
+    "client": "Terrified Hunter"
   },
   "supplyItems": [],
   "questRewards": [
@@ -377,6 +377,7 @@
         "code": "4100",
         "state": "0000",
         "quantity": "01",
+        "unknown1": "0000",
         "spawnArea": "7C",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "002E0000",
@@ -391,10 +392,11 @@
         "code": "4000",
         "state": "0000",
         "quantity": "01",
+        "unknown1": "0000",
         "spawnArea": "7C",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "002E0000",
-        "X": "00E6AAC9",
+        "X": "00B808C8",
         "Z": "00000000",
         "Y": "00906246",
         "inQuestSequenceNumber": "0000",

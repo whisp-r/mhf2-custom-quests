@@ -59,9 +59,9 @@
     "questName": "A: Sinking Terror",
     "successDesc": "Hunt the Tigrex",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "This contract is seemingly\ncapable of crossing realms.\nEmotions of fear and hunger\nare deeply embedded into\nthe white ink. Reading it\nmakes you feel sick.\nThe guild seems unaware of\nits existence...",
+    "questDesc": "OH FUCK, OH FUCK! Ehm-\nThe team we sent the\nother day failed to kill\nthe Tigrex on steroids.\nAnd now... NOW IT'S A\nKILLING MACHINE! WE\nARE ALL GONNA DIE!!! ",
     "mainMonster": "[Astral]\nTigrex",
-    "client": "Unknown"
+    "client": "Very Panicked Resrchr"
   },
   "supplyItems": [],
   "questRewards": [
@@ -110,6 +110,7 @@
         "code": "4B00",
         "state": "0000",
         "quantity": "01",
+        "unknown1": "0000",
         "spawnArea": "33",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "AAF30000",
