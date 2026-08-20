@@ -21,6 +21,10 @@ CONFIG = {
         "m60058.json",
         "m60059.json",
         "m60060.json",
+        "m60061.json",
+        "m60062.json",
+        "m60063.json",
+        "m60064.json",
     ],
 }
 

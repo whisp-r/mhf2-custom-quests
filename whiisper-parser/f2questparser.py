@@ -227,11 +227,25 @@ def decode_quest(data: bytearray) -> dict:
     out_dict["questRewards"] = questRewardsArr
 
     seek(fixedInformationPtr)
+    unknownValuesArr = []
     out_dict["fixedInformation"]["initialInfoState"] = u32_to_hex(read_u32())
-    out_dict["fixedInformation"]["unknown0"] = u32_to_hex(read_u32())
-    out_dict["fixedInformation"]["unknownValue"] = u16_to_hex(read_u16())
-    out_dict["fixedInformation"]["unknown1"] = raw_to_hex(read_raw(6))
-    out_dict["fixedInformation"]["endMarker"] = raw_to_hex(read_raw(8))
+    out_dict["fixedInformation"]["postInitialInfoState"] = u32_to_hex(read_u32())
+    while True:
+        temp = read_u16()
+        if temp == 0xFFFF:
+            break;
+        unknownValue = temp
+        postUnknownValue = read_u16()
+        unknownPadding = read_u32()
+
+        unknownValuesArr.append(
+            {
+                "unknownValue": u16_to_hex(unknownValue),
+                "postUnknownValue": u16_to_hex(postUnknownValue),
+                "unknownPadding": u32_to_hex(unknownPadding),
+            }
+        )
+    out_dict["fixedInformation"]["unknownValues"] = unknownValuesArr
     gap_size = supplyItemsPtr - get_offset()
     out_dict["fixedInformation"]["unknown2"] = raw_to_hex(read_raw(gap_size))
 
@@ -600,10 +614,13 @@ def encode_quest(data: dict) -> bytearray:
 
     mark("fixedInformation")
     w_hex(data["fixedInformation"]["initialInfoState"])
-    w_hex(data["fixedInformation"]["unknown0"])
-    w_hex(data["fixedInformation"]["unknownValue"])
-    w_hex(data["fixedInformation"]["unknown1"])
-    w_hex(data["fixedInformation"]["endMarker"])
+    w_hex(data["fixedInformation"]["postInitialInfoState"])
+
+    for value in data["fixedInformation"]["unknownValues"]:
+        w_hex(value["unknownValue"])
+        w_hex(value["postUnknownValue"])
+        w_hex(value["unknownPadding"])
+        
     w_hex(data["fixedInformation"]["unknown2"])
 
     mark("supplyItems")

@@ -1,10 +1,10 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "8200",
-    "largeMonsterSize%": "00",
+    "bossSize": "7200",
+    "largeMonsterSize%": "02",
     "fixedValue": "0B",
-    "guildPointsReward": "00000000",
+    "guildPointsReward": "C4090000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
     "arrivalPosition": "01",
@@ -31,9 +31,9 @@
     "questType": "04",
     "additional": "40",
     "unknown0": "0000",
-    "contractFee": "E2040000",
-    "rewardMoney": "983A0000",
-    "felyneCartLoss": "88130000",
+    "contractFee": "B80B0000",
+    "rewardMoney": "A08C0000",
+    "felyneCartLoss": "E02E0000",
     "questTime": "905F0100",
     "questNumber": "99EA",
     "questStarLevel": "09",
@@ -169,17 +169,427 @@
       "quantity": "0100"
     }
   ],
-  "questRewards": [],
+  "questRewards": [
+    {
+      "rewardAcquisitionConditionCode": "FFFF0000",
+      "rewards": [
+        {
+          "probability": "4D48",
+          "rewardCode": "5032",
+          "quantity": "4C00"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "4002",
+          "quantity": "0000"
+        },
+        {
+          "probability": "940A",
+          "rewardCode": "0000",
+          "quantity": "D001"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "A20A",
+          "quantity": "0000"
+        },
+        {
+          "probability": "740B",
+          "rewardCode": "0000",
+          "quantity": "680A"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "9C0A",
+          "quantity": "0000"
+        },
+        {
+          "probability": "9C05",
+          "rewardCode": "0000",
+          "quantity": "7200"
+        },
+        {
+          "probability": "020B",
+          "rewardCode": "C409",
+          "quantity": "0000"
+        },
+        {
+          "probability": "0F00",
+          "rewardCode": "0000",
+          "quantity": "0201"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "0002",
+          "quantity": "0000"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "0000",
+          "quantity": "0000"
+        },
+        {
+          "probability": "0001",
+          "rewardCode": "0000",
+          "quantity": "0000"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "0002",
+          "quantity": "0440"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "B80B",
+          "quantity": "0000"
+        },
+        {
+          "probability": "A08C",
+          "rewardCode": "0000",
+          "quantity": "E02E"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "905F",
+          "quantity": "0100"
+        },
+        {
+          "probability": "B401",
+          "rewardCode": "0000",
+          "quantity": "99EA"
+        },
+        {
+          "probability": "0906",
+          "rewardCode": "1505",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "0000",
+          "quantity": "4B00"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "0100",
+          "quantity": "0000"
+        },
+        {
+          "probability": "3500",
+          "rewardCode": "0100",
+          "quantity": "0000"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "4469",
+          "quantity": "616D"
+        },
+        {
+          "probability": "6F6E",
+          "rewardCode": "6420",
+          "quantity": "4475"
+        },
+        {
+          "probability": "7374",
+          "rewardCode": "0000",
+          "quantity": "0000"
+        },
+        {
+          "probability": "4875",
+          "rewardCode": "6E74",
+          "quantity": "2074"
+        },
+        {
+          "probability": "6865",
+          "rewardCode": "2054",
+          "quantity": "6967"
+        },
+        {
+          "probability": "7265",
+          "rewardCode": "7820",
+          "quantity": "616E"
+        },
+        {
+          "probability": "640A",
+          "rewardCode": "5261",
+          "quantity": "6A61"
+        },
+        {
+          "probability": "6E67",
+          "rewardCode": "0000",
+          "quantity": "5265"
+        },
+        {
+          "probability": "7761",
+          "rewardCode": "7264",
+          "quantity": "205A"
+        },
+        {
+          "probability": "6572",
+          "rewardCode": "6F2C",
+          "quantity": "2054"
+        },
+        {
+          "probability": "696D",
+          "rewardCode": "6520",
+          "quantity": "4F76"
+        },
+        {
+          "probability": "6572",
+          "rewardCode": "0A51",
+          "quantity": "7565"
+        },
+        {
+          "probability": "7374",
+          "rewardCode": "2062",
+          "quantity": "7920"
+        },
+        {
+          "probability": "7768",
+          "rewardCode": "6969",
+          "quantity": "7370"
+        },
+        {
+          "probability": "6572",
+          "rewardCode": "0000",
+          "quantity": "0000"
+        },
+        {
+          "probability": "4920",
+          "rewardCode": "6E65",
+          "quantity": "6564"
+        },
+        {
+          "probability": "2061",
+          "rewardCode": "7373",
+          "quantity": "6973"
+        },
+        {
+          "probability": "7461",
+          "rewardCode": "6E63",
+          "quantity": "6520"
+        },
+        {
+          "probability": "7769",
+          "rewardCode": "7468",
+          "quantity": "0A63"
+        },
+        {
+          "probability": "6C65",
+          "rewardCode": "6172",
+          "quantity": "696E"
+        },
+        {
+          "probability": "6720",
+          "rewardCode": "7570",
+          "quantity": "2074"
+        },
+        {
+          "probability": "6865",
+          "rewardCode": "2074",
+          "quantity": "7261"
+        },
+        {
+          "probability": "6469",
+          "rewardCode": "6E67",
+          "quantity": "0A72"
+        },
+        {
+          "probability": "6F75",
+          "rewardCode": "7465",
+          "quantity": "2E20"
+        },
+        {
+          "probability": "536C",
+          "rewardCode": "6179",
+          "quantity": "2061"
+        },
+        {
+          "probability": "6C6C",
+          "rewardCode": "2074",
+          "quantity": "6865"
+        },
+        {
+          "probability": "206D",
+          "rewardCode": "6F6E",
+          "quantity": "7374"
+        },
+        {
+          "probability": "6572",
+          "rewardCode": "730A",
+          "quantity": "736F"
+        },
+        {
+          "probability": "2049",
+          "rewardCode": "2063",
+          "quantity": "616E"
+        },
+        {
+          "probability": "2074",
+          "rewardCode": "7261",
+          "quantity": "7665"
+        },
+        {
+          "probability": "6C20",
+          "rewardCode": "6167",
+          "quantity": "6169"
+        },
+        {
+          "probability": "6E2E",
+          "rewardCode": "2046",
+          "quantity": "6F72"
+        },
+        {
+          "probability": "0A79",
+          "rewardCode": "6F75",
+          "quantity": "7220"
+        },
+        {
+          "probability": "7361",
+          "rewardCode": "6665",
+          "quantity": "7479"
+        },
+        {
+          "probability": "2C20",
+          "rewardCode": "796F",
+          "quantity": "7520"
+        },
+        {
+          "probability": "7368",
+          "rewardCode": "6F75",
+          "quantity": "6C64"
+        },
+        {
+          "probability": "0A61",
+          "rewardCode": "766F",
+          "quantity": "6964"
+        },
+        {
+          "probability": "2064",
+          "rewardCode": "6973",
+          "quantity": "6170"
+        },
+        {
+          "probability": "706F",
+          "rewardCode": "696E",
+          "quantity": "7469"
+        },
+        {
+          "probability": "6E67",
+          "rewardCode": "206D",
+          "quantity": "652E"
+        },
+        {
+          "probability": "2E2E",
+          "rewardCode": "0000",
+          "quantity": "0000"
+        },
+        {
+          "probability": "5469",
+          "rewardCode": "6772",
+          "quantity": "6578"
+        },
+        {
+          "probability": "0A52",
+          "rewardCode": "616A",
+          "quantity": "616E"
+        },
+        {
+          "probability": "6700",
+          "rewardCode": "0000",
+          "quantity": "436F"
+        },
+        {
+          "probability": "6C64",
+          "rewardCode": "2048",
+          "quantity": "6561"
+        },
+        {
+          "probability": "7274",
+          "rewardCode": "6564",
+          "quantity": "204D"
+        },
+        {
+          "probability": "6572",
+          "rewardCode": "6368",
+          "quantity": "616E"
+        },
+        {
+          "probability": "7400",
+          "rewardCode": "0000",
+          "quantity": "8000"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "9000",
+          "quantity": "0000"
+        },
+        {
+          "probability": "AC00",
+          "rewardCode": "0000",
+          "quantity": "D800"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "7401",
+          "quantity": "0000"
+        },
+        {
+          "probability": "8401",
+          "rewardCode": "0000",
+          "quantity": "9C01"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "9C01",
+          "quantity": "0000"
+        },
+        {
+          "probability": "9C01",
+          "rewardCode": "0000",
+          "quantity": "9C01"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "9C01",
+          "quantity": "0000"
+        },
+        {
+          "probability": "9C01",
+          "rewardCode": "0000",
+          "quantity": "9C01"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "1B00",
+          "quantity": "0000"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "0000",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0000",
+          "rewardCode": "0000",
+          "quantity": "0000"
+        }
+      ]
+    }
+  ],
   "fixedInformation": {
     "initialInfoState": "1B000000",
-    "unknown0": "00000000",
-    "unknownValue": "0300",
-    "unknown1": "000000000000",
-    "endMarker": "FFFF000000000000",
-    "unknown2": "2D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [],
-  "unknownPostinitSmallMon": "262100000000000000000000",
+  "unknownPostinitSmallMon": "000000000000",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],

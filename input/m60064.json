@@ -1,0 +1,419 @@
+{
+  "headerSection": {
+    "identifier": "4D485032",
+    "bossSize": "6400",
+    "largeMonsterSize%": "00",
+    "fixedValue": "09",
+    "guildPointsReward": "40060000",
+    "unknown0": "0F000000",
+    "carvingDifficulty": "02",
+    "arrivalPosition": "02",
+    "supplyState": {
+      "supplyMode": "00",
+      "supplyConditions": "00",
+      "conditionQuantity": "00"
+    },
+    "difficulty": "00",
+    "smallMonsterChange0": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "01"
+    },
+    "smallMonsterChange1": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "02"
+    }
+  },
+  "questInformation": {
+    "questType": "01",
+    "additional": "40",
+    "unknown0": "0402",
+    "contractFee": "D0070000",
+    "rewardMoney": "C05D0000",
+    "felyneCartLoss": "401F0000",
+    "questTime": "18F60000",
+    "questNumber": "A0EA",
+    "questStarLevel": "07",
+    "unknown1": "06",
+    "questMap": "01",
+    "specialConditions": "03",
+    "targetCount": "01",
+    "unknown2": "00",
+    "questTarget0": {
+      "questCondition": "01",
+      "additionalCondition": "0200",
+      "targetCode": "3200",
+      "quantity": "0100"
+    },
+    "questTarget1": {
+      "questCondition": "00",
+      "additionalCondition": "0000",
+      "targetCode": "0000",
+      "quantity": "0000"
+    }
+  },
+  "textCommissionContent": {
+    "questName": "test: Lao-Shan Lung Draws Near!",
+    "successDesc": "Defend the Fortress from\nLao-Shan Lung",
+    "failureDesc": "Time Over, Reward Zero, or\nDefense Zero",
+    "questDesc": "It seems that once again our\nland is in crisis. The giant\nelder dragon Lao-Shan Lung\nis approaching the village\nfrom the mountains. Head to\nthe fort and defend our way\nof life!",
+    "mainMonster": "Ash Lao-Shan Lung\nIoprey",
+    "client": "Guild Master"
+  },
+  "supplyItems": [
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8502",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8502",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "5F00",
+      "quantity": "2800"
+    },
+    {
+      "itemCode": "6100",
+      "quantity": "1E00"
+    },
+    {
+      "itemCode": "7200",
+      "quantity": "0500"
+    },
+    {
+      "itemCode": "8000",
+      "quantity": "1400"
+    },
+    {
+      "itemCode": "8A02",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "5800",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "5800",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "2300",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8B02",
+      "quantity": "0400"
+    },
+    {
+      "itemCode": "8B02",
+      "quantity": "0400"
+    }
+  ],
+  "questRewards": [
+    {
+      "rewardAcquisitionConditionCode": "00800000",
+      "rewards": [
+        {
+          "probability": "1300",
+          "rewardCode": "1302",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "1102",
+          "quantity": "0100"
+        },
+        {
+          "probability": "1900",
+          "rewardCode": "0E02",
+          "quantity": "0100"
+        },
+        {
+          "probability": "1400",
+          "rewardCode": "0B02",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "A502",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "6002",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "6102",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "6202",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "6302",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "5F02",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D600",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D700",
+          "quantity": "0100"
+        }
+      ]
+    }
+  ],
+  "fixedInformation": {
+    "initialInfoState": "1B000000",
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0100",
+        "unknownPadding": "00000000"
+      },
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000000B000D00000000001E000000000000001A000000000000002A00000000000000FFFF0000000000002D000000000000000B000D00000000001E000000000000002B000000000000001A00010000000000FEFF0000000000000B000E000000000009009600000000000A000000000000001F00000000000000"
+  },
+  "initSmallMon": [
+    {
+      "areaCode": "0E000000",
+      "smallMonSpawn0": "FFFFFFFF",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": []
+    },
+    {
+      "areaCode": "1E000000",
+      "smallMonSpawn0": "FFFFFFFF",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": []
+    },
+    {
+      "areaCode": "1C000000",
+      "smallMonSpawn0": "FFFFFFFF",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": []
+    },
+    {
+      "areaCode": "0B000000",
+      "smallMonSpawn0": "FFFFFFFF",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": []
+    },
+    {
+      "areaCode": "0C000000",
+      "smallMonSpawn0": "FFFFFFFF",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": []
+    },
+    {
+      "areaCode": "1F000000",
+      "smallMonSpawn0": "1E000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1E00",
+          "state": "0000",
+          "quantity": "0400",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "C8320000",
+          "X": "00A44546",
+          "Z": "00007042",
+          "Y": "00303F46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1E00",
+          "state": "0000",
+          "quantity": "0400",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "1E350000",
+          "X": "00943346",
+          "Z": "00007042",
+          "Y": "00B03546",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1E00",
+          "state": "0000",
+          "quantity": "0400",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "B4E60000",
+          "X": "00E82F46",
+          "Z": "00007442",
+          "Y": "00E02746",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    }
+  ],
+  "unknownPostinitSmallMon": "210100000000000000000000",
+  "changeSmallMon1": [],
+  "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
+  "changeSmallMon2": [],
+  "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
+  "bossInfo": {
+    "bossSpawn0": "32000000",
+    "bossSpawn1": "FFFFFFFF",
+    "bossSpawn2": "FFFFFFFF",
+    "bossSpawn3": "FFFFFFFF",
+    "spawnDetails": [
+      {
+        "code": "3200",
+        "state": "0000",
+        "quantity": "01",
+        "unknown1": "0000",
+        "spawnArea": "0C",
+        "unknown0": "0000000000000000000000000000000000000000",
+        "orientation": "394E0000",
+        "X": "00001645",
+        "Z": "00000000",
+        "Y": "00E02B46",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      }
+    ]
+  },
+  "gatherInfo": [
+    [
+      {
+        "X": "00B09A45",
+        "Z": "000040C1",
+        "Y": "00D80646",
+        "effectiveRange": "00001643",
+        "gatherCode": "0000",
+        "gatherFreqUpperLimit": "FF00",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "FF00"
+      },
+      {
+        "X": "00308E45",
+        "Z": "000040C1",
+        "Y": "00D80646",
+        "effectiveRange": "00004843",
+        "gatherCode": "0100",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0500"
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "unknownPostUnknownInformationBlock": "00000000",
+  "gatherPointData": [
+    [
+      {
+        "probability": "6400",
+        "itemCode": "8C02"
+      }
+    ],
+    [
+      {
+        "probability": "6400",
+        "itemCode": "8B02"
+      }
+    ]
+  ]
+}

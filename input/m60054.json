@@ -1,10 +1,10 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "7F00",
-    "largeMonsterSize%": "00",
+    "bossSize": "7A00",
+    "largeMonsterSize%": "01",
     "fixedValue": "0B",
-    "guildPointsReward": "00000000",
+    "guildPointsReward": "0FA00000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
     "arrivalPosition": "02",
@@ -31,9 +31,9 @@
     "questType": "08",
     "additional": "00",
     "unknown0": "0000",
-    "contractFee": "60EA0000",
-    "rewardMoney": "03000000",
-    "felyneCartLoss": "01000000",
+    "contractFee": "28230000",
+    "rewardMoney": "60EA0000",
+    "felyneCartLoss": "204E0000",
     "questTime": "905F0100",
     "questNumber": "96EA",
     "questStarLevel": "09",
@@ -59,7 +59,7 @@
     "questName": "Starfall",
     "successDesc": "Slay the Teostra\nand Lunastra",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "L-L-L-Listen, Y-You can't\ngo t-t-t-there, p-please \ndon't, you s-s-seem so\nyo-young.....\n... plea-ple-please. I\nbeg y-you.........\nHe fainted.",
+    "questDesc": "L-L-L-Listen, Y-You can't\ngo t-t-t-there, p-please \ndon't, you s-s-seem so\nyo-young.....\n... plea-ple-please. I\nbeg y-you.........\n...\nHe fainted.",
     "mainMonster": "Teostra\nLunastra",
     "client": "Terrified Hunter"
   },
@@ -118,11 +118,15 @@
   ],
   "fixedInformation": {
     "initialInfoState": "1B000000",
-    "unknown0": "00000000",
-    "unknownValue": "0300",
-    "unknown1": "000000000000",
-    "endMarker": "FFFF000000000000",
-    "unknown2": "2D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [
     {

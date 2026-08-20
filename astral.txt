@@ -1,4 +1,5 @@
-unsure if i can place 3 different big monsters in one map...
+THERE IS CURRENTLY AN ISSUE WITH DUAL MONSTER QUESTS
+finding a fix...
 
 == DONE QUESTS:
 DONE - jump 14 (max) tigrex, great arena (Imminent Danger to Life)[60050]
@@ -10,23 +11,26 @@ starfall [60054]
 tiggy+jang(mtn),
 daimyo+cepha(desrt), 
 ceana+basarios(vol), 
-plesioth+ian(jgl), 
+garuga+gian(jgl), 
 azulos+bykk(fnh),
 pgyp+conga(swmp)
--- astral-single-mon: tiggy, kush, kirin, teo, chame 
+-- astral-single-mon: tiggy, kush, kirin, teo, chame, one-eyed garuga
 -- astral-multi-mon: bblos x2 (x10) 
 -- special-unique: 
 starfall (why? 2 elders quest) 
 
 == DOING:
-- kushala, snowymtn, with ice boulders (todo: comments[done], ice boulders) (astral, size ???) (A: Zephyr)[60052]
-- cephadrome + daimyo (todo: comments, test completion, quest rewards) (size: 125(max daimyo)) (Gasp in the Shell) [60053]
-- kirin, astral, tower top (todo: comments[done]) (size: 202) (A: Spectre) [60055]
-- teostra, night volcano (todo: comments[done], boulders) (size: ???) (A: Tyrant)[60056]
+- kushala, snowymtn, with ice boulders (todo: ice boulders) (size ???) (A: Zephyr)[60052]
+- cephadrome + daimyo (todo: test completion, quest rewards) (size: 120/01(max daimyo)) (Gasp in the Shell) [60053]
+- teostra, night volcano (todo:  boulders) (size: ???) (A: Tyrant)[60056]
 - tigrex + jang, snowymtn night (todo: comments, quest rewards) (half hp/jump, size: 130 (max tiggy)) (Diamond Dust) [60057]
 - chame, night jgl, astral (todo: comments[done]) (size: ???) (A: Clairvoyance) [60058]
 - akantor (harder) (todo: comments[done]) (Altitude Collapse) [60059]
 - bblos x2 (x10) (todo: test, size) [60060]
+
+- kirin, astral, tower top (done?) (size: 202) (A: Spectre) [60055]
+
+kirin,kush,teo,cham,tigrex [size][rewards][supply][desc][]
 
 == NOTE:
 - Astral: monsters of illegal size (max possible stats)
@@ -54,6 +58,7 @@ ceana + basarios
 one horned bblos x2 
 astral white mono
 astral yian garuga
+wfata snowy mtns
 
 == NAME IDEAS:
 Corrupt Paperwork (maybe some special gathering?)

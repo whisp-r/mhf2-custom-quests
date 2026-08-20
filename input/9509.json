@@ -3,17 +3,17 @@
     "identifier": "4D485032",
     "bossSize": "6E00",
     "largeMonsterSize%": "04",
-    "fixedValue": "0D",
-    "guildPointsReward": "00000000",
+    "fixedValue": "04",
+    "guildPointsReward": "1C020000",
     "unknown0": "0F000000",
-    "carvingDifficulty": "02",
-    "arrivalPosition": "01",
+    "carvingDifficulty": "01",
+    "arrivalPosition": "00",
     "supplyState": {
       "supplyMode": "00",
       "supplyConditions": "00",
       "conditionQuantity": "00"
     },
-    "difficulty": "02",
+    "difficulty": "00",
     "smallMonsterChange0": {
       "changeCondition": "00000000",
       "targetCode": "0000",
@@ -31,15 +31,15 @@
     "questType": "04",
     "additional": "00",
     "unknown0": "0000",
-    "contractFee": "C4090000",
-    "rewardMoney": "78690000",
-    "felyneCartLoss": "28230000",
+    "contractFee": "58020000",
+    "rewardMoney": "100E0000",
+    "felyneCartLoss": "B0040000",
     "questTime": "905F0100",
-    "questNumber": "9CEA",
-    "questStarLevel": "09",
-    "unknown1": "06",
+    "questNumber": "4428",
+    "questStarLevel": "04",
+    "unknown1": "02",
     "questMap": "03",
-    "specialConditions": "05",
+    "specialConditions": "00",
     "targetCount": "01",
     "unknown2": "00",
     "questTarget0": {
@@ -56,81 +56,107 @@
     }
   },
   "textCommissionContent": {
-    "questName": "The Monochrome Devil",
-    "successDesc": "Slay the White Monoblos",
-    "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "todo",
+    "questName": "The Silver Horn",
+    "successDesc": "Hunt the White Monoblos",
+    "failureDesc": "Reward Zero\nTime Over",
+    "questDesc": "I beseech you for help! An\nold enemy has cut our\nhunters down to the last\nman... I fled to tell you\nthat the silver horned White\nMonoblos terrorizes us once\nagain! Rid us of it! ",
     "mainMonster": "White Monoblos",
-    "client": "todo"
+    "client": "Former Kokoto Hunter"
   },
-  "supplyItems": [],
+  "supplyItems": [
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8502",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "3E00",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "1500",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "5E00",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "6400",
+      "quantity": "0A00"
+    },
+    {
+      "itemCode": "8100",
+      "quantity": "0F00"
+    },
+    {
+      "itemCode": "4000",
+      "quantity": "0200"
+    }
+  ],
   "questRewards": [
     {
       "rewardAcquisitionConditionCode": "00800000",
       "rewards": [
         {
-          "probability": "0500",
-          "rewardCode": "F201",
+          "probability": "0C00",
+          "rewardCode": "0402",
           "quantity": "0100"
         },
         {
-          "probability": "0A00",
-          "rewardCode": "EB01",
+          "probability": "1700",
+          "rewardCode": "0302",
           "quantity": "0100"
         },
         {
-          "probability": "1600",
-          "rewardCode": "E901",
-          "quantity": "0100"
-        },
-        {
-          "probability": "1600",
-          "rewardCode": "F001",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0500",
+          "probability": "1400",
           "rewardCode": "ED01",
-          "quantity": "0200"
+          "quantity": "0100"
         },
         {
-          "probability": "0500",
+          "probability": "0800",
+          "rewardCode": "5C00",
+          "quantity": "1200"
+        },
+        {
+          "probability": "0400",
           "rewardCode": "5C00",
           "quantity": "1A00"
         },
         {
-          "probability": "0200",
+          "probability": "0100",
           "rewardCode": "5D00",
-          "quantity": "1200"
-        },
-        {
-          "probability": "0500",
-          "rewardCode": "0801",
-          "quantity": "0300"
+          "quantity": "0C00"
         },
         {
           "probability": "0800",
-          "rewardCode": "0901",
+          "rewardCode": "0601",
           "quantity": "0200"
         },
         {
-          "probability": "0A00",
-          "rewardCode": "1401",
+          "probability": "1200",
+          "rewardCode": "0701",
           "quantity": "0100"
         },
         {
-          "probability": "0100",
-          "rewardCode": "D600",
+          "probability": "0200",
+          "rewardCode": "D500",
           "quantity": "0200"
         },
         {
           "probability": "0400",
-          "rewardCode": "D600",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0100",
-          "rewardCode": "D700",
+          "rewardCode": "D500",
           "quantity": "0100"
         }
       ]
@@ -138,18 +164,539 @@
   ],
   "fixedInformation": {
     "initialInfoState": "1B000000",
-    "postInitialInfoState": "00000000",
-    "unknownValues": [
-      {
-        "unknownValue": "0300",
-        "postUnknownValue": "0000",
-        "unknownPadding": "00000000"
-      }
-    ],
-    "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+    "unknown0": "00000000",
+    "unknownValue": "0300",
+    "unknown1": "000000000000",
+    "endMarker": "FFFF000000000000",
+    "unknown2": "2D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
-  "initSmallMon": [],
-  "unknownPostinitSmallMon": "000000000000",
+  "initSmallMon": [
+    {
+      "areaCode": "8D000000",
+      "smallMonSpawn0": "22000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "2200",
+          "state": "0000",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "713E0000",
+          "X": "00282746",
+          "Z": "000073C3",
+          "Y": "00C45246",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "2200",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "41F30000",
+          "X": "00E40146",
+          "Z": "00007EC3",
+          "Y": "0050F645",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "8E000000",
+      "smallMonSpawn0": "19000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1900",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "1C5A0000",
+          "X": "00B43146",
+          "Z": "00004842",
+          "Y": "00983546",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1900",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "053C0000",
+          "X": "00E03146",
+          "Z": "00004842",
+          "Y": "00FC1C46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1900",
+          "state": "0000",
+          "quantity": "0400",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "AE3F0000",
+          "X": "00607B45",
+          "Z": "00004842",
+          "Y": "00C41A46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "8F000000",
+      "smallMonSpawn0": "13000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0800",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "B7C10000",
+          "X": "003C2046",
+          "Z": "00406044",
+          "Y": "00104646",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "A2820000",
+          "X": "00980A46",
+          "Z": "000080BF",
+          "Y": "00844446",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "E6870000",
+          "X": "00482E46",
+          "Z": "000080C0",
+          "Y": "00CC1246",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "EC310000",
+          "X": "00B80846",
+          "Z": "000080C0",
+          "Y": "0048DE45",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "90000000",
+      "smallMonSpawn0": "42000000",
+      "smallMonSpawn1": "13000000",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "4200",
+          "state": "0100",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "32300000",
+          "X": "005C3546",
+          "Z": "00003C42",
+          "Y": "003C2846",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "4200",
+          "state": "0100",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "31920000",
+          "X": "00982E46",
+          "Z": "00003C42",
+          "Y": "000C0146",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0800",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "F5BA0000",
+          "X": "0088D345",
+          "Z": "00801244",
+          "Y": "00D02846",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "91000000",
+      "smallMonSpawn0": "22000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "2200",
+          "state": "0000",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "6B8B0000",
+          "X": "00001D46",
+          "Z": "000060C3",
+          "Y": "000C1F46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "92000000",
+      "smallMonSpawn0": "17000000",
+      "smallMonSpawn1": "09000000",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "A5400000",
+          "X": "00384846",
+          "Z": "0000E040",
+          "Y": "00542846",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "B0330000",
+          "X": "00344C46",
+          "Z": "00002041",
+          "Y": "00E00C46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0900",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "12440000",
+          "X": "00504846",
+          "Z": "0000A040",
+          "Y": "009C1E46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0900",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "D0400000",
+          "X": "00204E46",
+          "Z": "00000000",
+          "Y": "009C3346",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "93000000",
+      "smallMonSpawn0": "0D000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0D00",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "5E710000",
+          "X": "0050E845",
+          "Z": "00000000",
+          "Y": "00E41746",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0D00",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0002000000000000000000000000000000000000",
+          "orientation": "97330000",
+          "X": "00EC0746",
+          "Z": "00000000",
+          "Y": "00B80646",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0D00",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0002000000000000000000000000000000000000",
+          "orientation": "64E80000",
+          "X": "0098D245",
+          "Z": "00000000",
+          "Y": "0028FC45",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "94000000",
+      "smallMonSpawn0": "09000000",
+      "smallMonSpawn1": "17000000",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0900",
+          "state": "0100",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "12240000",
+          "X": "0010B045",
+          "Z": "00004C42",
+          "Y": "00B09E45",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0900",
+          "state": "0200",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "103B0000",
+          "X": "00C8F545",
+          "Z": "0000A0C2",
+          "Y": "00D0B145",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "37BA0000",
+          "X": "00D09E45",
+          "Z": "00001041",
+          "Y": "00B0BB45",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "E4B10000",
+          "X": "00E0D545",
+          "Z": "0000A841",
+          "Y": "0040CB45",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "95000000",
+      "smallMonSpawn0": "19000000",
+      "smallMonSpawn1": "13000000",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1900",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "5AE40000",
+          "X": "00F83946",
+          "Z": "00000000",
+          "Y": "00A80B46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1900",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "F4C00000",
+          "X": "00DC3346",
+          "Z": "00000000",
+          "Y": "00BC2B46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0800",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "26DB0000",
+          "X": "00BC0246",
+          "Z": "00808743",
+          "Y": "0068C345",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "96000000",
+      "smallMonSpawn0": "0D000000",
+      "smallMonSpawn1": "13000000",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0D00",
+          "state": "0000",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "1C5E0000",
+          "X": "0008F245",
+          "Z": "00000000",
+          "Y": "00941746",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0D00",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "E73A0000",
+          "X": "00AC2146",
+          "Z": "00000000",
+          "Y": "00340946",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0D00",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "47210000",
+          "X": "00A80B46",
+          "Z": "00002041",
+          "Y": "00040146",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0800",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "DD610000",
+          "X": "0018BF45",
+          "Z": "00007B43",
+          "Y": "0070E045",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    }
+  ],
+  "unknownPostinitSmallMon": "020300000000000000000000",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],

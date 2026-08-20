@@ -31,7 +31,7 @@
     "questType": "81",
     "additional": "40",
     "unknown0": "0000",
-    "contractFee": "60EA0000",
+    "contractFee": "00000000",
     "rewardMoney": "03000000",
     "felyneCartLoss": "01000000",
     "questTime": "905F0100",
@@ -41,7 +41,7 @@
     "questMap": "0F",
     "specialConditions": "05",
     "targetCount": "01",
-    "unknown2": "01",
+    "unknown2": "00",
     "questTarget0": {
       "questCondition": "01",
       "additionalCondition": "0000",
@@ -88,11 +88,15 @@
   ],
   "fixedInformation": {
     "initialInfoState": "1B000000",
-    "unknown0": "00000000",
-    "unknownValue": "0300",
-    "unknown1": "000000000000",
-    "endMarker": "FFFF000000000000",
-    "unknown2": "2D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [
     {

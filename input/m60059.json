@@ -4,7 +4,7 @@
     "bossSize": "6400",
     "largeMonsterSize%": "00",
     "fixedValue": "0E",
-    "guildPointsReward": "C4090000",
+    "guildPointsReward": "0FA00000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
     "arrivalPosition": "02",
@@ -31,9 +31,9 @@
     "questType": "01",
     "additional": "40",
     "unknown0": "0002",
-    "contractFee": "60EA0000",
-    "rewardMoney": "03000000",
-    "felyneCartLoss": "01000000",
+    "contractFee": "28230000",
+    "rewardMoney": "60EA0000",
+    "felyneCartLoss": "204E0000",
     "questTime": "905F0100",
     "questNumber": "9BEA",
     "questStarLevel": "09",
@@ -128,14 +128,18 @@
   ],
   "fixedInformation": {
     "initialInfoState": "1B000000",
-    "unknown0": "00000000",
-    "unknownValue": "0300",
-    "unknown1": "000000000000",
-    "endMarker": "FFFF000000000000",
-    "unknown2": "2D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [],
-  "unknownPostinitSmallMon": "999900000000000000000000",
+  "unknownPostinitSmallMon": "000000000000",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],

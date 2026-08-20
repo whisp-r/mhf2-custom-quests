@@ -1,8 +1,8 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "6E00",
-    "largeMonsterSize%": "04",
+    "bossSize": "A000",
+    "largeMonsterSize%": "00",
     "fixedValue": "0D",
     "guildPointsReward": "00000000",
     "unknown0": "0F000000",
@@ -31,21 +31,21 @@
     "questType": "04",
     "additional": "00",
     "unknown0": "0000",
-    "contractFee": "C4090000",
-    "rewardMoney": "78690000",
-    "felyneCartLoss": "28230000",
+    "contractFee": "14000000",
+    "rewardMoney": "DC050000",
+    "felyneCartLoss": "F4010000",
     "questTime": "905F0100",
-    "questNumber": "9CEA",
+    "questNumber": "9DEA",
     "questStarLevel": "09",
     "unknown1": "06",
-    "questMap": "03",
+    "questMap": "11",
     "specialConditions": "05",
     "targetCount": "01",
     "unknown2": "00",
     "questTarget0": {
       "questCondition": "01",
       "additionalCondition": "0000",
-      "targetCode": "2C00",
+      "targetCode": "2B00",
       "quantity": "0100"
     },
     "questTarget1": {
@@ -56,12 +56,12 @@
     }
   },
   "textCommissionContent": {
-    "questName": "The Monochrome Devil",
-    "successDesc": "Slay the White Monoblos",
+    "questName": "A: Darker Than Black",
+    "successDesc": "Slay the Black Diablos",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "todo",
-    "mainMonster": "White Monoblos",
-    "client": "todo"
+    "questDesc": "The small note says:\n\"It's URGENT! The giant\nsword spoke to me! The\nguild called me CRAZY!\nPlease hunter, go to...\"\nThe paper is signed with\na paw print stamp.",
+    "mainMonster": "[Astral]\nBlack Diablos",
+    "client": "Creature in the Cave"
   },
   "supplyItems": [],
   "questRewards": [
@@ -155,22 +155,22 @@
   "changeSmallMon2": [],
   "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
   "bossInfo": {
-    "bossSpawn0": "2C000000",
+    "bossSpawn0": "2B000000",
     "bossSpawn1": "FFFFFFFF",
     "bossSpawn2": "FFFFFFFF",
     "bossSpawn3": "FFFFFFFF",
     "spawnDetails": [
       {
-        "code": "2C00",
+        "code": "2B00",
         "state": "0000",
         "quantity": "01",
-        "unknown1": "0000",
-        "spawnArea": "8E",
+        "unknown1": "0001",
+        "spawnArea": "33",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "AAF30000",
-        "X": "CD981646",
-        "Z": "00002041",
-        "Y": "66C2F545",
+        "X": "00AC0D46",
+        "Z": "00007AC3",
+        "Y": "00D43346",
         "inQuestSequenceNumber": "0000",
         "inQuestSize": "0000",
         "inQuestHP": "0000"
@@ -599,7 +599,48 @@
         "gatherFreqLowerLimit": "0200"
       }
     ],
-    []
+    [
+      {
+        "X": "00780346",
+        "Z": "00000000",
+        "Y": "00001B46",
+        "effectiveRange": "00001643",
+        "gatherCode": "2800",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      },
+      {
+        "X": "00402346",
+        "Z": "00000000",
+        "Y": "00082246",
+        "effectiveRange": "00001643",
+        "gatherCode": "2900",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00C03046",
+        "Z": "00000000",
+        "Y": "0020F145",
+        "effectiveRange": "00004843",
+        "gatherCode": "2A00",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0400",
+        "gatherFreqLowerLimit": "0600"
+      },
+      {
+        "X": "00603C46",
+        "Z": "00000000",
+        "Y": "00F40346",
+        "effectiveRange": "00001643",
+        "gatherCode": "2B00",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0300",
+        "gatherFreqLowerLimit": "0400"
+      }
+    ]
   ],
   "unknownPostUnknownInformationBlock": "00000000",
   "gatherPointData": [
@@ -675,27 +716,31 @@
     ],
     [
       {
-        "probability": "0A00",
-        "itemCode": "8600"
+        "probability": "0F00",
+        "itemCode": "F200"
       },
       {
-        "probability": "1200",
+        "probability": "0F00",
         "itemCode": "EE00"
       },
       {
-        "probability": "0F00",
+        "probability": "0A00",
         "itemCode": "EC00"
       },
       {
-        "probability": "0700",
-        "itemCode": "E800"
+        "probability": "1900",
+        "itemCode": "F100"
       },
       {
-        "probability": "0F00",
+        "probability": "0A00",
         "itemCode": "F500"
       },
       {
-        "probability": "2300",
+        "probability": "0500",
+        "itemCode": "F600"
+      },
+      {
+        "probability": "1400",
         "itemCode": "ED00"
       }
     ],
@@ -729,23 +774,31 @@
     ],
     [
       {
-        "probability": "0A00",
-        "itemCode": "C100"
+        "probability": "1F00",
+        "itemCode": "C600"
       },
       {
-        "probability": "2300",
-        "itemCode": "C300"
-      },
-      {
-        "probability": "1400",
+        "probability": "0F00",
         "itemCode": "C400"
       },
       {
         "probability": "1400",
-        "itemCode": "CC00"
+        "itemCode": "C500"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "C602"
       },
       {
         "probability": "0F00",
+        "itemCode": "CC00"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "CD00"
+      },
+      {
+        "probability": "0400",
         "itemCode": "9500"
       }
     ],
@@ -793,63 +846,75 @@
     ],
     [
       {
-        "probability": "0F00",
-        "itemCode": "C100"
+        "probability": "1E00",
+        "itemCode": "C600"
       },
       {
-        "probability": "2300",
-        "itemCode": "C300"
-      },
-      {
-        "probability": "1400",
+        "probability": "0A00",
         "itemCode": "C400"
       },
       {
         "probability": "1400",
+        "itemCode": "C500"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "C702"
+      },
+      {
+        "probability": "0F00",
         "itemCode": "CC00"
       },
       {
-        "probability": "0A00",
+        "probability": "0500",
+        "itemCode": "CD00"
+      },
+      {
+        "probability": "0500",
         "itemCode": "D100"
       }
     ],
     [
       {
-        "probability": "1C00",
+        "probability": "1500",
         "itemCode": "EF00"
       },
       {
         "probability": "1E00",
-        "itemCode": "F000"
+        "itemCode": "F100"
       },
       {
         "probability": "1100",
         "itemCode": "EC00"
       },
       {
-        "probability": "0C00",
+        "probability": "0A00",
         "itemCode": "E800"
       },
       {
-        "probability": "0500",
+        "probability": "0700",
         "itemCode": "F500"
       },
       {
-        "probability": "0800",
+        "probability": "0300",
+        "itemCode": "F600"
+      },
+      {
+        "probability": "0C00",
         "itemCode": "F200"
       }
     ],
     [
       {
-        "probability": "1400",
+        "probability": "1E00",
         "itemCode": "B100"
       },
       {
-        "probability": "3200",
+        "probability": "2D00",
         "itemCode": "B500"
       },
       {
-        "probability": "1E00",
+        "probability": "1900",
         "itemCode": "C100"
       }
     ],
@@ -939,27 +1004,31 @@
     ],
     [
       {
-        "probability": "1C00",
+        "probability": "1500",
         "itemCode": "EF00"
       },
       {
         "probability": "1E00",
-        "itemCode": "F000"
+        "itemCode": "F100"
       },
       {
         "probability": "1100",
         "itemCode": "EC00"
       },
       {
-        "probability": "0C00",
+        "probability": "0A00",
         "itemCode": "E800"
       },
       {
-        "probability": "0500",
+        "probability": "0700",
         "itemCode": "F500"
       },
       {
-        "probability": "0800",
+        "probability": "0300",
+        "itemCode": "F600"
+      },
+      {
+        "probability": "0C00",
         "itemCode": "F200"
       }
     ],
@@ -983,8 +1052,8 @@
         "itemCode": "8400"
       },
       {
-        "probability": "1400",
-        "itemCode": "F000"
+        "probability": "1900",
+        "itemCode": "F300"
       },
       {
         "probability": "1400",
@@ -992,59 +1061,79 @@
       },
       {
         "probability": "0A00",
-        "itemCode": "E800"
+        "itemCode": "F700"
       },
       {
         "probability": "0A00",
         "itemCode": "F500"
       },
       {
-        "probability": "2300",
+        "probability": "0500",
+        "itemCode": "F600"
+      },
+      {
+        "probability": "1900",
         "itemCode": "ED00"
       }
     ],
     [
       {
-        "probability": "0A00",
-        "itemCode": "C100"
+        "probability": "1F00",
+        "itemCode": "C600"
       },
       {
-        "probability": "2300",
-        "itemCode": "C300"
-      },
-      {
-        "probability": "1400",
+        "probability": "0F00",
         "itemCode": "C400"
       },
       {
         "probability": "1400",
-        "itemCode": "CC00"
+        "itemCode": "C500"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "C602"
       },
       {
         "probability": "0F00",
+        "itemCode": "CC00"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "CD00"
+      },
+      {
+        "probability": "0400",
         "itemCode": "9500"
       }
     ],
     [
       {
-        "probability": "0F00",
+        "probability": "0A00",
         "itemCode": "9500"
       },
       {
         "probability": "1E00",
-        "itemCode": "C200"
-      },
-      {
-        "probability": "1E00",
-        "itemCode": "C400"
-      },
-      {
-        "probability": "0A00",
-        "itemCode": "CC00"
+        "itemCode": "C600"
       },
       {
         "probability": "0F00",
+        "itemCode": "C200"
+      },
+      {
+        "probability": "1400",
         "itemCode": "C500"
+      },
+      {
+        "probability": "0700",
+        "itemCode": "CC00"
+      },
+      {
+        "probability": "0300",
+        "itemCode": "CD00"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "C700"
       }
     ],
     [
@@ -1067,24 +1156,36 @@
     ],
     [
       {
-        "probability": "1E00",
-        "itemCode": "C300"
+        "probability": "1900",
+        "itemCode": "C600"
       },
       {
-        "probability": "0A00",
+        "probability": "1200",
         "itemCode": "C100"
       },
       {
-        "probability": "1900",
-        "itemCode": "C200"
+        "probability": "1E00",
+        "itemCode": "C500"
       },
       {
-        "probability": "0F00",
+        "probability": "0A00",
+        "itemCode": "C802"
+      },
+      {
+        "probability": "0A00",
         "itemCode": "CC00"
       },
       {
-        "probability": "1400",
-        "itemCode": "C502"
+        "probability": "0500",
+        "itemCode": "CD00"
+      },
+      {
+        "probability": "0100",
+        "itemCode": "5E02"
+      },
+      {
+        "probability": "0100",
+        "itemCode": "5D02"
       }
     ],
     [
@@ -1121,8 +1222,8 @@
         "itemCode": "8400"
       },
       {
-        "probability": "1400",
-        "itemCode": "F000"
+        "probability": "1900",
+        "itemCode": "F300"
       },
       {
         "probability": "1400",
@@ -1130,28 +1231,36 @@
       },
       {
         "probability": "0A00",
-        "itemCode": "E800"
+        "itemCode": "F700"
       },
       {
         "probability": "0A00",
         "itemCode": "F500"
       },
       {
-        "probability": "2300",
+        "probability": "0500",
+        "itemCode": "F600"
+      },
+      {
+        "probability": "1900",
         "itemCode": "ED00"
       }
     ],
     [
       {
         "probability": "0500",
-        "itemCode": "0C01"
-      },
-      {
-        "probability": "2800",
-        "itemCode": "8C00"
+        "itemCode": "0D01"
       },
       {
         "probability": "0F00",
+        "itemCode": "5902"
+      },
+      {
+        "probability": "1A00",
+        "itemCode": "8C00"
+      },
+      {
+        "probability": "0E00",
         "itemCode": "2100"
       },
       {
@@ -1159,12 +1268,16 @@
         "itemCode": "3800"
       },
       {
-        "probability": "1900",
+        "probability": "0F00",
         "itemCode": "5B00"
       },
       {
-        "probability": "0500",
+        "probability": "0A00",
         "itemCode": "4F00"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "2501"
       }
     ],
     [
@@ -1239,24 +1352,32 @@
     ],
     [
       {
-        "probability": "1400",
-        "itemCode": "9500"
-      },
-      {
-        "probability": "1900",
-        "itemCode": "C200"
+        "probability": "0F00",
+        "itemCode": "C702"
       },
       {
         "probability": "1E00",
-        "itemCode": "C400"
+        "itemCode": "C600"
       },
       {
         "probability": "0A00",
+        "itemCode": "C200"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "C500"
+      },
+      {
+        "probability": "0700",
         "itemCode": "CC00"
       },
       {
+        "probability": "0300",
+        "itemCode": "CD00"
+      },
+      {
         "probability": "0F00",
-        "itemCode": "C500"
+        "itemCode": "C700"
       }
     ],
     [
@@ -1279,7 +1400,7 @@
     ],
     [
       {
-        "probability": "3C00",
+        "probability": "2D00",
         "itemCode": "5C00"
       },
       {
@@ -1288,7 +1409,123 @@
       },
       {
         "probability": "0A00",
+        "itemCode": "0D01"
+      },
+      {
+        "probability": "0F00",
         "itemCode": "0C01"
+      }
+    ],
+    [
+      {
+        "probability": "2400",
+        "itemCode": "B100"
+      },
+      {
+        "probability": "2700",
+        "itemCode": "B500"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "2501"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "5902"
+      }
+    ],
+    [
+      {
+        "probability": "1900",
+        "itemCode": "0D01"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "4200"
+      },
+      {
+        "probability": "2900",
+        "itemCode": "9500"
+      },
+      {
+        "probability": "1800",
+        "itemCode": "C702"
+      }
+    ],
+    [
+      {
+        "probability": "0F00",
+        "itemCode": "F200"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "EE00"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "EC00"
+      },
+      {
+        "probability": "1900",
+        "itemCode": "F100"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "F500"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "F600"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "ED00"
+      }
+    ],
+    [
+      {
+        "probability": "0F00",
+        "itemCode": "C300"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "C600"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "C802"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "C700"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "CC00"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "CD00"
+      },
+      {
+        "probability": "0200",
+        "itemCode": "5A02"
+      },
+      {
+        "probability": "0200",
+        "itemCode": "5B02"
+      },
+      {
+        "probability": "0200",
+        "itemCode": "5C02"
+      },
+      {
+        "probability": "0200",
+        "itemCode": "5D02"
+      },
+      {
+        "probability": "0200",
+        "itemCode": "5E02"
       }
     ]
   ]
