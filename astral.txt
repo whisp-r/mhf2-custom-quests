@@ -1,21 +1,22 @@
 THERE IS CURRENTLY AN ISSUE WITH DUAL MONSTER QUESTS
 finding a fix...
+rajang bugs out on battlegrounds after 5 mins
 
 == DONE QUESTS:
 DONE - jump 14 (max) tigrex, great arena (Imminent Danger to Life)[60050]
 DONE - tigrex, night desert (astral, size 161) (A: Sinking Terror) [60051]
 starfall [60054]
 
--- single-mon: tigrex, akantor
+-- single-mon: tigrex, akantor, garuga, wmono
 -- multi-mon: 
-tiggy+jang(mtn),
-daimyo+cepha(desrt), 
-ceana+basarios(vol), 
+tiggy+jang(mtn), [complicated camp  freeze issue] [cblan instead of tigrex dosent solve it]
+daimyo+cepha(desrt), [works, cepha maybe small mon?]
+ceana+basarios(vol), [dosent work]
 garuga+gian(jgl), 
-azulos+bykk(fnh),
+azulos+bykk(fnh), [game crash, bad execution address]
 pgyp+conga(swmp)
--- astral-single-mon: tiggy, kush, kirin, teo, chame, one-eyed garuga
--- astral-multi-mon: bblos x2 (x10) 
+-- astral-single-mon: tiggy, kush, kirin, teo, chame, bblos
+-- astral-multi-mon: none
 -- special-unique: 
 starfall (why? 2 elders quest) 
 
@@ -51,6 +52,11 @@ astral elders, client is shady prostitute
 astral/normal single monsters, clients are researchers
 astral multi mons, clients are cats 
 
+normie, 30-39
+difficult normal, 40-59
+astral normal, 60-79
+astral elders, 80-89 
+special, 90-99 (or more)
 == QUEST IDEAS:
 akantor
 rajang in battlefield

@@ -1,0 +1,273 @@
+{
+  "headerSection": {
+    "identifier": "4D485032",
+    "bossSize": "FF00",
+    "largeMonsterSize%": "00",
+    "fixedValue": "0E",
+    "guildPointsReward": "0FA00000",
+    "unknown0": "0F000000",
+    "carvingDifficulty": "02",
+    "arrivalPosition": "00",
+    "supplyState": {
+      "supplyMode": "00",
+      "supplyConditions": "00",
+      "conditionQuantity": "00"
+    },
+    "difficulty": "02",
+    "smallMonsterChange0": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "01"
+    },
+    "smallMonsterChange1": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "02"
+    }
+  },
+  "questInformation": {
+    "questType": "01",
+    "additional": "00",
+    "unknown0": "0000",
+    "contractFee": "28230000",
+    "rewardMoney": "60EA0000",
+    "felyneCartLoss": "204E0000",
+    "questTime": "905F0100",
+    "questNumber": "D1EA",
+    "questStarLevel": "09",
+    "unknown1": "02",
+    "questMap": "08",
+    "specialConditions": "05",
+    "targetCount": "01",
+    "unknown2": "00",
+    "questTarget0": {
+      "questCondition": "01",
+      "additionalCondition": "0000",
+      "targetCode": "4C00",
+      "quantity": "0200"
+    },
+    "questTarget1": {
+      "questCondition": "00",
+      "additionalCondition": "0000",
+      "targetCode": "0000",
+      "quantity": "0000"
+    }
+  },
+  "textCommissionContent": {
+    "questName": "test: Dog Eat Dog",
+    "successDesc": "Slay 2 Akantor",
+    "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
+    "questDesc": "todo",
+    "mainMonster": "2 Akantor",
+    "client": "todo"
+  },
+  "supplyItems": [],
+  "questRewards": [
+    {
+      "rewardAcquisitionConditionCode": "00800000",
+      "rewards": [
+        {
+          "probability": "0D00",
+          "rewardCode": "5202",
+          "quantity": "0100"
+        },
+        {
+          "probability": "1C00",
+          "rewardCode": "5102",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0B00",
+          "rewardCode": "5402",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0C00",
+          "rewardCode": "5502",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0C00",
+          "rewardCode": "5602",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "5302",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0800",
+          "rewardCode": "CA00",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D600",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D700",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D700",
+          "quantity": "0100"
+        }
+      ]
+    }
+  ],
+  "fixedInformation": {
+    "initialInfoState": "1B000000",
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+  },
+  "initSmallMon": [],
+  "unknownPostinitSmallMon": "000000000000",
+  "changeSmallMon1": [],
+  "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
+  "changeSmallMon2": [],
+  "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
+  "bossInfo": {
+    "bossSpawn0": "4C000000",
+    "bossSpawn1": "FFFFFFFF",
+    "bossSpawn2": "FFFFFFFF",
+    "bossSpawn3": "FFFFFFFF",
+    "spawnDetails": [
+      {
+        "code": "4C00",
+        "state": "0000",
+        "quantity": "01",
+        "unknown1": "0000",
+        "spawnArea": "58",
+        "unknown0": "0000000000000000000000000000000000000000",
+        "orientation": "02050000",
+        "X": "00642E46",
+        "Z": "0000BA42",
+        "Y": "008C2446",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      },
+      {
+        "code": "4C00",
+        "state": "0000",
+        "quantity": "01",
+        "unknown1": "0000",
+        "spawnArea": "58",
+        "unknown0": "0000000000000000000000000000000000000000",
+        "orientation": "02050000",
+        "X": "00589746",
+        "Z": "00000000",
+        "Y": "00D44D46",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      }
+    ]
+  },
+  "gatherInfo": [
+    [],
+    [
+      {
+        "X": "0080DE45",
+        "Z": "00000000",
+        "Y": "00805946",
+        "effectiveRange": "00003443",
+        "gatherCode": "0000",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00E02646",
+        "Z": "00000000",
+        "Y": "00687146",
+        "effectiveRange": "00003443",
+        "gatherCode": "0100",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      },
+      {
+        "X": "0000AF45",
+        "Z": "00000000",
+        "Y": "0000AF45",
+        "effectiveRange": "00003443",
+        "gatherCode": "0200",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "00582F46",
+        "Z": "00000000",
+        "Y": "0000BF45",
+        "effectiveRange": "00003443",
+        "gatherCode": "0300",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      }
+    ]
+  ],
+  "unknownPostUnknownInformationBlock": "00000000",
+  "gatherPointData": [
+    [
+      {
+        "probability": "5F00",
+        "itemCode": "B500"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "0C01"
+      }
+    ],
+    [
+      {
+        "probability": "2E00",
+        "itemCode": "B700"
+      },
+      {
+        "probability": "3600",
+        "itemCode": "A100"
+      }
+    ],
+    [
+      {
+        "probability": "2E00",
+        "itemCode": "B600"
+      },
+      {
+        "probability": "3600",
+        "itemCode": "A000"
+      }
+    ],
+    [
+      {
+        "probability": "4B00",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "1900",
+        "itemCode": "A400"
+      }
+    ]
+  ]
+}

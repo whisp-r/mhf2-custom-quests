@@ -1,7 +1,7 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "6600",
+    "bossSize": "6800",
     "largeMonsterSize%": "04",
     "fixedValue": "0D",
     "guildPointsReward": "C4090000",
@@ -31,13 +31,13 @@
     "questType": "04",
     "additional": "00",
     "unknown0": "0002",
-    "contractFee": "A00F0000",
+    "contractFee": "B80B0000",
     "rewardMoney": "A08C0000",
     "felyneCartLoss": "E02E0000",
     "questTime": "905F0100",
-    "questNumber": "9EEA",
+    "questNumber": "88EA",
     "questStarLevel": "09",
-    "unknown1": "06",
+    "unknown1": "02",
     "questMap": "09",
     "specialConditions": "05",
     "targetCount": "01",
@@ -45,7 +45,7 @@
     "questTarget0": {
       "questCondition": "01",
       "additionalCondition": "0000",
-      "targetCode": "2800",
+      "targetCode": "4B00",
       "quantity": "0100"
     },
     "questTarget1": {
@@ -56,12 +56,12 @@
     }
   },
   "textCommissionContent": {
-    "questName": "Mutilation of Self",
-    "successDesc": "Hunt the Yian Garuga",
+    "questName": "Imminent Danger to Life",
+    "successDesc": "Hunt the Tigrex",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "todo",
-    "mainMonster": "Yian Garuga",
-    "client": "todo"
+    "questDesc": "Ah crap! Some pranksters\nstole the growth hormone\nsyringes from our research\nfacility, and injected\nthem into a Tigrex we had\ncaptured! The beast escaped\nand is wreaking havoc!",
+    "mainMonster": "Tigrex",
+    "client": "Panicked Researcher"
   },
   "supplyItems": [
     {
@@ -166,53 +166,68 @@
       "rewardAcquisitionConditionCode": "00800000",
       "rewards": [
         {
-          "probability": "0F00",
-          "rewardCode": "6901",
-          "quantity": "0100"
-        },
-        {
-          "probability": "1200",
-          "rewardCode": "6A01",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0A00",
-          "rewardCode": "6E01",
-          "quantity": "0100"
+          "probability": "0100",
+          "rewardCode": "D801",
+          "quantity": "0200"
         },
         {
           "probability": "0F00",
-          "rewardCode": "6F01",
+          "rewardCode": "D801",
           "quantity": "0100"
         },
         {
-          "probability": "0A00",
-          "rewardCode": "6B01",
-          "quantity": "0100"
+          "probability": "0500",
+          "rewardCode": "D601",
+          "quantity": "0200"
         },
         {
-          "probability": "0A00",
-          "rewardCode": "6C01",
+          "probability": "1700",
+          "rewardCode": "D601",
           "quantity": "0100"
         },
         {
           "probability": "0800",
-          "rewardCode": "0801",
+          "rewardCode": "DB01",
           "quantity": "0200"
         },
         {
           "probability": "0800",
-          "rewardCode": "FF00",
+          "rewardCode": "DD01",
           "quantity": "0200"
         },
         {
-          "probability": "0200",
-          "rewardCode": "D500",
+          "probability": "0800",
+          "rewardCode": "DE01",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "1301",
+          "quantity": "1000"
+        },
+        {
+          "probability": "0800",
+          "rewardCode": "1201",
+          "quantity": "1000"
+        },
+        {
+          "probability": "0D00",
+          "rewardCode": "0901",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D600",
           "quantity": "0200"
         },
         {
           "probability": "0400",
-          "rewardCode": "D500",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D700",
           "quantity": "0100"
         }
       ]
@@ -237,14 +252,14 @@
   "changeSmallMon2": [],
   "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
   "bossInfo": {
-    "bossSpawn0": "28000000",
+    "bossSpawn0": "4B000000",
     "bossSpawn1": "FFFFFFFF",
     "bossSpawn2": "FFFFFFFF",
     "bossSpawn3": "FFFFFFFF",
     "spawnDetails": [
       {
-        "code": "2800",
-        "state": "0000",
+        "code": "4B00",
+        "state": "0001",
         "quantity": "01",
         "unknown1": "0000",
         "spawnArea": "5A",

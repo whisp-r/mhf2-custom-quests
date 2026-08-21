@@ -10,21 +10,33 @@ CONFIG = {
     "clean-to-append-cheat-ini-file": "base_cheats.ini",
     "input-json-path": "input",
     "input-json-quests": [
-        "m60050.json",
-        "m60051.json",
-        "m60052.json",
-        "m60053.json",
-        "m60054.json",
-        "m60055.json",
-        "m60056.json",
-        "m60057.json",
-        "m60058.json",
+        "m60022.json",
+
+        "m60030.json",
+        # "m60031.json",
+        # "m60032.json",
+
+        "m60040.json",
+        "m60041.json",
+        "m60042.json",
+        # "m60043.json",
+
         "m60059.json",
+
         "m60060.json",
         "m60061.json",
-        "m60062.json",
-        "m60063.json",
-        "m60064.json",
+
+        "m60080.json",
+        "m60081.json",
+        "m60082.json",
+        "m60083.json",
+        "m60090.json",
+
+        # "m60110.json",
+        # "m60111.json",
+        # "m60112.json",
+        # "m60113.json",
+        "m60114.json",
     ],
 }
 

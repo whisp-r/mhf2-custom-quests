@@ -35,7 +35,7 @@
     "rewardMoney": "A08C0000",
     "felyneCartLoss": "E02E0000",
     "questTime": "905F0100",
-    "questNumber": "99EA",
+    "questNumber": "80EA",
     "questStarLevel": "09",
     "unknown1": "06",
     "questMap": "15",
@@ -56,7 +56,7 @@
     }
   },
   "textCommissionContent": {
-    "questName": "Diamond Dust",
+    "questName": "broken:Diamond Dust",
     "successDesc": "Hunt the Tigrex and\nRajang",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
     "questDesc": "I need assistance with\nclearing up the trading\nroute. Slay all the monsters\nso I can travel again. For\nyour safety, you should\navoid disappointing me...",

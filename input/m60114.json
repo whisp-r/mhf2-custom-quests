@@ -1,8 +1,8 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "CA00",
-    "largeMonsterSize%": "00",
+    "bossSize": "6E00",
+    "largeMonsterSize%": "04",
     "fixedValue": "0D",
     "guildPointsReward": "00000000",
     "unknown0": "0F000000",
@@ -28,40 +28,40 @@
     }
   },
   "questInformation": {
-    "questType": "81",
-    "additional": "40",
+    "questType": "04",
+    "additional": "00",
     "unknown0": "0000",
-    "contractFee": "00000000",
-    "rewardMoney": "03000000",
-    "felyneCartLoss": "01000000",
+    "contractFee": "B80B0000",
+    "rewardMoney": "A08C0000",
+    "felyneCartLoss": "E02E0000",
     "questTime": "905F0100",
-    "questNumber": "97EA",
+    "questNumber": "D2EA",
     "questStarLevel": "09",
     "unknown1": "06",
     "questMap": "0F",
     "specialConditions": "05",
-    "targetCount": "01",
+    "targetCount": "02",
     "unknown2": "00",
     "questTarget0": {
       "questCondition": "01",
       "additionalCondition": "0000",
-      "targetCode": "2100",
+      "targetCode": "2900",
       "quantity": "0100"
     },
     "questTarget1": {
-      "questCondition": "00",
+      "questCondition": "01",
       "additionalCondition": "0000",
-      "targetCode": "0000",
-      "quantity": "0000"
+      "targetCode": "2A00",
+      "quantity": "0100"
     }
   },
   "textCommissionContent": {
-    "questName": "A: Spectre",
-    "successDesc": "Slay the Kirin",
+    "questName": "Descendant of the Kings",
+    "successDesc": "Hunt the Silver Rathalos\nand the Gold Rathian",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "Ok listen carefully. I slept\nwith some researcher the\nother night and overheard\nhim saying: \"No way, you\nsure? Kirin? At the tower?\"\nIn return... You could get\nme a new Kirin top. Deal?",
-    "mainMonster": "[Astral]\nKirin",
-    "client": "Shady Prostitute"
+    "questDesc": "todo",
+    "mainMonster": "Silver Rathalos\nGold Rathian",
+    "client": "todo"
   },
   "supplyItems": [],
   "questRewards": [
@@ -272,22 +272,37 @@
   "changeSmallMon2": [],
   "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
   "bossInfo": {
-    "bossSpawn0": "21000000",
-    "bossSpawn1": "FFFFFFFF",
+    "bossSpawn0": "29000000",
+    "bossSpawn1": "2A000000",
     "bossSpawn2": "FFFFFFFF",
     "bossSpawn3": "FFFFFFFF",
     "spawnDetails": [
       {
-        "code": "2100",
+        "code": "2900",
         "state": "0000",
         "quantity": "01",
         "unknown1": "0000",
         "spawnArea": "7C",
         "unknown0": "0000000000000000000000000000000000000000",
-        "orientation": "002E0000",
-        "X": "00401C46",
+        "orientation": "010E0000",
+        "X": "00501146",
         "Z": "00000000",
-        "Y": "00D08446",
+        "Y": "00E02B46",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      },
+      {
+        "code": "2A00",
+        "state": "0000",
+        "quantity": "01",
+        "unknown1": "0000",
+        "spawnArea": "7C",
+        "unknown0": "0000000000000000000000000000000000000000",
+        "orientation": "010E0000",
+        "X": "00E02B46",
+        "Z": "00000000",
+        "Y": "00A00C46",
         "inQuestSequenceNumber": "0000",
         "inQuestSize": "0000",
         "inQuestHP": "0000"

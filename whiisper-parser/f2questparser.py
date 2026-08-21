@@ -620,7 +620,7 @@ def encode_quest(data: dict) -> bytearray:
         w_hex(value["unknownValue"])
         w_hex(value["postUnknownValue"])
         w_hex(value["unknownPadding"])
-        
+    w_hex("FFFF") # end marker
     w_hex(data["fixedInformation"]["unknown2"])
 
     mark("supplyItems")

@@ -1,10 +1,10 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "7800",
-    "largeMonsterSize%": "04",
+    "bossSize": "E200",
+    "largeMonsterSize%": "00",
     "fixedValue": "0D",
-    "guildPointsReward": "DC050000",
+    "guildPointsReward": "00000000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
     "arrivalPosition": "01",
@@ -28,201 +28,59 @@
     }
   },
   "questInformation": {
-    "questType": "04",
+    "questType": "81",
     "additional": "40",
     "unknown0": "0000",
-    "contractFee": "E8030000",
-    "rewardMoney": "E02E0000",
-    "felyneCartLoss": "A00F0000",
+    "contractFee": "00000000",
+    "rewardMoney": "03000000",
+    "felyneCartLoss": "01000000",
     "questTime": "905F0100",
-    "questNumber": "9FEA",
+    "questNumber": "B3EA",
     "questStarLevel": "09",
     "unknown1": "06",
-    "questMap": "05",
+    "questMap": "13",
     "specialConditions": "05",
-    "targetCount": "02",
+    "targetCount": "01",
     "unknown2": "00",
     "questTarget0": {
       "questCondition": "01",
       "additionalCondition": "0000",
-      "targetCode": "4300",
+      "targetCode": "4100",
       "quantity": "0100"
     },
     "questTarget1": {
-      "questCondition": "01",
+      "questCondition": "00",
       "additionalCondition": "0000",
-      "targetCode": "1600",
-      "quantity": "0100"
+      "targetCode": "0000",
+      "quantity": "0000"
     }
   },
   "textCommissionContent": {
-    "questName": "Sharp Sword, Sleepy Rock",
-    "successDesc": "Hunt the Shogun Ceanataur\nand Basarios",
+    "questName": "A: Tyrant",
+    "successDesc": "Slay the Teostra",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "todo",
-    "mainMonster": "Shogun Ceanataur\nBasarios",
-    "client": "todo"
+    "questDesc": "Hey handsome. Lets you and\nI make an arrangement. I\ngive you details on a secret\nquest, and in return... We\nmake out while you are still\nhot, steamy, sweaty from the\nhunt! Mmm.m... can't wait!",
+    "mainMonster": "[Astral]\nTeostra",
+    "client": "Shady Prostitute"
   },
-  "supplyItems": [
-    {
-      "itemCode": "8102",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "8102",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "8102",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "8102",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "8502",
-      "quantity": "0200"
-    },
-    {
-      "itemCode": "8502",
-      "quantity": "0200"
-    },
-    {
-      "itemCode": "8202",
-      "quantity": "0300"
-    },
-    {
-      "itemCode": "8202",
-      "quantity": "0300"
-    },
-    {
-      "itemCode": "8202",
-      "quantity": "0300"
-    },
-    {
-      "itemCode": "8202",
-      "quantity": "0300"
-    },
-    {
-      "itemCode": "8302",
-      "quantity": "0200"
-    },
-    {
-      "itemCode": "8302",
-      "quantity": "0200"
-    },
-    {
-      "itemCode": "8302",
-      "quantity": "0200"
-    },
-    {
-      "itemCode": "8302",
-      "quantity": "0200"
-    },
-    {
-      "itemCode": "3E00",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "3E00",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "1500",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "1500",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "1500",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "1500",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "5E00",
-      "quantity": "0100"
-    },
-    {
-      "itemCode": "6400",
-      "quantity": "0A00"
-    },
-    {
-      "itemCode": "7200",
-      "quantity": "0500"
-    },
-    {
-      "itemCode": "8100",
-      "quantity": "0F00"
-    }
-  ],
+  "supplyItems": [],
   "questRewards": [
     {
       "rewardAcquisitionConditionCode": "00800000",
       "rewards": [
         {
-          "probability": "0800",
-          "rewardCode": "9E01",
-          "quantity": "0200"
-        },
-        {
-          "probability": "1100",
-          "rewardCode": "9E01",
+          "probability": "3200",
+          "rewardCode": "BC00",
           "quantity": "0100"
         },
         {
-          "probability": "0500",
-          "rewardCode": "A201",
-          "quantity": "0200"
-        },
-        {
-          "probability": "0E00",
-          "rewardCode": "A201",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0800",
-          "rewardCode": "A101",
-          "quantity": "0200"
-        },
-        {
-          "probability": "0F00",
-          "rewardCode": "A001",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0A00",
-          "rewardCode": "0801",
-          "quantity": "0200"
-        },
-        {
-          "probability": "0C00",
-          "rewardCode": "0901",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0500",
-          "rewardCode": "A401",
+          "probability": "3100",
+          "rewardCode": "9800",
           "quantity": "0100"
         },
         {
           "probability": "0100",
-          "rewardCode": "D600",
-          "quantity": "0200"
-        },
-        {
-          "probability": "0400",
-          "rewardCode": "D600",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0100",
-          "rewardCode": "D700",
+          "rewardCode": "9B00",
           "quantity": "0100"
         }
       ]
@@ -247,37 +105,22 @@
   "changeSmallMon2": [],
   "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
   "bossInfo": {
-    "bossSpawn0": "43000000",
-    "bossSpawn1": "1B000000",
+    "bossSpawn0": "41000000",
+    "bossSpawn1": "FFFFFFFF",
     "bossSpawn2": "FFFFFFFF",
     "bossSpawn3": "FFFFFFFF",
     "spawnDetails": [
       {
-        "code": "4300",
+        "code": "4100",
         "state": "0000",
         "quantity": "01",
         "unknown1": "0000",
-        "spawnArea": "A8",
+        "spawnArea": "A9",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "B6C90000",
-        "X": "00DC4E46",
-        "Z": "003098C5",
-        "Y": "00807145",
-        "inQuestSequenceNumber": "0000",
-        "inQuestSize": "0000",
-        "inQuestHP": "0000"
-      },
-      {
-        "code": "1B00",
-        "state": "0000",
-        "quantity": "01",
-        "unknown1": "0000",
-        "spawnArea": "A6",
-        "unknown0": "0000000000000000000000000000000000000000",
-        "orientation": "B6C90000",
-        "X": "0090F845",
-        "Z": "00009EC2",
-        "Y": "0078AE45",
+        "X": "00B81B46",
+        "Z": "00CC0FC6",
+        "Y": "00D80246",
         "inQuestSequenceNumber": "0000",
         "inQuestSize": "0000",
         "inQuestHP": "0000"
