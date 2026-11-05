@@ -1,9 +1,9 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "FF00",
-    "largeMonsterSize%": "00",
-    "fixedValue": "0E",
+    "bossSize": "6E00",
+    "largeMonsterSize%": "03",
+    "fixedValue": "0B",
     "guildPointsReward": "0FA00000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
@@ -34,7 +34,7 @@
     "contractFee": "28230000",
     "rewardMoney": "60EA0000",
     "felyneCartLoss": "204E0000",
-    "questTime": "905F0100",
+    "questTime": "28230000",
     "questNumber": "D1EA",
     "questStarLevel": "09",
     "unknown1": "02",
@@ -45,8 +45,8 @@
     "questTarget0": {
       "questCondition": "01",
       "additionalCondition": "0000",
-      "targetCode": "4C00",
-      "quantity": "0200"
+      "targetCode": "3500",
+      "quantity": "0100"
     },
     "questTarget1": {
       "questCondition": "00",
@@ -56,11 +56,11 @@
     }
   },
   "textCommissionContent": {
-    "questName": "test: Dog Eat Dog",
-    "successDesc": "Slay 2 Akantor",
+    "questName": "test: Out of Touch",
+    "successDesc": "Slay the Rajang",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
     "questDesc": "todo",
-    "mainMonster": "2 Akantor",
+    "mainMonster": "rajang",
     "client": "todo"
   },
   "supplyItems": [],
@@ -138,44 +138,61 @@
     ],
     "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
-  "initSmallMon": [],
-  "unknownPostinitSmallMon": "000000000000",
+  "initSmallMon": [
+    {
+      "areaCode": "08000000",
+      "smallMonSpawn0": "1D000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1D00",
+          "state": "0500",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "5B600000",
+          "X": "00B84E46",
+          "Z": "00000000",
+          "Y": "00100B46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "58000000",
+      "smallMonSpawn0": "FFFFFFFF",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": []
+    }
+  ],
+  "unknownPostinitSmallMon": "711500000000000000000000",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],
   "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
   "bossInfo": {
-    "bossSpawn0": "4C000000",
+    "bossSpawn0": "35000000",
     "bossSpawn1": "FFFFFFFF",
     "bossSpawn2": "FFFFFFFF",
     "bossSpawn3": "FFFFFFFF",
     "spawnDetails": [
       {
-        "code": "4C00",
+        "code": "3500",
         "state": "0000",
         "quantity": "01",
         "unknown1": "0000",
-        "spawnArea": "58",
+        "spawnArea": "08",
         "unknown0": "0000000000000000000000000000000000000000",
         "orientation": "02050000",
         "X": "00642E46",
         "Z": "0000BA42",
         "Y": "008C2446",
-        "inQuestSequenceNumber": "0000",
-        "inQuestSize": "0000",
-        "inQuestHP": "0000"
-      },
-      {
-        "code": "4C00",
-        "state": "0000",
-        "quantity": "01",
-        "unknown1": "0000",
-        "spawnArea": "58",
-        "unknown0": "0000000000000000000000000000000000000000",
-        "orientation": "02050000",
-        "X": "00589746",
-        "Z": "00000000",
-        "Y": "00D44D46",
         "inQuestSequenceNumber": "0000",
         "inQuestSize": "0000",
         "inQuestHP": "0000"

@@ -1,0 +1,1963 @@
+{
+  "headerSection": {
+    "identifier": "4D485032",
+    "bossSize": "6900",
+    "largeMonsterSize%": "00",
+    "fixedValue": "06",
+    "guildPointsReward": "84030000",
+    "unknown0": "0F000000",
+    "carvingDifficulty": "01",
+    "arrivalPosition": "00",
+    "supplyState": {
+      "supplyMode": "02",
+      "supplyConditions": "01",
+      "conditionQuantity": "02"
+    },
+    "difficulty": "01",
+    "smallMonsterChange0": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "01"
+    },
+    "smallMonsterChange1": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "02"
+    }
+  },
+  "questInformation": {
+    "questType": "04",
+    "additional": "40",
+    "unknown0": "2000",
+    "contractFee": "7C010000",
+    "rewardMoney": "94110000",
+    "felyneCartLoss": "DC050000",
+    "questTime": "905F0100",
+    "questNumber": "67EA",
+    "questStarLevel": "04",
+    "unknown1": "02",
+    "questMap": "02",
+    "specialConditions": "00",
+    "targetCount": "01",
+    "unknown2": "01",
+    "questTarget0": {
+      "questCondition": "02",
+      "additionalCondition": "0000",
+      "targetCode": "B902",
+      "quantity": "0100"
+    },
+    "questTarget1": {
+      "questCondition": "00",
+      "additionalCondition": "0000",
+      "targetCode": "0000",
+      "quantity": "0000"
+    }
+  },
+  "textCommissionContent": {
+    "questName": "The Season of Green",
+    "successDesc": "Survive until Time Over or\nDeliver the Paw Pass Ticket",
+    "failureDesc": "Hunt less than 2 Rathian\nbefore Time Up, Reward Zero",
+    "questDesc": "My brother is finally coming\nhome after a long time away.\nBut you must take care of\nthe multiple Rathian spotted\nin the hills of the nearby\nvillage before they cause\nhim trouble on his way home!",
+    "mainMonster": "Multiple Rathian",
+    "client": "Expectant Maiden"
+  },
+  "supplyItems": [
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "B902",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "B902",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "B902",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "B902",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8502",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8502",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "3E00",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "3E00",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "5E00",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "6400",
+      "quantity": "0A00"
+    },
+    {
+      "itemCode": "7200",
+      "quantity": "0500"
+    },
+    {
+      "itemCode": "8100",
+      "quantity": "0F00"
+    },
+    {
+      "itemCode": "0B00",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "0B00",
+      "quantity": "0200"
+    }
+  ],
+  "questRewards": [
+    {
+      "rewardAcquisitionConditionCode": "00800000",
+      "rewards": [
+        {
+          "probability": "0100",
+          "rewardCode": "A502",
+          "quantity": "0100"
+        },
+        {
+          "probability": "1400",
+          "rewardCode": "AA01",
+          "quantity": "0300"
+        },
+        {
+          "probability": "1400",
+          "rewardCode": "A601",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "AC01",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0800",
+          "rewardCode": "B601",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0700",
+          "rewardCode": "1301",
+          "quantity": "0A00"
+        },
+        {
+          "probability": "0700",
+          "rewardCode": "1201",
+          "quantity": "0C00"
+        },
+        {
+          "probability": "0B00",
+          "rewardCode": "0701",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "0801",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D500",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "D500",
+          "quantity": "0100"
+        }
+      ]
+    },
+    {
+      "rewardAcquisitionConditionCode": "FC000000",
+      "rewards": [
+        {
+          "probability": "3200",
+          "rewardCode": "AC01",
+          "quantity": "0200"
+        },
+        {
+          "probability": "3200",
+          "rewardCode": "B601",
+          "quantity": "0200"
+        }
+      ]
+    },
+    {
+      "rewardAcquisitionConditionCode": "FB000000",
+      "rewards": [
+        {
+          "probability": "3200",
+          "rewardCode": "AC01",
+          "quantity": "0100"
+        },
+        {
+          "probability": "3200",
+          "rewardCode": "B601",
+          "quantity": "0100"
+        }
+      ]
+    },
+    {
+      "rewardAcquisitionConditionCode": "FA000000",
+      "rewards": [
+        {
+          "probability": "3200",
+          "rewardCode": "0801",
+          "quantity": "0300"
+        },
+        {
+          "probability": "3200",
+          "rewardCode": "FF00",
+          "quantity": "0300"
+        }
+      ]
+    },
+    {
+      "rewardAcquisitionConditionCode": "F9000000",
+      "rewards": [
+        {
+          "probability": "2800",
+          "rewardCode": "A601",
+          "quantity": "0300"
+        },
+        {
+          "probability": "3C00",
+          "rewardCode": "FF00",
+          "quantity": "0200"
+        }
+      ]
+    }
+  ],
+  "fixedInformation": {
+    "initialInfoState": "1B000000",
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000001E000000000000001A000000000000003700000000000000FFFF0000000000002D000000000000001E000000000000003800000000000000FEFF00000000000009009600000000000A000000000000001F00000000000000"
+  },
+  "initSmallMon": [
+    {
+      "areaCode": "20000000",
+      "smallMonSpawn0": "04000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0400",
+          "state": "0000",
+          "quantity": "0500",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "8B2D0000",
+          "X": "00D82046",
+          "Z": "0000B841",
+          "Y": "005C3046",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0400",
+          "state": "0000",
+          "quantity": "0500",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "A8150000",
+          "X": "0068F345",
+          "Z": "0000B841",
+          "Y": "00641546",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "21000000",
+      "smallMonSpawn0": "0C000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0C00",
+          "state": "0200",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "F3FA0000",
+          "X": "00C45746",
+          "Z": "00000000",
+          "Y": "00705546",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0C00",
+          "state": "0000",
+          "quantity": "6300",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "5DFD0000",
+          "X": "00086046",
+          "Z": "00000000",
+          "Y": "00A05846",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0C00",
+          "state": "0100",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "5D9C0000",
+          "X": "00084946",
+          "Z": "00000000",
+          "Y": "00744046",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "22000000",
+      "smallMonSpawn0": "04000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0400",
+          "state": "0000",
+          "quantity": "0500",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "0D180000",
+          "X": "00EC1346",
+          "Z": "00000000",
+          "Y": "0058EA45",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0400",
+          "state": "0000",
+          "quantity": "0500",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "F88A0000",
+          "X": "00D02546",
+          "Z": "00000000",
+          "Y": "00A02646",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "23000000",
+      "smallMonSpawn0": "05000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0500",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "A3B30000",
+          "X": "00D40446",
+          "Z": "0000C8C2",
+          "Y": "00E0FC45",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0500",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "8FFD0000",
+          "X": "004C2646",
+          "Z": "00000E43",
+          "Y": "00380A46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "24000000",
+      "smallMonSpawn0": "17000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "7C920000",
+          "X": "00102146",
+          "Z": "000000C1",
+          "Y": "00282E46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "EE6E0000",
+          "X": "00581746",
+          "Z": "000090C1",
+          "Y": "00F42746",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "049B0000",
+          "X": "00C82146",
+          "Z": "0000E0C0",
+          "Y": "006C1946",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "25000000",
+      "smallMonSpawn0": "13000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0C00",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "3A980000",
+          "X": "00B03F46",
+          "Z": "0000FC43",
+          "Y": "00C82646",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "26000000",
+      "smallMonSpawn0": "10000000",
+      "smallMonSpawn1": "13000000",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1000",
+          "state": "0000",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0002000000000000000000000000000000000000",
+          "orientation": "D2E20000",
+          "X": "00AC5346",
+          "Z": "00000000",
+          "Y": "008C6F46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1000",
+          "state": "0000",
+          "quantity": "0400",
+          "unknownValue": "0000",
+          "unknown0": "0002000000000000000000000000000000000000",
+          "orientation": "B4210000",
+          "X": "00E84C46",
+          "Z": "00000000",
+          "Y": "00D83D46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1000",
+          "state": "0000",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "74F40000",
+          "X": "00685B46",
+          "Z": "00000000",
+          "Y": "00A83E46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1300",
+          "state": "0000",
+          "quantity": "0C00",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "AD270000",
+          "X": "00E02246",
+          "Z": "0080F743",
+          "Y": "00B87E46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "27000000",
+      "smallMonSpawn0": "0C000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0C00",
+          "state": "0000",
+          "quantity": "0400",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "A3560000",
+          "X": "002C1646",
+          "Z": "00C025C4",
+          "Y": "0070F445",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0C00",
+          "state": "0100",
+          "quantity": "6300",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "560B0000",
+          "X": "009C2546",
+          "Z": "00C027C4",
+          "Y": "0048E445",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0C00",
+          "state": "0200",
+          "quantity": "0400",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "407A0000",
+          "X": "00603946",
+          "Z": "00C029C4",
+          "Y": "00F8E945",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "28000000",
+      "smallMonSpawn0": "10000000",
+      "smallMonSpawn1": "39000000",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "1000",
+          "state": "0000",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "3F310000",
+          "X": "00440846",
+          "Z": "00000000",
+          "Y": "00582D46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1000",
+          "state": "0000",
+          "quantity": "0300",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "886D0000",
+          "X": "00A83246",
+          "Z": "00000000",
+          "Y": "00801D46",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1000",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "66660000",
+          "X": "00E43346",
+          "Z": "00000000",
+          "Y": "00A80446",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "3900",
+          "state": "0100",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "44890000",
+          "X": "00F03F46",
+          "Z": "00000000",
+          "Y": "00681046",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "29000000",
+      "smallMonSpawn0": "FFFFFFFF",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": []
+    },
+    {
+      "areaCode": "2A000000",
+      "smallMonSpawn0": "05000000",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0500",
+          "state": "0000",
+          "quantity": "0200",
+          "unknownValue": "0000",
+          "unknown0": "0100000000000000000000000000000000000000",
+          "orientation": "00400000",
+          "X": "0048F445",
+          "Z": "000060C2",
+          "Y": "0070C945",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    },
+    {
+      "areaCode": "2B000000",
+      "smallMonSpawn0": "09000000",
+      "smallMonSpawn1": "17000000",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": [
+        {
+          "code": "0900",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "7DCC0000",
+          "X": "00881A46",
+          "Z": "00000000",
+          "Y": "00C02346",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "0900",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "35640000",
+          "X": "002C0D46",
+          "Z": "00000000",
+          "Y": "00082046",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "72AB0000",
+          "X": "004C0046",
+          "Z": "00000000",
+          "Y": "00042446",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        },
+        {
+          "code": "1700",
+          "state": "0000",
+          "quantity": "0100",
+          "unknownValue": "0000",
+          "unknown0": "0000000000000000000000000000000000000000",
+          "orientation": "0D060000",
+          "X": "00200D46",
+          "Z": "00000000",
+          "Y": "00F83046",
+          "inQuestSequenceNumber": "0000",
+          "inQuestSize": "0000",
+          "inQuestHP": "0000"
+        }
+      ]
+    }
+  ],
+  "unknownPostinitSmallMon": "710200000000000000000000",
+  "changeSmallMon1": [],
+  "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
+  "changeSmallMon2": [],
+  "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
+  "bossInfo": {
+    "bossSpawn0": "01000000",
+    "bossSpawn1": "FFFFFFFF",
+    "bossSpawn2": "FFFFFFFF",
+    "bossSpawn3": "FFFFFFFF",
+    "spawnDetails": [
+      {
+        "code": "0100",
+        "state": "0000",
+        "quantity": "0A",
+        "unknown1": "0000",
+        "spawnArea": "28",
+        "unknown0": "00000000A08C0000000000000000000000000000",
+        "orientation": "8F710000",
+        "X": "00BC0B46",
+        "Z": "00000000",
+        "Y": "33213F46",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      }
+    ]
+  },
+  "gatherInfo": [
+    [],
+    [
+      {
+        "X": "00A03E46",
+        "Z": "00002AC4",
+        "Y": "00F02046",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0000",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0500"
+      },
+      {
+        "X": "00A84546",
+        "Z": "00002AC4",
+        "Y": "00600646",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0100",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0400",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "00283946",
+        "Z": "00002AC4",
+        "Y": "00A02546",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0200",
+        "gatherFreqUpperLimit": "0300",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "9A253946",
+        "Z": "00002AC4",
+        "Y": "CD7CC645",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0300",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      }
+    ],
+    [
+      {
+        "X": "00F83B46",
+        "Z": "00000000",
+        "Y": "00C08F46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0400",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "00F03946",
+        "Z": "0000FA43",
+        "Y": "00507546",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0500",
+        "gatherFreqUpperLimit": "0300",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0100"
+      },
+      {
+        "X": "00904946",
+        "Z": "00000000",
+        "Y": "00F03946",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0600",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "CD122746",
+        "Z": "00000000",
+        "Y": "001E8F46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0700",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      }
+    ],
+    [
+      {
+        "X": "00D84246",
+        "Z": "00000000",
+        "Y": "00684E46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0800",
+        "gatherFreqUpperLimit": "0A00",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0700"
+      },
+      {
+        "X": "00C81B46",
+        "Z": "00000000",
+        "Y": "00B83046",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0900",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0600"
+      },
+      {
+        "X": "00F08746",
+        "Z": "00000000",
+        "Y": "00789B46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0A00",
+        "gatherFreqUpperLimit": "0A00",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0600"
+      },
+      {
+        "X": "00C05A46",
+        "Z": "00000000",
+        "Y": "00C05A46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0B00",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0600"
+      }
+    ],
+    [
+      {
+        "X": "00E01246",
+        "Z": "00000000",
+        "Y": "0080ED45",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0C00",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0100"
+      },
+      {
+        "X": "00803B46",
+        "Z": "0000FA43",
+        "Y": "00701446",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0D00",
+        "gatherFreqUpperLimit": "0A00",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      },
+      {
+        "X": "00401C46",
+        "Z": "00000000",
+        "Y": "0080CA45",
+        "effectiveRange": "0000C842",
+        "gatherCode": "0E00",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "003C1146",
+        "Z": "00008040",
+        "Y": "CD3C3746",
+        "effectiveRange": "0000C843",
+        "gatherCode": "0F00",
+        "gatherFreqUpperLimit": "0300",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0100"
+      }
+    ],
+    [
+      {
+        "X": "00100B46",
+        "Z": "00000000",
+        "Y": "00B82146",
+        "effectiveRange": "00001643",
+        "gatherCode": "1000",
+        "gatherFreqUpperLimit": "0300",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0100"
+      },
+      {
+        "X": "00203246",
+        "Z": "00009643",
+        "Y": "00103D46",
+        "effectiveRange": "00004843",
+        "gatherCode": "1100",
+        "gatherFreqUpperLimit": "0700",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      },
+      {
+        "X": "00285246",
+        "Z": "00000000",
+        "Y": "00F80E46",
+        "effectiveRange": "00004843",
+        "gatherCode": "1200",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0300",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00682646",
+        "Z": "00000000",
+        "Y": "00401C46",
+        "effectiveRange": "00007A44",
+        "gatherCode": "1300",
+        "gatherFreqUpperLimit": "0300",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      }
+    ],
+    [
+      {
+        "X": "00C02446",
+        "Z": "00705A45",
+        "Y": "00808945",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1400",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "0070F345",
+        "Z": "0000FA44",
+        "Y": "0020DA45",
+        "effectiveRange": "00007A43",
+        "gatherCode": "1500",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0300",
+        "gatherFreqLowerLimit": "0400"
+      },
+      {
+        "X": "00282F46",
+        "Z": "00E02845",
+        "Y": "0078E145",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1600",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00F0DF45",
+        "Z": "0000FA43",
+        "Y": "00F00246",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1700",
+        "gatherFreqUpperLimit": "0700",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      }
+    ],
+    [
+      {
+        "X": "00C02346",
+        "Z": "00009841",
+        "Y": "00443146",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1800",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "007C3246",
+        "Z": "00009841",
+        "Y": "00502546",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1900",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00E00646",
+        "Z": "00009841",
+        "Y": "004C1246",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1A00",
+        "gatherFreqUpperLimit": "0300",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "00E81646",
+        "Z": "00009841",
+        "Y": "00D01946",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1B00",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      }
+    ],
+    [
+      {
+        "X": "005C1A46",
+        "Z": "00008842",
+        "Y": "006C0146",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1C00",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00181246",
+        "Z": "0000C843",
+        "Y": "00CC2B46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1D00",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "002C3046",
+        "Z": "00800C43",
+        "Y": "00F82546",
+        "effectiveRange": "0000C842",
+        "gatherCode": "1E00",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "9A292B46",
+        "Z": "33B35143",
+        "Y": "00D01E46",
+        "effectiveRange": "0000C843",
+        "gatherCode": "1F00",
+        "gatherFreqUpperLimit": "0A00",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0700"
+      }
+    ],
+    [
+      {
+        "X": "00884346",
+        "Z": "00000000",
+        "Y": "00A06546",
+        "effectiveRange": "00001643",
+        "gatherCode": "2000",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "00D00446",
+        "Z": "00004843",
+        "Y": "00D03646",
+        "effectiveRange": "00003443",
+        "gatherCode": "2100",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "00643C46",
+        "Z": "00000000",
+        "Y": "001C1646",
+        "effectiveRange": "00008C43",
+        "gatherCode": "2200",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0400",
+        "gatherFreqLowerLimit": "0500"
+      },
+      {
+        "X": "33072246",
+        "Z": "000080BF",
+        "Y": "CDDCA345",
+        "effectiveRange": "00003443",
+        "gatherCode": "2300",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      }
+    ],
+    [
+      {
+        "X": "00F82746",
+        "Z": "00000000",
+        "Y": "0060EA45",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2400",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "0070DC45",
+        "Z": "00006442",
+        "Y": "00702346",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2500",
+        "gatherFreqUpperLimit": "0700",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00B83346",
+        "Z": "00000000",
+        "Y": "00802B46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2600",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "007C1446",
+        "Z": "00000000",
+        "Y": "0070EA45",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2700",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      }
+    ],
+    [
+      {
+        "X": "0000EB45",
+        "Z": "00005CC2",
+        "Y": "00409C45",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2800",
+        "gatherFreqUpperLimit": "FF00",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "FF00"
+      },
+      {
+        "X": "00A0DC45",
+        "Z": "000094C2",
+        "Y": "0060B845",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2900",
+        "gatherFreqUpperLimit": "0300",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "0040AB45",
+        "Z": "0000C843",
+        "Y": "0048C245",
+        "effectiveRange": "00001643",
+        "gatherCode": "2A00",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0300",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "3323F645",
+        "Z": "333365C2",
+        "Y": "9AEDA245",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2B00",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      }
+    ],
+    [
+      {
+        "X": "00980A46",
+        "Z": "00000000",
+        "Y": "00480F46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2C00",
+        "gatherFreqUpperLimit": "0300",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00802246",
+        "Z": "00000000",
+        "Y": "00502A46",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2D00",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0400",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00001146",
+        "Z": "00000000",
+        "Y": "00A83146",
+        "effectiveRange": "00004843",
+        "gatherCode": "2E00",
+        "gatherFreqUpperLimit": "0400",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "00C00F46",
+        "Z": "00000000",
+        "Y": "00B03346",
+        "effectiveRange": "0000C842",
+        "gatherCode": "2F00",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      }
+    ]
+  ],
+  "unknownPostUnknownInformationBlock": "00000000",
+  "gatherPointData": [
+    [
+      {
+        "probability": "3C00",
+        "itemCode": "B900"
+      },
+      {
+        "probability": "2800",
+        "itemCode": "5B00"
+      }
+    ],
+    [
+      {
+        "probability": "0A00",
+        "itemCode": "8400"
+      },
+      {
+        "probability": "2B00",
+        "itemCode": "ED00"
+      },
+      {
+        "probability": "0700",
+        "itemCode": "EF00"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "E800"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "F500"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "F000"
+      }
+    ],
+    [
+      {
+        "probability": "5000",
+        "itemCode": "4100"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "4200"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "5701"
+      }
+    ],
+    [
+      {
+        "probability": "4F00",
+        "itemCode": "5B00"
+      },
+      {
+        "probability": "1500",
+        "itemCode": "B800"
+      }
+    ],
+    [
+      {
+        "probability": "6000",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "0400",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "5A00",
+        "itemCode": "A200"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "2800",
+        "itemCode": "5B00"
+      },
+      {
+        "probability": "3C00",
+        "itemCode": "B900"
+      }
+    ],
+    [
+      {
+        "probability": "4900",
+        "itemCode": "B400"
+      },
+      {
+        "probability": "1B00",
+        "itemCode": "5701"
+      }
+    ],
+    [
+      {
+        "probability": "5A00",
+        "itemCode": "5B00"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "2000",
+        "itemCode": "AD00"
+      },
+      {
+        "probability": "4400",
+        "itemCode": "AA00"
+      }
+    ],
+    [
+      {
+        "probability": "5000",
+        "itemCode": "5B00"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "E800"
+      }
+    ],
+    [
+      {
+        "probability": "4B00",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "1900",
+        "itemCode": "B900"
+      }
+    ],
+    [
+      {
+        "probability": "3600",
+        "itemCode": "B400"
+      },
+      {
+        "probability": "2E00",
+        "itemCode": "5B00"
+      }
+    ],
+    [
+      {
+        "probability": "3C00",
+        "itemCode": "B900"
+      },
+      {
+        "probability": "2800",
+        "itemCode": "5B00"
+      }
+    ],
+    [
+      {
+        "probability": "6000",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "0400",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "2600",
+        "itemCode": "B800"
+      },
+      {
+        "probability": "3E00",
+        "itemCode": "AC00"
+      }
+    ],
+    [
+      {
+        "probability": "5000",
+        "itemCode": "4100"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "4200"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "5701"
+      }
+    ],
+    [
+      {
+        "probability": "1E00",
+        "itemCode": "8E02"
+      },
+      {
+        "probability": "4000",
+        "itemCode": "0B01"
+      },
+      {
+        "probability": "0600",
+        "itemCode": "0C01"
+      }
+    ],
+    [
+      {
+        "probability": "0500",
+        "itemCode": "C100"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "C300"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "C400"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "C502"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "CC00"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "C500"
+      }
+    ],
+    [
+      {
+        "probability": "3400",
+        "itemCode": "0B01"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "5701"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "0E01"
+      },
+      {
+        "probability": "0800",
+        "itemCode": "0C01"
+      }
+    ],
+    [
+      {
+        "probability": "4D00",
+        "itemCode": "4900"
+      },
+      {
+        "probability": "1700",
+        "itemCode": "E800"
+      }
+    ],
+    [
+      {
+        "probability": "0500",
+        "itemCode": "C100"
+      },
+      {
+        "probability": "0600",
+        "itemCode": "C602"
+      },
+      {
+        "probability": "2200",
+        "itemCode": "C300"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "C200"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "CC00"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "C400"
+      }
+    ],
+    [
+      {
+        "probability": "5A00",
+        "itemCode": "A200"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "3200",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "3200",
+        "itemCode": "A400"
+      }
+    ],
+    [
+      {
+        "probability": "6000",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "0400",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "5A00",
+        "itemCode": "A500"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "9E00"
+      }
+    ],
+    [
+      {
+        "probability": "4600",
+        "itemCode": "9D00"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "E800"
+      }
+    ],
+    [
+      {
+        "probability": "4B00",
+        "itemCode": "AA00"
+      },
+      {
+        "probability": "1900",
+        "itemCode": "AD00"
+      }
+    ],
+    [
+      {
+        "probability": "4D00",
+        "itemCode": "4900"
+      },
+      {
+        "probability": "1700",
+        "itemCode": "E800"
+      }
+    ],
+    [
+      {
+        "probability": "4600",
+        "itemCode": "A200"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "9E00"
+      }
+    ],
+    [
+      {
+        "probability": "6000",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "0400",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "4200",
+        "itemCode": "B800"
+      },
+      {
+        "probability": "2200",
+        "itemCode": "AC00"
+      }
+    ],
+    [
+      {
+        "probability": "4900",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "1B00",
+        "itemCode": "A300"
+      }
+    ],
+    [
+      {
+        "probability": "4600",
+        "itemCode": "9D00"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "0500",
+        "itemCode": "8600"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "EE00"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "EC00"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "F200"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "F500"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "F000"
+      }
+    ],
+    [
+      {
+        "probability": "4D00",
+        "itemCode": "AA00"
+      },
+      {
+        "probability": "1700",
+        "itemCode": "5701"
+      }
+    ],
+    [
+      {
+        "probability": "4A00",
+        "itemCode": "A300"
+      },
+      {
+        "probability": "1A00",
+        "itemCode": "B500"
+      }
+    ],
+    [
+      {
+        "probability": "4400",
+        "itemCode": "A000"
+      },
+      {
+        "probability": "2000",
+        "itemCode": "9E00"
+      }
+    ],
+    [
+      {
+        "probability": "5F00",
+        "itemCode": "B400"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "0000"
+      }
+    ],
+    [
+      {
+        "probability": "3500",
+        "itemCode": "AA00"
+      },
+      {
+        "probability": "2F00",
+        "itemCode": "AC00"
+      }
+    ],
+    [
+      {
+        "probability": "5600",
+        "itemCode": "8500"
+      },
+      {
+        "probability": "0E00",
+        "itemCode": "C100"
+      }
+    ],
+    [
+      {
+        "probability": "3C00",
+        "itemCode": "C100"
+      },
+      {
+        "probability": "2800",
+        "itemCode": "9500"
+      }
+    ],
+    [
+      {
+        "probability": "1E00",
+        "itemCode": "C300"
+      },
+      {
+        "probability": "1900",
+        "itemCode": "C400"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "C500"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "C200"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "CC00"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "C502"
+      }
+    ],
+    [
+      {
+        "probability": "4B00",
+        "itemCode": "8500"
+      },
+      {
+        "probability": "1900",
+        "itemCode": "8700"
+      }
+    ],
+    [
+      {
+        "probability": "5500",
+        "itemCode": "4900"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "E800"
+      }
+    ],
+    [
+      {
+        "probability": "0500",
+        "itemCode": "8400"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "EF00"
+      },
+      {
+        "probability": "0A00",
+        "itemCode": "EE00"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "ED00"
+      },
+      {
+        "probability": "1400",
+        "itemCode": "F500"
+      },
+      {
+        "probability": "0F00",
+        "itemCode": "F200"
+      }
+    ],
+    [
+      {
+        "probability": "3E00",
+        "itemCode": "5100"
+      },
+      {
+        "probability": "1E00",
+        "itemCode": "0B01"
+      },
+      {
+        "probability": "0800",
+        "itemCode": "0C01"
+      }
+    ],
+    [
+      {
+        "probability": "5A00",
+        "itemCode": "5000"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "4F00"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "5902"
+      }
+    ]
+  ]
+}

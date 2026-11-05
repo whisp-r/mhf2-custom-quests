@@ -10,7 +10,7 @@ CONFIG = {
     "clean-to-append-cheat-ini-file": "base_cheats.ini",
     "input-json-path": "input",
     "input-json-quests": [
-        "m60022.json",
+        # "m60022.json",
 
         "m60030.json",
         # "m60031.json",
@@ -35,8 +35,9 @@ CONFIG = {
         # "m60110.json",
         # "m60111.json",
         # "m60112.json",
-        # "m60113.json",
+        "m60113.json",
         "m60114.json",
+        "m60115.json",
     ],
 }
 
