@@ -14,15 +14,20 @@ steps:
 -- working on:
 cepha+daimyo(desert)[normie]
 
-tigrex in arena [semi-pro] (1 2 3 4 5 / 99)
-astral tigrex [pro] (1 2 3 4 5 / 99)
+tigrex in arena [semi-pro] (1 2 3 4 5)
+astral tigrex [pro] (1 2 3 4 5)
 
-astral kirin(tower) [semi-pro] (1 2 3 4 5 / 99)
-astral teo(volcano) [pro] (1 2 5 / 3 4 99)
-astral kush(snwy) [pro] (1 2 5 / 3 4 99)
-astral chame(jungle) [pro] (1 2 5 / 3 4 99)
+wmono (desert) [normie] (1 2)
+garuga (arena) [normie] (1 2)
 
-akantor (battlefield) [semi-pro] (1 2 3 4 5 / 99)
+astral kirin(tower) [semi-pro] (1 2 3 4 5)
+astral teo(volcano) [pro] (1 2 5)
+astral kush(snwy) [pro] (1 2 5)
+astral chame(jungle) [pro] (1 2 5)
+
+akantor (battlefield) [semi-pro] (1 2 3 4 5)
+
+starfall (tower) [pro/god] (1 2 3 4 5)
 
 -- ideas:
 rathalos in volcano [semi-pro]
@@ -57,12 +62,6 @@ astral daimyo (jungle)
 
 lao (last area) [pro/god] (Destructions Per City)
 astral pgyp (infestation vespoids + hornetaurs) [semi-pro]
-
-
-
-
-
-
 
 -- gathering quest:
 
