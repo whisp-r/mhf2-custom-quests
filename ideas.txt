@@ -10,15 +10,17 @@ steps:
 	100. finalize quest pack
 	101. distribute
 
+astral size: max * 1.7
 
 -- working on:
-cepha+daimyo(desert)[normie]
+cepha+daimyo(desert)[normie] (1 2)
+astral silos+gian(tower)[semi-pro] (1 2) 
 
 tigrex in arena [semi-pro] (1 2 3 4 5)
 astral tigrex [pro] (1 2 3 4 5)
 
-wmono (desert) [normie] (1 2)
-garuga (arena) [normie] (1 2)
+wmono (desert) [normie] (1 2 3 4)
+garuga (arena) [normie] (1 2 3 4)
 
 astral kirin(tower) [semi-pro] (1 2 3 4 5)
 astral teo(volcano) [pro] (1 2 5)
@@ -50,8 +52,6 @@ astral chame(jungle) [pro]
 
 wmono (desert) [semi-pro]
 4 dromes (?) [normie]
-
-
 
 starfall (tower) [pro/god]
 rajang (battlefield camp)(5min quest) [pro/god]
@@ -101,3 +101,6 @@ silos+gian(worlds end)
 
 -- special-unique: 
 starfall (why? 2 elders quest) 
+
+
+Bell to Bell

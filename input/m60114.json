@@ -1,9 +1,9 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "6E00",
+    "bossSize": "BB00",
     "largeMonsterSize%": "04",
-    "fixedValue": "0B",
+    "fixedValue": "0D",
     "guildPointsReward": "00000000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",

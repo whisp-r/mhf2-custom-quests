@@ -1,0 +1,27 @@
+-- done:
+Bell to Bell:
+	Rajang in battlefield camp
+	size: regular
+	strenght: half hp jump
+	time: 5min
+	rewards: regular jang
+
+Wyvern of Fear and Hunger:
+	Tigrex in arena
+	size: regular
+	strenght: max hp jump
+	rewards: regular tiggy
+
+A: Terror and Starvation:
+	Tigrex in desert
+	size: astral, specific for tiggy
+	strenght: max hp jump
+	rewards: flute berry
+
+Starfall:
+	Teostra and Lunastra tower top
+	Boulder locked zone (wfat)
+	Thunderbugs spawn
+	size: regular
+	strenght: half hp jump
+	rewards: teostra jump event [FIX!!]
