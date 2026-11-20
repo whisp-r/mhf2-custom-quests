@@ -31,9 +31,9 @@
     "questType": "81",
     "additional": "40",
     "unknown0": "0000",
-    "contractFee": "00000000",
-    "rewardMoney": "03000000",
-    "felyneCartLoss": "01000000",
+    "contractFee": "D0070000",
+    "rewardMoney": "C05D0000",
+    "felyneCartLoss": "401F0000",
     "questTime": "905F0100",
     "questNumber": "B3EA",
     "questStarLevel": "09",
@@ -69,19 +69,94 @@
       "rewardAcquisitionConditionCode": "00800000",
       "rewards": [
         {
-          "probability": "3200",
-          "rewardCode": "BC00",
-          "quantity": "0100"
+          "probability": "1900",
+          "rewardCode": "3202",
+          "quantity": "0300"
         },
         {
-          "probability": "3100",
-          "rewardCode": "9800",
-          "quantity": "0100"
+          "probability": "1E00",
+          "rewardCode": "3802",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "3702",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "3902",
+          "quantity": "0300"
+        },
+        {
+          "probability": "1800",
+          "rewardCode": "0A01",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D600",
+          "quantity": "0600"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "D600",
+          "quantity": "0300"
+        }
+      ]
+    },
+    {
+      "rewardAcquisitionConditionCode": "01000000",
+      "rewards": [
+        {
+          "probability": "1C00",
+          "rewardCode": "3802",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "3202",
+          "quantity": "0600"
+        },
+        {
+          "probability": "0800",
+          "rewardCode": "3902",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "2F02",
+          "quantity": "0300"
+        },
+        {
+          "probability": "1700",
+          "rewardCode": "2D02",
+          "quantity": "0600"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "3102",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "3002",
+          "quantity": "0300"
         },
         {
           "probability": "0100",
-          "rewardCode": "9B00",
-          "quantity": "0100"
+          "rewardCode": "D600",
+          "quantity": "0600"
+        },
+        {
+          "probability": "0300",
+          "rewardCode": "D600",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D700",
+          "quantity": "0300"
         }
       ]
     }
@@ -99,7 +174,7 @@
     "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [],
-  "unknownPostinitSmallMon": "000000000000",
+  "unknownPostinitSmallMon": "DDDDDDDDDDDDDDD",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],

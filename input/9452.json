@@ -1,0 +1,303 @@
+{
+  "headerSection": {
+    "identifier": "4D485032",
+    "bossSize": "6400",
+    "largeMonsterSize%": "00",
+    "fixedValue": "07",
+    "guildPointsReward": "F00A0000",
+    "unknown0": "0F000000",
+    "carvingDifficulty": "02",
+    "arrivalPosition": "02",
+    "supplyState": {
+      "supplyMode": "00",
+      "supplyConditions": "00",
+      "conditionQuantity": "00"
+    },
+    "difficulty": "00",
+    "smallMonsterChange0": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "01"
+    },
+    "smallMonsterChange1": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "02"
+    }
+  },
+  "questInformation": {
+    "questType": "88",
+    "additional": "40",
+    "unknown0": "0000",
+    "contractFee": "B80B0000",
+    "rewardMoney": "A08C0000",
+    "felyneCartLoss": "E02E0000",
+    "questTime": "905F0100",
+    "questNumber": "B008",
+    "questStarLevel": "08",
+    "unknown1": "06",
+    "questMap": "08",
+    "specialConditions": "05",
+    "targetCount": "01",
+    "unknown2": "00",
+    "questTarget0": {
+      "questCondition": "04",
+      "additionalCondition": "8001",
+      "targetCode": "2400",
+      "quantity": "3200"
+    },
+    "questTarget1": {
+      "questCondition": "00",
+      "additionalCondition": "0000",
+      "targetCode": "0000",
+      "quantity": "0000"
+    }
+  },
+  "textCommissionContent": {
+    "questName": "The End Times",
+    "successDesc": "Slay the Fatalis",
+    "failureDesc": "Reward Zero\nTime Over",
+    "questDesc": "It appears the time has\nfinally come. The\nbloodstained scales of the\nred dragon have graced the\nearth again in flaming\nglory. If you can stop this\nbeast...",
+    "mainMonster": "Fatalis",
+    "client": "Scarlet Mystery Man"
+  },
+  "supplyItems": [],
+  "questRewards": [
+    {
+      "rewardAcquisitionConditionCode": "00800000",
+      "rewards": [
+        {
+          "probability": "1400",
+          "rewardCode": "4902",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "4802",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "A502",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0C00",
+          "rewardCode": "CF00",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "CF00",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0F00",
+          "rewardCode": "4302",
+          "quantity": "0100"
+        },
+        {
+          "probability": "1600",
+          "rewardCode": "4502",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0300",
+          "rewardCode": "D600",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0300",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        }
+      ]
+    },
+    {
+      "rewardAcquisitionConditionCode": "01000000",
+      "rewards": [
+        {
+          "probability": "1400",
+          "rewardCode": "4902",
+          "quantity": "0100"
+        },
+        {
+          "probability": "2300",
+          "rewardCode": "4A02",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0F00",
+          "rewardCode": "4C02",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "4802",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "4B02",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "CF00",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D600",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D700",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D700",
+          "quantity": "0100"
+        }
+      ]
+    }
+  ],
+  "fixedInformation": {
+    "initialInfoState": "1B000000",
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+  },
+  "initSmallMon": [],
+  "unknownPostinitSmallMon": "999900000000000000000000",
+  "changeSmallMon1": [],
+  "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
+  "changeSmallMon2": [],
+  "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
+  "bossInfo": {
+    "bossSpawn0": "24000000",
+    "bossSpawn1": "FFFFFFFF",
+    "bossSpawn2": "FFFFFFFF",
+    "bossSpawn3": "FFFFFFFF",
+    "spawnDetails": [
+      {
+        "code": "2400",
+        "state": "0000",
+        "quantity": "01",
+        "unknown1": "0000",
+        "spawnArea": "58",
+        "unknown0": "0000000000000000000000000000000000000000",
+        "orientation": "15F30000",
+        "X": "00A01A46",
+        "Z": "00003842",
+        "Y": "000C6C46",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      }
+    ]
+  },
+  "gatherInfo": [
+    [],
+    [
+      {
+        "X": "0080DE45",
+        "Z": "00000000",
+        "Y": "00805946",
+        "effectiveRange": "00003443",
+        "gatherCode": "0000",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0300"
+      },
+      {
+        "X": "00E02646",
+        "Z": "00000000",
+        "Y": "00687146",
+        "effectiveRange": "00003443",
+        "gatherCode": "0100",
+        "gatherFreqUpperLimit": "0800",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      },
+      {
+        "X": "0000AF45",
+        "Z": "00000000",
+        "Y": "0000AF45",
+        "effectiveRange": "00003443",
+        "gatherCode": "0200",
+        "gatherFreqUpperLimit": "0500",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0200"
+      },
+      {
+        "X": "00582F46",
+        "Z": "00000000",
+        "Y": "0000BF45",
+        "effectiveRange": "00003443",
+        "gatherCode": "0300",
+        "gatherFreqUpperLimit": "0600",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0400"
+      }
+    ]
+  ],
+  "unknownPostUnknownInformationBlock": "00000000",
+  "gatherPointData": [
+    [
+      {
+        "probability": "5F00",
+        "itemCode": "B500"
+      },
+      {
+        "probability": "0500",
+        "itemCode": "0C01"
+      }
+    ],
+    [
+      {
+        "probability": "2E00",
+        "itemCode": "B700"
+      },
+      {
+        "probability": "3600",
+        "itemCode": "A100"
+      }
+    ],
+    [
+      {
+        "probability": "2E00",
+        "itemCode": "B600"
+      },
+      {
+        "probability": "3600",
+        "itemCode": "A000"
+      }
+    ],
+    [
+      {
+        "probability": "4B00",
+        "itemCode": "9F00"
+      },
+      {
+        "probability": "1900",
+        "itemCode": "A400"
+      }
+    ]
+  ]
+}

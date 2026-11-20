@@ -1,9 +1,9 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "7200",
-    "largeMonsterSize%": "02",
-    "fixedValue": "0B",
+    "bossSize": "9800",
+    "largeMonsterSize%": "01",
+    "fixedValue": "0D",
     "guildPointsReward": "C4090000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
@@ -31,9 +31,9 @@
     "questType": "04",
     "additional": "40",
     "unknown0": "0000",
-    "contractFee": "B80B0000",
-    "rewardMoney": "A08C0000",
-    "felyneCartLoss": "E02E0000",
+    "contractFee": "E2040000",
+    "rewardMoney": "983A0000",
+    "felyneCartLoss": "88130000",
     "questTime": "905F0100",
     "questNumber": "80EA",
     "questStarLevel": "09",
@@ -45,7 +45,7 @@
     "questTarget0": {
       "questCondition": "01",
       "additionalCondition": "0000",
-      "targetCode": "4B00",
+      "targetCode": "2100",
       "quantity": "0100"
     },
     "questTarget1": {
@@ -56,12 +56,12 @@
     }
   },
   "textCommissionContent": {
-    "questName": "broken:Diamond Dust",
-    "successDesc": "Hunt the Tigrex and\nRajang",
+    "questName": "Children of Thunder",
+    "successDesc": "Hunt the Rajang\nand Kirin",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
     "questDesc": "I need assistance with\nclearing up the trading\nroute. Slay all the monsters\nso I can travel again. For\nyour safety, you should\navoid disappointing me...",
-    "mainMonster": "Tigrex\nRajang",
-    "client": "Cold Hearted Merchant"
+    "mainMonster": "Rajang\nKirin",
+    "client": "Cold Heartd Merchant"
   },
   "supplyItems": [
     {
@@ -589,19 +589,19 @@
     "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [],
-  "unknownPostinitSmallMon": "000000000000",
+  "unknownPostinitSmallMon": "DDDDDDDDDDDDDDD",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],
   "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
   "bossInfo": {
-    "bossSpawn0": "4B000000",
-    "bossSpawn1": "35000000",
+    "bossSpawn0": "35000000",
+    "bossSpawn1": "21000000",
     "bossSpawn2": "FFFFFFFF",
     "bossSpawn3": "FFFFFFFF",
     "spawnDetails": [
       {
-        "code": "4B00",
+        "code": "3500",
         "state": "0000",
         "quantity": "01",
         "unknown1": "0000",
@@ -616,7 +616,7 @@
         "inQuestHP": "0000"
       },
       {
-        "code": "3500",
+        "code": "2100",
         "state": "0000",
         "quantity": "01",
         "unknown1": "0000",

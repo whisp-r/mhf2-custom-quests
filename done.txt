@@ -1,22 +1,64 @@
 -- done:
-Bell to Bell:
+Bell to Bell: m60113
 	Rajang in battlefield camp
-	size: regular
+	size: snowy mtn goljang
 	strenght: half hp jump
 	time: 5min
-	rewards: regular jang
+	rewards: double snow jang
 
-Wyvern of Fear and Hunger:
+Apex of Authority: m60040
 	Tigrex in arena
 	size: regular
 	strenght: max hp jump
-	rewards: regular tiggy
+	rewards: double regular tiggy
 
-A: Terror and Starvation:
+The Monochrome Devil: m60041
+	Wmono but HR
+	size: regular
+	strn: max hp jump	
+	rewards: double regular + heart x2
+	TODO: description
+	
+A Violet Spiral: m60042
+	Garuga in arena
+	size: regaulr
+	strn: max hp jump
+	rewards: double regulrea
+	TODO: description
+
+Darker Than Black: m60043
+	bblos in arena
+	size: regular single
+	strn: max hp jump
+	rewards: double regular single
+	TODO: description
+
+Altitude Collapse: m60059
+	akantor but stronker
+	size: /
+	strn: max hp jump
+	rewards: double regular
+
+A: Terror and Starvation: m60060
 	Tigrex in desert
 	size: astral, specific for tiggy
 	strenght: max hp jump
-	rewards: flute berry
+	rewards: triple regular tiggy
+
+A: Darker-er than Black: m60061
+	bblos in desert night
+	size: astral, specific for bblos
+	strn: max hp jump
+	rewards: triple regular single
+
+A: Spectre: m60080
+	kirin top tower (cute)
+	size: max FU
+	strn: max hp jump
+	rewards: triple battlefield
+
+A: Zephyr: 
+	
 
 Starfall:
 	Teostra and Lunastra tower top

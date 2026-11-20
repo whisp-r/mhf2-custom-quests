@@ -4,7 +4,7 @@
     "bossSize": "6E00",
     "largeMonsterSize%": "04",
     "fixedValue": "0D",
-    "guildPointsReward": "00000000",
+    "guildPointsReward": "38040000",
     "unknown0": "0F000000",
     "carvingDifficulty": "01",
     "arrivalPosition": "01",
@@ -31,9 +31,9 @@
     "questType": "04",
     "additional": "00",
     "unknown0": "0000",
-    "contractFee": "C4090000",
-    "rewardMoney": "78690000",
-    "felyneCartLoss": "28230000",
+    "contractFee": "3E030000",
+    "rewardMoney": "AC260000",
+    "felyneCartLoss": "E40C0000",
     "questTime": "905F0100",
     "questNumber": "89EA",
     "questStarLevel": "09",
@@ -57,7 +57,7 @@
   },
   "textCommissionContent": {
     "questName": "The Monochrome Devil",
-    "successDesc": "Slay the White Monoblos",
+    "successDesc": "Hunt the White Monoblos",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
     "questDesc": "todo",
     "mainMonster": "White Monoblos",
@@ -71,52 +71,52 @@
         {
           "probability": "0C00",
           "rewardCode": "0402",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "1700",
           "rewardCode": "0302",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "1400",
           "rewardCode": "ED01",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0800",
           "rewardCode": "5C00",
-          "quantity": "1200"
+          "quantity": "2400"
         },
         {
           "probability": "0400",
           "rewardCode": "5C00",
-          "quantity": "1A00"
+          "quantity": "3400"
         },
         {
           "probability": "0100",
           "rewardCode": "5D00",
-          "quantity": "0C00"
+          "quantity": "1800"
         },
         {
           "probability": "0800",
           "rewardCode": "0601",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "1200",
           "rewardCode": "0701",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0200",
-          "rewardCode": "D500",
           "quantity": "0200"
         },
         {
+          "probability": "0200",
+          "rewardCode": "D700",
+          "quantity": "0400"
+        },
+        {
           "probability": "0400",
-          "rewardCode": "D500",
-          "quantity": "0100"
+          "rewardCode": "0201",
+          "quantity": "0200"
         }
       ]
     }

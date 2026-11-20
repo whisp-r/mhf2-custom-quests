@@ -31,9 +31,9 @@
     "questType": "04",
     "additional": "00",
     "unknown0": "0000",
-    "contractFee": "14000000",
-    "rewardMoney": "DC050000",
-    "felyneCartLoss": "F4010000",
+    "contractFee": "01040000",
+    "rewardMoney": "0C300000",
+    "felyneCartLoss": "04100000",
     "questTime": "905F0100",
     "questNumber": "9DEA",
     "questStarLevel": "09",
@@ -56,8 +56,8 @@
     }
   },
   "textCommissionContent": {
-    "questName": "A: Darker Than Black",
-    "successDesc": "Slay the Black Diablos",
+    "questName": "A: Darker-er than Black",
+    "successDesc": "Hunt the Black Diablos",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
     "questDesc": "The small note says:\n\"It's URGENT! The giant\nsword spoke to me! The\nguild called me CRAZY!\nPlease hunter, go to...\"\nThe paper is signed with\na paw print stamp.",
     "mainMonster": "[Astral]\nBlack Diablos",
@@ -71,67 +71,67 @@
         {
           "probability": "0500",
           "rewardCode": "F201",
-          "quantity": "0100"
+          "quantity": "0300"
         },
         {
           "probability": "0A00",
           "rewardCode": "EB01",
-          "quantity": "0100"
+          "quantity": "0300"
         },
         {
           "probability": "1600",
           "rewardCode": "E901",
-          "quantity": "0100"
+          "quantity": "0300"
         },
         {
           "probability": "1600",
           "rewardCode": "F001",
-          "quantity": "0100"
+          "quantity": "0300"
         },
         {
           "probability": "0500",
           "rewardCode": "ED01",
-          "quantity": "0200"
+          "quantity": "0600"
         },
         {
           "probability": "0500",
           "rewardCode": "5C00",
-          "quantity": "1A00"
+          "quantity": "4E00"
         },
         {
           "probability": "0200",
           "rewardCode": "5D00",
-          "quantity": "1200"
+          "quantity": "3600"
         },
         {
           "probability": "0500",
           "rewardCode": "0801",
-          "quantity": "0300"
+          "quantity": "0900"
         },
         {
           "probability": "0800",
           "rewardCode": "0901",
-          "quantity": "0200"
+          "quantity": "0600"
         },
         {
           "probability": "0A00",
           "rewardCode": "1401",
-          "quantity": "0100"
+          "quantity": "0300"
         },
         {
           "probability": "0100",
           "rewardCode": "D600",
-          "quantity": "0200"
+          "quantity": "0600"
         },
         {
           "probability": "0400",
           "rewardCode": "D600",
-          "quantity": "0100"
+          "quantity": "0300"
         },
         {
           "probability": "0100",
           "rewardCode": "D700",
-          "quantity": "0100"
+          "quantity": "0300"
         }
       ]
     }
@@ -149,7 +149,7 @@
     "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [],
-  "unknownPostinitSmallMon": "000000000000",
+  "unknownPostinitSmallMon": "DDDDDDDDDDDDDDD",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],

@@ -1,0 +1,352 @@
+{
+  "headerSection": {
+    "identifier": "4D485032",
+    "bossSize": "6400",
+    "largeMonsterSize%": "00",
+    "fixedValue": "06",
+    "guildPointsReward": "280A0000",
+    "unknown0": "0F000000",
+    "carvingDifficulty": "02",
+    "arrivalPosition": "02",
+    "supplyState": {
+      "supplyMode": "00",
+      "supplyConditions": "00",
+      "conditionQuantity": "00"
+    },
+    "difficulty": "00",
+    "smallMonsterChange0": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "01"
+    },
+    "smallMonsterChange1": {
+      "changeCondition": "00000000",
+      "targetCode": "0000",
+      "quantity": "00",
+      "sequenceNumber": "02"
+    }
+  },
+  "questInformation": {
+    "questType": "88",
+    "additional": "40",
+    "unknown0": "0000",
+    "contractFee": "B80B0000",
+    "rewardMoney": "A08C0000",
+    "felyneCartLoss": "E02E0000",
+    "questTime": "905F0100",
+    "questNumber": "AF08",
+    "questStarLevel": "08",
+    "unknown1": "06",
+    "questMap": "07",
+    "specialConditions": "05",
+    "targetCount": "01",
+    "unknown2": "00",
+    "questTarget0": {
+      "questCondition": "04",
+      "additionalCondition": "8001",
+      "targetCode": "0200",
+      "quantity": "3200"
+    },
+    "questTarget1": {
+      "questCondition": "00",
+      "additionalCondition": "0000",
+      "targetCode": "0000",
+      "quantity": "0000"
+    }
+  },
+  "textCommissionContent": {
+    "questName": "Legendary Black Dragon",
+    "successDesc": "Slay the Fatalis",
+    "failureDesc": "Reward Zero\nTime Over",
+    "questDesc": "The legendary black\ndragon... It really exists\nthen? We've prepared all\ninstruments of war to assist\nyou in your quest to destroy\nthe dragon. The fate of the\nnation lies in your hands.",
+    "mainMonster": "Fatalis",
+    "client": "Benevolent Monarch"
+  },
+  "supplyItems": [
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8102",
+      "quantity": "0100"
+    },
+    {
+      "itemCode": "8502",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8502",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8202",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8302",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "5F00",
+      "quantity": "2800"
+    },
+    {
+      "itemCode": "6200",
+      "quantity": "1E00"
+    },
+    {
+      "itemCode": "7300",
+      "quantity": "0500"
+    },
+    {
+      "itemCode": "8000",
+      "quantity": "1400"
+    },
+    {
+      "itemCode": "8A02",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "5600",
+      "quantity": "0500"
+    },
+    {
+      "itemCode": "2300",
+      "quantity": "0200"
+    },
+    {
+      "itemCode": "8B02",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8B02",
+      "quantity": "0300"
+    },
+    {
+      "itemCode": "8B02",
+      "quantity": "0300"
+    }
+  ],
+  "questRewards": [
+    {
+      "rewardAcquisitionConditionCode": "00800000",
+      "rewards": [
+        {
+          "probability": "1900",
+          "rewardCode": "4402",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "4302",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "A502",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0C00",
+          "rewardCode": "CF00",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0500",
+          "rewardCode": "CF00",
+          "quantity": "0200"
+        },
+        {
+          "probability": "1200",
+          "rewardCode": "4202",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0E00",
+          "rewardCode": "4102",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0300",
+          "rewardCode": "D600",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0300",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        }
+      ]
+    },
+    {
+      "rewardAcquisitionConditionCode": "01000000",
+      "rewards": [
+        {
+          "probability": "1400",
+          "rewardCode": "4402",
+          "quantity": "0100"
+        },
+        {
+          "probability": "2300",
+          "rewardCode": "4502",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0F00",
+          "rewardCode": "4702",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "4302",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "4602",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0400",
+          "rewardCode": "CF00",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D600",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D600",
+          "quantity": "0100"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D700",
+          "quantity": "0200"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D700",
+          "quantity": "0100"
+        }
+      ]
+    }
+  ],
+  "fixedInformation": {
+    "initialInfoState": "1B000000",
+    "postInitialInfoState": "00000000",
+    "unknownValues": [
+      {
+        "unknownValue": "0300",
+        "postUnknownValue": "0000",
+        "unknownPadding": "00000000"
+      }
+    ],
+    "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+  },
+  "initSmallMon": [],
+  "unknownPostinitSmallMon": "999900000000000000000000",
+  "changeSmallMon1": [],
+  "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
+  "changeSmallMon2": [],
+  "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
+  "bossInfo": {
+    "bossSpawn0": "02000000",
+    "bossSpawn1": "FFFFFFFF",
+    "bossSpawn2": "FFFFFFFF",
+    "bossSpawn3": "FFFFFFFF",
+    "spawnDetails": [
+      {
+        "code": "0200",
+        "state": "0000",
+        "quantity": "01",
+        "unknown1": "0000",
+        "spawnArea": "19",
+        "unknown0": "0000000000000000000000000000000000000000",
+        "orientation": "B6C90000",
+        "X": "00803B46",
+        "Z": "00000000",
+        "Y": "00007A46",
+        "inQuestSequenceNumber": "0000",
+        "inQuestSize": "0000",
+        "inQuestHP": "0000"
+      }
+    ]
+  },
+  "gatherInfo": [
+    [
+      {
+        "X": "00C0C145",
+        "Z": "000040C1",
+        "Y": "0060B845",
+        "effectiveRange": "00000243",
+        "gatherCode": "0000",
+        "gatherFreqUpperLimit": "FF00",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "FF00"
+      },
+      {
+        "X": "00B0C245",
+        "Z": "000040C1",
+        "Y": "0000AF45",
+        "effectiveRange": "00004843",
+        "gatherCode": "0100",
+        "gatherFreqUpperLimit": "0A00",
+        "gatherType": "0000",
+        "gatherFreqLowerLimit": "0500"
+      }
+    ],
+    []
+  ],
+  "unknownPostUnknownInformationBlock": "00000000",
+  "gatherPointData": [
+    [
+      {
+        "probability": "6400",
+        "itemCode": "8C02"
+      }
+    ],
+    [
+      {
+        "probability": "6400",
+        "itemCode": "8B02"
+      }
+    ]
+  ]
+}

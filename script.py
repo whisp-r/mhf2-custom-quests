@@ -14,12 +14,12 @@ CONFIG = {
 
         "m60030.json",
         # "m60031.json",
-        # "m60032.json",
+        "m60032.json",
 
         "m60040.json",
         "m60041.json",
         "m60042.json",
-        # "m60043.json",
+        "m60043.json",
 
         "m60059.json",
 
@@ -36,8 +36,9 @@ CONFIG = {
         # "m60111.json",
         # "m60112.json",
         "m60113.json",
-        "m60114.json",
-        "m60115.json",
+        # "m60114.json",
+        # "m60115.json",
+        "m60116.json",
     ],
 }
 

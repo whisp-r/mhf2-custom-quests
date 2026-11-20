@@ -1,10 +1,10 @@
 {
   "headerSection": {
     "identifier": "4D485032",
-    "bossSize": "6800",
-    "largeMonsterSize%": "04",
+    "bossSize": "6400",
+    "largeMonsterSize%": "03",
     "fixedValue": "0D",
-    "guildPointsReward": "C4090000",
+    "guildPointsReward": "1C0C0000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
     "arrivalPosition": "00",
@@ -31,9 +31,9 @@
     "questType": "04",
     "additional": "00",
     "unknown0": "0002",
-    "contractFee": "B80B0000",
-    "rewardMoney": "A08C0000",
-    "felyneCartLoss": "E02E0000",
+    "contractFee": "66030000",
+    "rewardMoney": "04290000",
+    "felyneCartLoss": "AC0D0000",
     "questTime": "905F0100",
     "questNumber": "88EA",
     "questStarLevel": "09",
@@ -56,7 +56,7 @@
     }
   },
   "textCommissionContent": {
-    "questName": "Wyvern of Fear and Hunger",
+    "questName": "Hungry for Magnesium",
     "successDesc": "Hunt the Tigrex",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
     "questDesc": "Ah crap! Some pranksters\nstole the growth hormone\nsyringes from our research\nfacility, and injected\nthem into a Tigrex we had\ncaptured! The beast escaped\nand is wreaking havoc!",
@@ -168,67 +168,67 @@
         {
           "probability": "0100",
           "rewardCode": "D801",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0F00",
           "rewardCode": "D801",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0500",
           "rewardCode": "D601",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "1700",
           "rewardCode": "D601",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0800",
           "rewardCode": "DB01",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0800",
           "rewardCode": "DD01",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0800",
           "rewardCode": "DE01",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0500",
           "rewardCode": "1301",
-          "quantity": "1000"
+          "quantity": "2000"
         },
         {
           "probability": "0800",
           "rewardCode": "1201",
-          "quantity": "1000"
+          "quantity": "2000"
         },
         {
           "probability": "0D00",
           "rewardCode": "0901",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0100",
           "rewardCode": "D600",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0400",
           "rewardCode": "D600",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0100",
           "rewardCode": "D700",
-          "quantity": "0100"
+          "quantity": "0200"
         }
       ]
     }

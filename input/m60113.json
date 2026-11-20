@@ -4,7 +4,7 @@
     "bossSize": "8200",
     "largeMonsterSize%": "04",
     "fixedValue": "0B",
-    "guildPointsReward": "0FA00000",
+    "guildPointsReward": "480D0000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
     "arrivalPosition": "00",
@@ -28,12 +28,12 @@
     }
   },
   "questInformation": {
-    "questType": "01",
+    "questType": "04",
     "additional": "00",
     "unknown0": "0000",
-    "contractFee": "00000000",
-    "rewardMoney": "01000000",
-    "felyneCartLoss": "01000000",
+    "contractFee": "66030000",
+    "rewardMoney": "04290000",
+    "felyneCartLoss": "AC0D0000",
     "questTime": "28230000",
     "questNumber": "D1EA",
     "questStarLevel": "09",
@@ -59,9 +59,9 @@
     "questName": "Bell to Bell",
     "successDesc": "Slay the Rajang",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
-    "questDesc": "AHAHHAHAHA GO GO GO!!\nHUNT HUNT HUNT!!! YOU\nHAVE TO HUNT! WE ALL\nDO! YIPPE HUNT FAST GO\nGO HUNT FAST VERY FAST\nYES FAAAAAAAST AHAH...\nHe suffocated.",
+    "questDesc": "AHAHHAHAHA GO GO GO!!\nHUNT HUNT HUNT!!! YOU\nHAVE TO HUNT! WE ALL\nDO! YIPPE! HUNT FAST GO\nGO! HUNT FAST! VERY FAST!\nYES!! FAAAAAAAST AHAH...\n...\nShe collapsed.",
     "mainMonster": "Rajang",
-    "client": "Crazed Hunter"
+    "client": "Crazed Huntress"
   },
   "supplyItems": [],
   "questRewards": [
@@ -71,42 +71,42 @@
         {
           "probability": "1400",
           "rewardCode": "8301",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "1B00",
           "rewardCode": "8401",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0F00",
           "rewardCode": "8501",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0A00",
           "rewardCode": "8601",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "1600",
           "rewardCode": "8201",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0100",
           "rewardCode": "D600",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0400",
           "rewardCode": "D600",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0100",
           "rewardCode": "D700",
-          "quantity": "0100"
+          "quantity": "0200"
         }
       ]
     }

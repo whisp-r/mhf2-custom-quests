@@ -31,9 +31,9 @@
     "questType": "81",
     "additional": "40",
     "unknown0": "0000",
-    "contractFee": "00000000",
-    "rewardMoney": "03000000",
-    "felyneCartLoss": "01000000",
+    "contractFee": "E8030000",
+    "rewardMoney": "E02E0000",
+    "felyneCartLoss": "A00F0000",
     "questTime": "905F0100",
     "questNumber": "B0EA",
     "questStarLevel": "09",
@@ -69,19 +69,64 @@
       "rewardAcquisitionConditionCode": "00800000",
       "rewards": [
         {
-          "probability": "3200",
-          "rewardCode": "BC00",
-          "quantity": "0100"
+          "probability": "0F00",
+          "rewardCode": "0A02",
+          "quantity": "0600"
         },
         {
-          "probability": "3100",
-          "rewardCode": "9800",
-          "quantity": "0100"
+          "probability": "0A00",
+          "rewardCode": "0A02",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "0702",
+          "quantity": "0600"
+        },
+        {
+          "probability": "0F00",
+          "rewardCode": "0702",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0C00",
+          "rewardCode": "0802",
+          "quantity": "0C00"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "0502",
+          "quantity": "0C00"
+        },
+        {
+          "probability": "0C00",
+          "rewardCode": "0902",
+          "quantity": "0900"
+        },
+        {
+          "probability": "0A00",
+          "rewardCode": "CF00",
+          "quantity": "0600"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D600",
+          "quantity": "0600"
         },
         {
           "probability": "0100",
-          "rewardCode": "9B00",
-          "quantity": "0100"
+          "rewardCode": "D600",
+          "quantity": "0300"
+        },
+        {
+          "probability": "0100",
+          "rewardCode": "D700",
+          "quantity": "0600"
+        },
+        {
+          "probability": "0200",
+          "rewardCode": "D700",
+          "quantity": "0300"
         }
       ]
     }

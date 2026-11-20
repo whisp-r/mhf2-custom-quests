@@ -4,7 +4,7 @@
     "bossSize": "6600",
     "largeMonsterSize%": "04",
     "fixedValue": "0D",
-    "guildPointsReward": "C4090000",
+    "guildPointsReward": "BC070000",
     "unknown0": "0F000000",
     "carvingDifficulty": "02",
     "arrivalPosition": "00",
@@ -31,9 +31,9 @@
     "questType": "04",
     "additional": "00",
     "unknown0": "0002",
-    "contractFee": "A00F0000",
-    "rewardMoney": "A08C0000",
-    "felyneCartLoss": "E02E0000",
+    "contractFee": "3E030000",
+    "rewardMoney": "AC260000",
+    "felyneCartLoss": "E40C0000",
     "questTime": "905F0100",
     "questNumber": "8AEA",
     "questStarLevel": "09",
@@ -56,7 +56,7 @@
     }
   },
   "textCommissionContent": {
-    "questName": "Mutilation of Self",
+    "questName": "A Violet Spiral",
     "successDesc": "Hunt the Yian Garuga",
     "failureDesc": "Reward Zero, Time Over\nQuest by whiisper",
     "questDesc": "todo",
@@ -168,52 +168,52 @@
         {
           "probability": "0F00",
           "rewardCode": "6901",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "1200",
           "rewardCode": "6A01",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0A00",
           "rewardCode": "6E01",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0F00",
           "rewardCode": "6F01",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0A00",
           "rewardCode": "6B01",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0A00",
           "rewardCode": "6C01",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0800",
           "rewardCode": "0801",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0800",
           "rewardCode": "FF00",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0200",
           "rewardCode": "D500",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0400",
           "rewardCode": "D500",
-          "quantity": "0100"
+          "quantity": "0200"
         }
       ]
     }
@@ -231,7 +231,7 @@
     "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [],
-  "unknownPostinitSmallMon": "000000000000",
+  "unknownPostinitSmallMon": "DDDDDDDDDDDDDDD",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],

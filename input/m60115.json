@@ -57,10 +57,10 @@
   },
   "textCommissionContent": {
     "questName": "test",
-    "successDesc": "Hunt 2 Black Gravios",
+    "successDesc": "Hunt 2 test",
     "failureDesc": "Reward Zero\nTime Over",
     "questDesc": "The Arena! A place to show\nyour skills to the world!\nFor this event, we have\nreleased not one, but two of\nthe dreadful Black Gravios\ninto the arena! Are you up\nto the challenge?",
-    "mainMonster": "2 Black Gravios",
+    "mainMonster": "2 test",
     "client": "Arena Manager"
   },
   "supplyItems": [
@@ -244,13 +244,13 @@
   "changeSmallMon2": [],
   "unknownPostChangeSmallMon2": "DDDDDDDDDDDDDDD",
   "bossInfo": {
-    "bossSpawn0": "36000000",
-    "bossSpawn1": "FFFFFFFF",
+    "bossSpawn0": "35000000",
+    "bossSpawn1": "21000000",
     "bossSpawn2": "FFFFFFFF",
     "bossSpawn3": "FFFFFFFF",
     "spawnDetails": [
       {
-        "code": "3600",
+        "code": "3500",
         "state": "0000",
         "quantity": "01",
         "unknown1": "0000",
@@ -265,7 +265,7 @@
         "inQuestHP": "0000"
       },
       {
-        "code": "3600",
+        "code": "2100",
         "state": "0000",
         "quantity": "01",
         "unknown1": "0000",

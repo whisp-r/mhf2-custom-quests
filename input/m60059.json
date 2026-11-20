@@ -31,9 +31,9 @@
     "questType": "01",
     "additional": "40",
     "unknown0": "0002",
-    "contractFee": "28230000",
-    "rewardMoney": "60EA0000",
-    "felyneCartLoss": "204E0000",
+    "contractFee": "2F0D0000",
+    "rewardMoney": "349E0000",
+    "felyneCartLoss": "BC340000",
     "questTime": "905F0100",
     "questNumber": "9BEA",
     "questStarLevel": "09",
@@ -71,57 +71,57 @@
         {
           "probability": "0D00",
           "rewardCode": "5202",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "1C00",
           "rewardCode": "5102",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0B00",
           "rewardCode": "5402",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0C00",
           "rewardCode": "5502",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0C00",
           "rewardCode": "5602",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0A00",
           "rewardCode": "5302",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0800",
           "rewardCode": "CA00",
-          "quantity": "0100"
+          "quantity": "0200"
         },
         {
           "probability": "0200",
+          "rewardCode": "D600",
+          "quantity": "0400"
+        },
+        {
+          "probability": "0100",
           "rewardCode": "D600",
           "quantity": "0200"
         },
         {
           "probability": "0100",
-          "rewardCode": "D600",
-          "quantity": "0100"
-        },
-        {
-          "probability": "0100",
           "rewardCode": "D700",
-          "quantity": "0200"
+          "quantity": "0400"
         },
         {
           "probability": "0200",
           "rewardCode": "D700",
-          "quantity": "0100"
+          "quantity": "0200"
         }
       ]
     }
@@ -139,7 +139,7 @@
     "unknown2": "0000000000002D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
   },
   "initSmallMon": [],
-  "unknownPostinitSmallMon": "000000000000",
+  "unknownPostinitSmallMon": "DDDDDDDDDDDDDDD",
   "changeSmallMon1": [],
   "unknownPostChangeSmallMon1": "DDDDDDDDDDDDDDD",
   "changeSmallMon2": [],
